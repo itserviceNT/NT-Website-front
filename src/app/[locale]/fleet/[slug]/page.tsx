@@ -16,6 +16,10 @@ import {
 } from '@/lib/fleet'
 import { contact, siteUrl } from '@/lib/site'
 
+// The fleet is a closed set, so any slug outside it is a 404 rather than a
+// page to render on demand.
+export const dynamicParams = false
+
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
     fleet.map((vessel) => ({ locale, slug: vessel.slug })),

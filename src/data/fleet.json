@@ -4,7 +4,7 @@
     "name": "NT Flagman",
     "category": "LIFTBOATS & JACKUP BARGES",
     "categorySlug": "liftboats-jackup-barges",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTFLAGMAN.pdf",
+    "specSheetUrl": "/spec-sheets/nt-flagman.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2015, Conrad Shipyard, LLC in Morgan City, Louisiana, USA (Hull No. C-1071)",
@@ -147,7 +147,7 @@
     "name": "Aylar",
     "category": "CREW BOATS",
     "categorySlug": "crew-boats",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/AYLAR.pdf",
+    "specSheetUrl": "/spec-sheets/aylar.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "Aluminium Monohull Mul+-Role Support Vessel Designed and Built by Penguin Shipyard, 2013",
@@ -259,7 +259,7 @@
     "name": "Nurana",
     "category": "CREW BOATS",
     "categorySlug": "crew-boats",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NURANA.pdf",
+    "specSheetUrl": "/spec-sheets/nurana.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "CHEOY LEE SHIPYARD - HONG KONG, CHINA, 2013",
@@ -386,7 +386,7 @@
     "name": "NT Raushan",
     "category": "CREW BOATS",
     "categorySlug": "crew-boats",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTRAUSHAN.pdf",
+    "specSheetUrl": "/spec-sheets/nt-raushan.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "Sharjah, United Arab Emirates 2006",
@@ -502,7 +502,7 @@
     "name": "NT Trip",
     "category": "CREW BOATS",
     "categorySlug": "crew-boats",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/GACTRIP.pdf",
+    "specSheetUrl": "/spec-sheets/nt-trip.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "Gulf Cra) Inc, U.S.A",
@@ -612,7 +612,7 @@
     "name": "Soltan",
     "category": "DSV-DP2 VESSELS",
     "categorySlug": "dsv-dp2-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SOLTAN.pdf",
+    "specSheetUrl": "/spec-sheets/soltan.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "fifi": "2 x Fi Fi 1",
@@ -757,7 +757,7 @@
     "name": "Ayna",
     "category": "DSV-DP2 VESSELS",
     "categorySlug": "dsv-dp2-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/AYNA.pdf",
+    "specSheetUrl": "/spec-sheets/ayna.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2008, USA,New Orleana",
@@ -872,7 +872,7 @@
     "name": "Leyla",
     "category": "DSV-DP2 VESSELS",
     "categorySlug": "dsv-dp2-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/LEYLA.pdf",
+    "specSheetUrl": "/spec-sheets/leyla.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2008, USA,New Orleana",
@@ -987,7 +987,7 @@
     "name": "Selbi",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SELBI.pdf",
+    "specSheetUrl": "/spec-sheets/selbi.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2010, GUANGDONG HONGSHENG Shipyard, China",
@@ -1139,7 +1139,7 @@
     "name": "Bayan",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/BAYAN.pdf",
+    "specSheetUrl": "/spec-sheets/bayan.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2009, Gina 1 China",
@@ -1279,7 +1279,7 @@
     "name": "Caspian Pearl",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/CASPIANPEARL.pdf",
+    "specSheetUrl": "/spec-sheets/caspian-pearl.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2014, Guangzhou, China",
@@ -1393,7 +1393,7 @@
     "name": "Bossan",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/bossan.pdf",
+    "specSheetUrl": "/spec-sheets/bossan.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "lengthOverall": "71.5 m",
@@ -1511,7 +1511,7 @@
     "name": "Jumeirah",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/JUMEIRAH.pdf",
+    "specSheetUrl": "/spec-sheets/jumeirah.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2008 / Fujian South East Shipyard, China",
@@ -1661,7 +1661,7 @@
     "name": "Mylayim",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/MYLAYIM.pdf",
+    "specSheetUrl": "/spec-sheets/mylayim.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "Qingdao Qianjin Shipyard China 2011",
@@ -1764,7 +1764,7 @@
     "name": "Rahil",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/RAHIL.pdf",
+    "specSheetUrl": "/spec-sheets/rahil.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2008,",
@@ -1884,7 +1884,7 @@
     "name": "NT Rose",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTROSE.pdf",
+    "specSheetUrl": "/spec-sheets/nt-rose.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "fifi": "2 x 1500m3/hr monitors c/w water spray system",
@@ -2015,7 +2015,7 @@
     "name": "Ruby I",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/RUBYI.pdf",
+    "specSheetUrl": "/spec-sheets/ruby-i.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2004,",
@@ -2166,7 +2166,7 @@
     "name": "Sanjar",
     "category": "AHTS VESSELS",
     "categorySlug": "ahts-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SANJAR.pdf",
+    "specSheetUrl": "/spec-sheets/sanjar.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "BAKU. AZERBAIJAN",
@@ -2263,7 +2263,7 @@
     "name": "Dunya",
     "category": "AHT & TUG VESSELS",
     "categorySlug": "aht-tug-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/DUNYA.pdf",
+    "specSheetUrl": "/spec-sheets/dunya.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2011, Pacific Ocean Eng & Trading Pte, Ltd Singapore",
@@ -2399,7 +2399,7 @@
     "name": "Tug Boat NTMS 12",
     "category": "AHT & TUG VESSELS",
     "categorySlug": "aht-tug-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTMS12.pdf",
+    "specSheetUrl": "/spec-sheets/tug-boat-ntms-12.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "Samarinda, Indonesia 2012",
@@ -2503,7 +2503,7 @@
     "name": "300FT Barge NTMS 01",
     "category": "BARGES",
     "categorySlug": "barges",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTMS01.pdf",
+    "specSheetUrl": "/spec-sheets/300ft-barge-ntms-01.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "31/03/2012, Batam, Indonesia",
@@ -2574,7 +2574,7 @@
     "name": "Alfredo",
     "category": "CRANE VESSELS",
     "categorySlug": "crane-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/ALFREDO.pdf",
+    "specSheetUrl": "/spec-sheets/alfredo.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "built": "2012 Italy",
@@ -2687,7 +2687,7 @@
     "name": "NT Rescue",
     "category": "ERR VESSELS",
     "categorySlug": "err-vessels",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTRESCUE.pdf",
+    "specSheetUrl": "/spec-sheets/nt-rescue.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "fifi": "2 x 1200m3/hr",
@@ -2824,7 +2824,7 @@
     "name": "ROV Deep Trekker",
     "category": "ROV FLEET",
     "categorySlug": "rov-fleet",
-    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/DEEPTREKKERROV.pdf",
+    "specSheetUrl": "/spec-sheets/rov-deep-trekker.pdf",
     "specSheetMissing": false,
     "keySpecs": {
       "depth": "305m (1000L)",
