@@ -112,7 +112,8 @@
       "cranes": "Main 250T; Aux 60T",
       "equipment": null
     },
-    "type": "Liftboat 230 Class"
+    "type": "Liftboat 230 Class",
+    "photo": "/images/vessels/nt-flagman.jpg"
   },
   {
     "slug": "ntms-princes",
@@ -250,7 +251,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Fast Crew Boat"
+    "type": "Fast Crew Boat",
+    "photo": "/images/vessels/aylar.jpg"
   },
   {
     "slug": "nurana",
@@ -376,7 +378,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Fast Crew Boat"
+    "type": "Fast Crew Boat",
+    "photo": "/images/vessels/nurana.jpg"
   },
   {
     "slug": "nt-raushan",
@@ -491,7 +494,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Fast Crew Boat"
+    "type": "Fast Crew Boat",
+    "photo": "/images/vessels/nt-raushan.jpg"
   },
   {
     "slug": "nt-trip",
@@ -600,7 +604,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Crew Boat"
+    "type": "Crew Boat",
+    "photo": "/images/vessels/nt-trip.jpg"
   },
   {
     "slug": "soltan",
@@ -744,7 +749,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "DP2 AHTS / DSV"
+    "type": "DP2 AHTS / DSV",
+    "photo": "/images/vessels/soltan.jpg"
   },
   {
     "slug": "ayna",
@@ -858,7 +864,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "DP2 PSV"
+    "type": "DP2 PSV",
+    "photo": "/images/vessels/ayna.jpg"
   },
   {
     "slug": "leyla",
@@ -972,7 +979,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "DP2 PSV"
+    "type": "DP2 PSV",
+    "photo": "/images/vessels/leyla.jpg"
   },
   {
     "slug": "selbi",
@@ -1123,7 +1131,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/selbi.jpg"
   },
   {
     "slug": "bayan",
@@ -1262,7 +1271,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/bayan.jpg"
   },
   {
     "slug": "caspian-pearl",
@@ -1375,7 +1385,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS DP2"
+    "type": "AHTS DP2",
+    "photo": "/images/vessels/caspian-pearl.jpg"
   },
   {
     "slug": "bossan",
@@ -1394,7 +1405,7 @@
       "grt": "2588 Tons",
       "nrt": "766 Tons",
       "dwt": "2457 Tons",
-      "bhp": "B&W 7940 8L27/38 BHP",
+      "bhp": "7940 BHP",
       "maxSpeed": "14 Knots",
       "serviceSpeed": "12 knots",
       "berths": "4, 4 men x 7",
@@ -1412,7 +1423,8 @@
       "deckAreaValue": 450.0,
       "deckCargoValue": 900.0,
       "maxSpeedValue": 14.0,
-      "serviceSpeedValue": 12.0
+      "serviceSpeedValue": 12.0,
+      "mainEngines": "2 x MAN B&W 8L27/38"
     },
     "specSections": {
       "GENERAL:": {
@@ -1491,7 +1503,8 @@
         "Liquid mud/Brine pumps - 100 m3/Hr @": "204m head Apri2019"
       }
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/bossan.jpg"
   },
   {
     "slug": "jumeirah",
@@ -1640,7 +1653,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/jumeirah.jpg"
   },
   {
     "slug": "mylayim",
@@ -1742,7 +1756,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/mylayim.jpg"
   },
   {
     "slug": "rahil",
@@ -1861,7 +1876,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/rahil.jpg"
   },
   {
     "slug": "nt-rose",
@@ -1991,7 +2007,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/nt-rose.jpg"
   },
   {
     "slug": "ruby-i",
@@ -2111,7 +2128,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/ruby-i.jpg"
   },
   {
     "slug": "pacific-ii",
@@ -2237,7 +2255,8 @@
         "Additional Info": "FRESH WATER PUMP-120m3/h at 70-meter head FIRE PUMP-90m3/h at 70-meter head"
       }
     },
-    "type": "AHTS"
+    "type": "AHTS",
+    "photo": "/images/vessels/sanjar.jpg"
   },
   {
     "slug": "dunya",
@@ -2372,7 +2391,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "AHT"
+    "type": "AHT",
+    "photo": "/images/vessels/dunya.jpg"
   },
   {
     "slug": "tug-boat-ntms-12",
@@ -2475,7 +2495,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Tugboat"
+    "type": "Tugboat",
+    "photo": "/images/vessels/tug-boat-ntms-12.jpg"
   },
   {
     "slug": "300ft-barge-ntms-01",
@@ -2545,7 +2566,8 @@
       "cranes": null,
       "equipment": null
     },
-    "type": "Flat Top Barge 300FT"
+    "type": "Flat Top Barge 300FT",
+    "photo": "/images/vessels/300ft-barge-ntms-01.jpg"
   },
   {
     "slug": "alfredo",
@@ -2657,7 +2679,8 @@
       "cranes": "200T",
       "equipment": null
     },
-    "type": "Self-Propelled 200T Crane Vessel"
+    "type": "Self-Propelled 200T Crane Vessel",
+    "photo": "/images/vessels/alfredo.jpg"
   },
   {
     "slug": "nt-rescue",
@@ -2782,7 +2805,8 @@
       "cranes": null,
       "equipment": "Tier 2 Oil Spill Response and MediVac"
     },
-    "type": "ERRV"
+    "type": "ERRV",
+    "photo": "/images/vessels/nt-rescue.jpg"
   },
   {
     "slug": "rov-mohican",
@@ -2844,7 +2868,8 @@
         "Min Breaking Strength": "90 kg (200 lb)"
       }
     },
-    "type": "ROV"
+    "type": "ROV",
+    "photo": "/images/vessels/rov-deep-trekker.jpg"
   },
   {
     "slug": "rov-seaeye",

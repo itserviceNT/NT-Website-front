@@ -60,11 +60,11 @@ export function FleetBrowser({
   const hasFilters = query !== '' || category !== 'all' || region !== 'all'
 
   const selectClass =
-    'rounded-md border border-hull-200 bg-white px-3 py-2 text-sm text-hull-800 focus:border-hull-500 focus:outline-none focus:ring-2 focus:ring-hull-500/20'
+    'rounded-sm border border-haze-200 bg-white px-3 py-2.5 text-sm text-ink-800 transition-colors focus:border-steel-400 focus:outline-none'
 
   return (
     <div>
-      <div className="rounded-xl border border-hull-100 bg-hull-50/40 p-4">
+      <div className="rounded-xl border border-haze-200 bg-haze-50 p-4">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <label htmlFor="fleet-search" className="sr-only">
@@ -123,15 +123,15 @@ export function FleetBrowser({
           </div>
         </div>
 
-        <div className="mt-3 flex flex-wrap items-center gap-3 border-t border-hull-100 pt-3">
-          <p className="tabular text-sm text-hull-500">
+        <div className="mt-3 flex flex-wrap items-center gap-3 border-t border-haze-200 pt-3">
+          <p className="data text-sm text-steel-500">
             {format(t.fleet.resultCount, {
               count: results.length,
               total: vessels.length,
             })}
           </p>
           <div className="ml-auto flex items-center gap-2">
-            <label htmlFor="fleet-sort" className="text-sm text-hull-500">
+            <label htmlFor="fleet-sort" className="text-sm text-steel-500">
               {t.fleet.sortBy}
             </label>
             <select
@@ -150,8 +150,8 @@ export function FleetBrowser({
       </div>
 
       {results.length === 0 ? (
-        <div className="mt-10 rounded-xl border border-dashed border-hull-200 p-12 text-center">
-          <p className="text-hull-600">{t.fleet.noResults}</p>
+        <div className="mt-10 rounded-xl border border-dashed border-haze-200 p-12 text-center">
+          <p className="text-steel-500">{t.fleet.noResults}</p>
           <button
             type="button"
             onClick={() => {
@@ -159,7 +159,7 @@ export function FleetBrowser({
               setCategory('all')
               setRegion('all')
             }}
-            className="mt-4 rounded-md bg-hull-700 px-4 py-2 text-sm font-medium text-white hover:bg-hull-800"
+            className="mt-4 rounded-md bg-ink-900 px-4 py-2 text-sm font-medium text-white hover:bg-ink-800"
           >
             {t.fleet.clearFilters}
           </button>
@@ -180,7 +180,7 @@ export function FleetBrowser({
             setCategory('all')
             setRegion('all')
           }}
-          className="mt-6 text-sm text-hull-500 underline underline-offset-4 hover:text-hull-700"
+          className="mt-6 text-sm text-steel-500 underline underline-offset-4 hover:text-ink-700"
         >
           {t.fleet.clearFilters}
         </button>

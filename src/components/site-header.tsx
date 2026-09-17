@@ -17,6 +17,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
     { href: `/${locale}`, label: t.nav.home },
     { href: `/${locale}/fleet`, label: t.nav.fleet },
     { href: `/${locale}/services`, label: t.nav.services },
+    { href: `/${locale}/gallery`, label: t.nav.gallery },
     { href: `/${locale}/about`, label: t.nav.about },
     { href: `/${locale}/contact`, label: t.nav.contact },
   ]
@@ -29,17 +30,17 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
     `/${next}${pathname.replace(/^\/[^/]+/, '') || ''}`
 
   return (
-    <header className="sticky top-0 z-50 border-b border-hull-100 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-haze-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
         <Link
           href={`/${locale}`}
           className="flex shrink-0 flex-col leading-tight"
           onClick={() => setOpen(false)}
         >
-          <span className="text-base font-semibold tracking-tight text-hull-800">
+          <span className="text-base font-semibold tracking-tight text-ink-800">
             {t.company.name}
           </span>
-          <span className="hidden text-[11px] text-hull-400 sm:block">
+          <span className="hidden text-[11px] text-steel-400 sm:block">
             Offshore Marine Services
           </span>
         </Link>
@@ -51,8 +52,8 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
               href={item.href}
               className={`rounded-md px-3 py-2 text-sm transition-colors ${
                 isActive(item.href)
-                  ? 'bg-hull-50 font-medium text-hull-700'
-                  : 'text-hull-600 hover:bg-hull-50 hover:text-hull-800'
+                  ? 'bg-haze-100 font-medium text-ink-700'
+                  : 'text-steel-500 hover:bg-haze-100 hover:text-ink-800'
               }`}
             >
               {item.label}
@@ -61,15 +62,15 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
         </nav>
 
         <div className="ml-auto flex items-center gap-2 lg:ml-0">
-          <div className="hidden items-center rounded-md border border-hull-200 text-xs sm:flex">
+          <div className="hidden items-center rounded-md border border-haze-200 text-xs sm:flex">
             {locales.map((code) => (
               <Link
                 key={code}
                 href={swapLocale(code)}
                 className={`px-2 py-1.5 uppercase transition-colors ${
                   code === locale
-                    ? 'bg-hull-700 font-semibold text-white'
-                    : 'text-hull-600 hover:bg-hull-50'
+                    ? 'bg-ink-900 font-semibold text-white'
+                    : 'text-steel-500 hover:bg-haze-100'
                 }`}
               >
                 {code}
@@ -89,7 +90,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-label="Menu"
-            className="rounded-md border border-hull-200 p-2 text-hull-700 lg:hidden"
+            className="rounded-md border border-haze-200 p-2 text-ink-700 lg:hidden"
           >
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path
@@ -104,7 +105,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
         </div>
       </div>
 
-      <div className="border-t border-hull-100 lg:hidden" hidden={!open}>
+      <div className="border-t border-haze-200 lg:hidden" hidden={!open}>
         <nav className="mx-auto flex max-w-6xl flex-col px-4 py-2 sm:px-6">
           {nav.map((item) => (
             <Link
@@ -113,14 +114,14 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
               onClick={() => setOpen(false)}
               className={`rounded-md px-3 py-2.5 text-sm ${
                 isActive(item.href)
-                  ? 'bg-hull-50 font-medium text-hull-700'
-                  : 'text-hull-600'
+                  ? 'bg-haze-100 font-medium text-ink-700'
+                  : 'text-steel-500'
               }`}
             >
               {item.label}
             </Link>
           ))}
-          <div className="mt-2 flex gap-2 border-t border-hull-100 px-3 pt-3">
+          <div className="mt-2 flex gap-2 border-t border-haze-200 px-3 pt-3">
             {locales.map((code) => (
               <Link
                 key={code}
@@ -128,8 +129,8 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
                 onClick={() => setOpen(false)}
                 className={`rounded-md border px-3 py-1.5 text-xs uppercase ${
                   code === locale
-                    ? 'border-hull-700 bg-hull-700 font-semibold text-white'
-                    : 'border-hull-200 text-hull-600'
+                    ? 'border-ink-800 bg-ink-900 font-semibold text-white'
+                    : 'border-haze-200 text-steel-500'
                 }`}
               >
                 {code}

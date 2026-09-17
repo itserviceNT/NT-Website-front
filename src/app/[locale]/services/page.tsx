@@ -39,10 +39,10 @@ export default async function ServicesPage({
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <header className="max-w-2xl">
-        <h1 className="text-3xl font-semibold tracking-tight text-hull-950 sm:text-4xl">
+        <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
           {t.nav.services}
         </h1>
-        <p className="mt-3 text-base text-hull-600">{t.company.intro}</p>
+        <p className="mt-3 text-base text-steel-500">{t.company.intro}</p>
       </header>
 
       <div className="mt-10 space-y-8">
@@ -50,10 +50,10 @@ export default async function ServicesPage({
           <section
             key={s.slug}
             id={s.slug}
-            className="scroll-mt-24 border-t border-hull-100 pt-8"
+            className="scroll-mt-24 border-t border-haze-200 pt-8"
           >
-            <h2 className="text-xl font-semibold text-hull-900">{s.title[locale]}</h2>
-            <p className="mt-2 max-w-2xl leading-relaxed text-hull-600">
+            <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-900">{s.title[locale]}</h2>
+            <p className="mt-2 max-w-2xl leading-relaxed text-steel-500">
               {s.summary[locale]}
             </p>
           </section>

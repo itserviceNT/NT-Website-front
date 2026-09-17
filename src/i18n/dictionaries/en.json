@@ -9,7 +9,8 @@
     "fleet": "Fleet",
     "services": "Services",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "gallery": "Gallery"
   },
   "home": {
     "heroTitle": "Offshore marine support you can schedule with confidence",
@@ -88,5 +89,16 @@
     "company": "Company",
     "rights": "All rights reserved.",
     "certified": "ISO 9001 · ISO 14001 · ISO 45001 certified"
+  },
+  "gallery": {
+    "subtitle": "Vessels, subsea work, offshore projects and shore-side inspection — photographed on our own operations.",
+    "close": "Close",
+    "categories": {
+      "fleet": "Fleet",
+      "subsea": "Subsea",
+      "projects": "Projects",
+      "operations": "Operations",
+      "inspection": "Inspection"
+    }
   }
 }

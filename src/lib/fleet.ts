@@ -26,6 +26,7 @@ export type Vessel = {
   keySpecs: KeySpecs
   specSections: Record<string, Record<string, string>>
   charter?: Charter
+  photo?: string
 }
 
 export const fleet = fleetData as Vessel[]

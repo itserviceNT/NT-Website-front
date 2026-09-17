@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "crew-radio-deck",
+    "category": "operations",
+    "src": "/images/gallery/crew-radio-deck.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "crew-muster",
+    "category": "operations",
+    "src": "/images/gallery/crew-muster.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "bridge-watch",
+    "category": "operations",
+    "src": "/images/gallery/bridge-watch.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "lsa-workshop-liferaft",
+    "category": "inspection",
+    "src": "/images/gallery/lsa-workshop-liferaft.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "lsa-workshop-servicing",
+    "category": "inspection",
+    "src": "/images/gallery/lsa-workshop-servicing.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "lsa-inspection-harness",
+    "category": "inspection",
+    "src": "/images/gallery/lsa-inspection-harness.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "ffe-testing",
+    "category": "inspection",
+    "src": "/images/gallery/ffe-testing.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "slug": "diver-jacket-leg",
+    "category": "subsea",
+    "src": "/images/gallery/diver-jacket-leg.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "slug": "platform-flare",
+    "category": "projects",
+    "src": "/images/gallery/platform-flare.jpg",
+    "width": 1800,
+    "height": 1350
+  },
+  {
+    "slug": "tug-barge-tow",
+    "category": "fleet",
+    "src": "/images/gallery/tug-barge-tow.jpg",
+    "width": 1800,
+    "height": 1350
+  },
+  {
+    "slug": "tug-ntms-12",
+    "category": "fleet",
+    "src": "/images/gallery/tug-ntms-12.jpg",
+    "width": 1800,
+    "height": 1350
+  },
+  {
+    "slug": "barge-ntms-01",
+    "category": "fleet",
+    "src": "/images/gallery/barge-ntms-01.jpg",
+    "width": 1800,
+    "height": 1350
+  },
+  {
+    "slug": "deck-equipment",
+    "category": "projects",
+    "src": "/images/gallery/deck-equipment.jpg",
+    "width": 1800,
+    "height": 2400
+  },
+  {
+    "slug": "jackup-platform",
+    "category": "projects",
+    "src": "/images/gallery/jackup-platform.jpg",
+    "width": 1800,
+    "height": 914
+  },
+  {
+    "slug": "crew-boat-underway",
+    "category": "fleet",
+    "src": "/images/gallery/crew-boat-underway.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "office-reception",
+    "category": "operations",
+    "src": "/images/gallery/office-reception.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "office-desk",
+    "category": "operations",
+    "src": "/images/gallery/office-desk.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "psv-alongside",
+    "category": "fleet",
+    "src": "/images/gallery/psv-alongside.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "ahts-platforms",
+    "category": "fleet",
+    "src": "/images/gallery/ahts-platforms.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "crane-lift-deck",
+    "category": "projects",
+    "src": "/images/gallery/crane-lift-deck.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "lifeboat-launch",
+    "category": "operations",
+    "src": "/images/gallery/lifeboat-launch.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "crane-barge",
+    "category": "fleet",
+    "src": "/images/gallery/crane-barge.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "crew-radio-rig",
+    "category": "operations",
+    "src": "/images/gallery/crew-radio-rig.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "engine-control-room",
+    "category": "operations",
+    "src": "/images/gallery/engine-control-room.jpg",
+    "width": 1086,
+    "height": 724
+  },
+  {
+    "slug": "rov-deployment",
+    "category": "subsea",
+    "src": "/images/gallery/rov-deployment.jpg",
+    "width": 1024,
+    "height": 768
+  }
+]

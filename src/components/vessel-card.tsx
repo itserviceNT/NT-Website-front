@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 import type { Locale } from '@/i18n/config'
@@ -5,18 +6,32 @@ import type { Dictionary } from '@/i18n/dictionary'
 import { availabilityTone, specText, type Vessel } from '@/lib/fleet'
 
 const TONE_CLASS: Record<string, string> = {
-  available: 'bg-emerald-50 text-emerald-700 ring-emerald-200',
-  soon: 'bg-amber-50 text-amber-700 ring-amber-200',
-  chartered: 'bg-hull-50 text-hull-600 ring-hull-200',
-  unknown: 'bg-slate-50 text-slate-500 ring-slate-200',
+  available: 'bg-emerald-500/15 text-emerald-700 ring-emerald-600/25',
+  soon: 'bg-signal-500/12 text-signal-600 ring-signal-500/25',
+  chartered: 'bg-steel-500/12 text-steel-500 ring-steel-400/30',
+  unknown: 'bg-haze-100 text-steel-500 ring-haze-200',
 }
 
-export function AvailabilityBadge({ status }: { status?: string | null }) {
+const TONE_ON_DARK: Record<string, string> = {
+  available: 'bg-emerald-400/20 text-emerald-200 ring-emerald-300/30',
+  soon: 'bg-signal-500/25 text-signal-400 ring-signal-400/40',
+  chartered: 'bg-white/10 text-haze-200 ring-white/20',
+  unknown: 'bg-white/10 text-haze-200 ring-white/20',
+}
+
+export function AvailabilityBadge({
+  status,
+  onDark = false,
+}: {
+  status?: string | null
+  onDark?: boolean
+}) {
   if (!status) return null
   const tone = availabilityTone(status)
+  const palette = onDark ? TONE_ON_DARK : TONE_CLASS
   return (
     <span
-      className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium ring-1 ring-inset ${TONE_CLASS[tone]}`}
+      className={`label inline-flex items-center rounded-sm px-2 py-1 ring-1 ring-inset ${palette[tone]}`}
     >
       {status}
     </span>
@@ -27,10 +42,12 @@ export function VesselCard({
   vessel,
   locale,
   t,
+  priority = false,
 }: {
   vessel: Vessel
   locale: Locale
   t: Dictionary
+  priority?: boolean
 }) {
   const stats = (
     [
@@ -47,42 +64,62 @@ export function VesselCard({
   return (
     <Link
       href={`/${locale}/fleet/${vessel.slug}`}
-      className="group flex flex-col rounded-xl border border-hull-100 bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-hull-300 hover:shadow-lg hover:shadow-hull-900/5"
+      className="group flex h-full flex-col overflow-hidden rounded-sm border border-haze-200 bg-white transition-all duration-500 hover:-translate-y-1 hover:border-steel-300 hover:shadow-[0_18px_40px_-20px_rgba(6,17,26,0.45)]"
     >
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h3 className="truncate text-lg font-semibold text-hull-900 group-hover:text-hull-700">
-            {vessel.name}
-          </h3>
-          <p className="mt-0.5 truncate text-sm text-hull-500">{vessel.type}</p>
+      <div className="relative aspect-[16/10] overflow-hidden bg-ink-800">
+        {vessel.photo ? (
+          <Image
+            src={vessel.photo}
+            alt={`${vessel.name} — ${vessel.type}`}
+            fill
+            priority={priority}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]"
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center bg-gradient-to-br from-ink-800 to-ink-600">
+            <span className="label text-steel-400">{vessel.type}</span>
+          </div>
+        )}
+        <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-ink-950/85 to-transparent" />
+
+        <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4">
+          <div className="min-w-0">
+            <p className="label text-steel-300">{vessel.type}</p>
+            <h3 className="truncate font-display text-xl font-medium text-white">
+              {vessel.name}
+            </h3>
+          </div>
+          {vessel.charter?.dp ? (
+            <span className="data shrink-0 rounded-sm bg-white/15 px-2 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
+              {vessel.charter.dp}
+            </span>
+          ) : null}
         </div>
-        {vessel.charter?.dp ? (
-          <span className="shrink-0 rounded bg-hull-700 px-2 py-1 text-[11px] font-semibold text-white">
-            {vessel.charter.dp}
-          </span>
-        ) : null}
       </div>
 
-      {stats.length > 0 ? (
-        <dl className="mt-4 grid grid-cols-3 gap-3 border-t border-hull-50 pt-4">
-          {stats.map((s) => (
-            <div key={s.label} className="min-w-0">
-              <dt className="text-[10px] leading-tight uppercase tracking-wide text-hull-400">
-                {s.label}
-              </dt>
-              <dd className="tabular mt-1 line-clamp-2 text-sm font-medium leading-snug text-hull-800">
-                {s.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      ) : null}
-
-      <div className="mt-4 flex items-center justify-between gap-2 pt-1">
-        <AvailabilityBadge status={vessel.charter?.status} />
-        {vessel.charter?.region ? (
-          <span className="shrink-0 text-xs text-hull-400">{vessel.charter.region}</span>
+      <div className="flex flex-1 flex-col p-4">
+        {stats.length > 0 ? (
+          <dl className="grid grid-cols-3 gap-3">
+            {stats.map((s) => (
+              <div key={s.label} className="min-w-0">
+                <dt className="label text-steel-400">{s.label}</dt>
+                <dd className="data mt-1 line-clamp-2 text-sm leading-snug text-ink-800">
+                  {s.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
         ) : null}
+
+        <div className="mt-auto flex items-center justify-between gap-2 pt-4">
+          <AvailabilityBadge status={vessel.charter?.status} />
+          {vessel.charter?.region ? (
+            <span className="label shrink-0 text-steel-400">
+              {vessel.charter.region}
+            </span>
+          ) : null}
+        </div>
       </div>
     </Link>
   )

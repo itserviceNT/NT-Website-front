@@ -48,17 +48,17 @@ export default async function AboutPage({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
-      <h1 className="text-3xl font-semibold tracking-tight text-hull-950 sm:text-4xl">
+      <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
         {t.nav.about}
       </h1>
 
-      <div className="mt-6 space-y-5 text-base leading-relaxed text-hull-600">
+      <div className="mt-6 space-y-5 text-base leading-relaxed text-steel-500">
         {BODY[locale].map((paragraph) => (
           <p key={paragraph.slice(0, 40)}>{paragraph}</p>
         ))}
       </div>
 
-      <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-hull-100 pt-8 sm:grid-cols-3">
+      <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-haze-200 pt-8 sm:grid-cols-3">
         {[
           { value: String(fleet.length), label: t.footer.fleet },
           { value: String(categories.length), label: t.fleet.filterCategory },
@@ -67,16 +67,16 @@ export default async function AboutPage({
           <div key={stat.label}>
             <dt className="sr-only">{stat.label}</dt>
             <dd>
-              <span className="tabular block text-3xl font-semibold text-hull-900">
+              <span className="data block text-3xl font-semibold text-ink-900">
                 {stat.value}
               </span>
-              <span className="mt-1 block text-sm text-hull-500">{stat.label}</span>
+              <span className="mt-1 block text-sm text-steel-500">{stat.label}</span>
             </dd>
           </div>
         ))}
       </dl>
 
-      <p className="mt-10 rounded-xl border border-hull-100 bg-hull-50/50 px-5 py-4 text-sm text-hull-600">
+      <p className="mt-10 rounded-sm border border-haze-200 bg-haze-50 px-5 py-4 text-sm text-steel-500">
         {t.footer.certified}
       </p>
     </div>

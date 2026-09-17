@@ -1,23 +1,31 @@
 @import "tailwindcss";
 
 @theme {
-  --color-hull-50: #eef4fb;
-  --color-hull-100: #d8e6f5;
-  --color-hull-200: #b0cbe9;
-  --color-hull-300: #7ea9d8;
-  --color-hull-400: #4a80c0;
-  --color-hull-500: #2a5fa3;
-  --color-hull-600: #1d4880;
-  --color-hull-700: #173a67;
-  --color-hull-800: #132e51;
-  --color-hull-900: #0f2440;
-  --color-hull-950: #08182c;
+  /* Palette sampled from the fleet's own photography: Caspian water at depth,
+     weathered steel, sea haze, and the safety red of the crew's coveralls. */
+  --color-ink-950: #06111a;
+  --color-ink-900: #0a1620;
+  --color-ink-800: #102434;
+  --color-ink-700: #163349;
+  --color-ink-600: #1e4863;
+  --color-steel-500: #4a6a82;
+  --color-steel-400: #7d99ac;
+  --color-steel-300: #a8bccb;
+  --color-haze-200: #cedbe4;
+  --color-haze-100: #e4ecf1;
+  --color-haze-50: #f2f6f8;
+  --color-paper: #fbfcfd;
 
-  --color-signal-400: #f2a33c;
-  --color-signal-500: #e2861a;
-  --color-signal-600: #c06b0f;
+  --color-signal-600: #b32d0f;
+  --color-signal-500: #d93b18;
+  --color-signal-400: #ef5b35;
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-plex-condensed), var(--font-plex-sans), ui-sans-serif,
+    system-ui, sans-serif;
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", monospace;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 :root {
@@ -29,12 +37,102 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: var(--color-hull-950);
+  background: var(--color-paper);
+  color: var(--color-ink-900);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* Tabular figures keep spec tables and numeric columns aligned. */
-.tabular {
+/* Spec figures are read in columns and compared, so they get monospace
+   with tabular figures throughout. */
+.data {
+  font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "zero" 1;
+}
+
+/* Small caps label used for eyebrows and table headers. */
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* --- Motion -------------------------------------------------------------- */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slow drift across the hero photography; paired with a crossfade so the
+   fleet reads as a roll-call rather than a slideshow. */
+@keyframes drift {
+  from {
+    transform: scale(1.06) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.14) translate3d(-1.2%, -1%, 0);
+  }
+}
+
+@keyframes sweep {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal[data-shown="true"] {
+  animation: rise 0.7s var(--ease-out-quint) forwards;
+}
+
+.drift {
+  animation: drift 18s linear forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+  }
+}
+
+:where(a, button, input, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-signal-500);
+  outline-offset: 3px;
+  border-radius: 2px;
 }

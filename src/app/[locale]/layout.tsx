@@ -1,5 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import {
+  IBM_Plex_Mono,
+  IBM_Plex_Sans,
+  IBM_Plex_Sans_Condensed,
+} from 'next/font/google'
 import { notFound } from 'next/navigation'
 import type { ReactNode } from 'react'
 
@@ -10,11 +14,33 @@ import { getDictionary } from '@/i18n/dictionary'
 import { siteUrl } from '@/lib/site'
 import '../globals.css'
 
-const inter = Inter({
+// IBM Plex: drawn for technical and engineering contexts, and the one
+// superfamily here with a condensed cut, a text cut and a mono cut that all
+// carry Cyrillic for the Russian locale.
+const plexSans = IBM_Plex_Sans({
   subsets: ['latin', 'cyrillic'],
-  variable: '--font-inter',
+  weight: ['400', '500', '600'],
+  variable: '--font-plex-sans',
   display: 'swap',
 })
+
+// The condensed cut ships no basic Cyrillic, so the display stack falls back
+// to Plex Sans for Russian text — same superfamily, so headings stay coherent.
+const plexCondensed = IBM_Plex_Sans_Condensed({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['500', '600'],
+  variable: '--font-plex-condensed',
+  display: 'swap',
+})
+
+const plexMono = IBM_Plex_Mono({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '500'],
+  variable: '--font-plex-mono',
+  display: 'swap',
+})
+
+const fontVars = `${plexSans.variable} ${plexCondensed.variable} ${plexMono.variable}`
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -65,8 +91,8 @@ export default async function LocaleLayout({
   const t = getDictionary(locale as Locale)
 
   return (
-    <html lang={locale} className={inter.variable}>
-      <body className="flex min-h-screen flex-col bg-white font-sans text-hull-950">
+    <html lang={locale} className={fontVars}>
+      <body className="flex min-h-screen flex-col bg-paper font-sans text-ink-900">
         <SiteHeader locale={locale} t={t} />
         <main className="flex-1">{children}</main>
         <SiteFooter locale={locale} t={t} />

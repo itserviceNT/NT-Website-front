@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -104,23 +105,47 @@ export default async function VesselPage({
 
       <Link
         href={`/${locale}/fleet`}
-        className="inline-flex items-center gap-1.5 text-sm text-hull-500 hover:text-hull-700"
+        className="label inline-flex items-center gap-2 text-steel-500 transition-colors hover:text-signal-600"
       >
         <span aria-hidden="true">←</span> {t.vessel.backToFleet}
       </Link>
 
-      <header className="mt-5 flex flex-wrap items-start justify-between gap-4 border-b border-hull-100 pb-8">
+      {vessel.photo ? (
+        <div className="relative mt-5 aspect-[16/9] overflow-hidden rounded-sm bg-ink-900 sm:aspect-[21/9]">
+          <Image
+            src={vessel.photo}
+            alt={`${vessel.name} — ${vessel.type}`}
+            fill
+            priority
+            sizes="(max-width: 1152px) 100vw, 1152px"
+            className="object-cover"
+          />
+          {/* Several vessels are shot against pale sky and water, so the
+              plate needs a firm base to stay legible. */}
+          <div className="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-ink-950 via-ink-950/60 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 p-5 sm:p-7">
+            <p className="label text-signal-400">{vessel.type}</p>
+            <h1 className="mt-1.5 font-display text-[clamp(2rem,5vw,3.5rem)] font-semibold leading-none tracking-tight text-white">
+              {vessel.name}
+            </h1>
+          </div>
+        </div>
+      ) : null}
+
+      <header className="mt-6 flex flex-wrap items-start justify-between gap-4 border-b border-haze-200 pb-8">
         <div className="min-w-0">
-          <p className="text-sm font-medium uppercase tracking-wide text-signal-600">
-            {vessel.type}
-          </p>
-          <h1 className="mt-1 text-3xl font-semibold tracking-tight text-hull-950 sm:text-4xl">
-            {vessel.name}
-          </h1>
-          <div className="mt-3 flex flex-wrap items-center gap-3">
+          {vessel.photo ? null : (
+            <>
+              <p className="label text-signal-600">{vessel.type}</p>
+              <h1 className="mt-1.5 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-none tracking-tight text-ink-950">
+                {vessel.name}
+              </h1>
+            </>
+          )}
+          <div className={`flex flex-wrap items-center gap-3 ${vessel.photo ? '' : 'mt-3'}`}>
             <AvailabilityBadge status={vessel.charter?.status} />
             {vessel.charter?.region ? (
-              <span className="text-sm text-hull-500">{vessel.charter.region}</span>
+              <span className="label text-steel-500">{vessel.charter.region}</span>
             ) : null}
           </div>
         </div>
@@ -130,7 +155,7 @@ export default async function VesselPage({
             href={`mailto:${contact.email}?subject=${encodeURIComponent(
               `Charter enquiry: ${vessel.name}`,
             )}`}
-            className="rounded-md bg-signal-500 px-4 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-signal-600"
+            className="rounded-sm bg-signal-500 px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-signal-600"
           >
             {t.vessel.enquire}
           </a>
@@ -139,12 +164,12 @@ export default async function VesselPage({
               href={vessel.specSheetUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-md border border-hull-300 px-4 py-2.5 text-center text-sm font-medium text-hull-700 transition-colors hover:bg-hull-50"
+              className="rounded-sm border border-steel-300 px-5 py-3 text-center text-sm font-medium text-ink-700 transition-colors hover:bg-haze-100"
             >
               {t.vessel.downloadSpec}
             </a>
           ) : (
-            <span className="rounded-md border border-dashed border-hull-200 px-4 py-2.5 text-center text-sm text-hull-400">
+            <span className="rounded-sm border border-dashed border-haze-200 px-5 py-3 text-center text-sm text-steel-400">
               {t.vessel.specUnavailable}
             </span>
           )}
@@ -153,14 +178,14 @@ export default async function VesselPage({
 
       {headline.length > 0 ? (
         <section className="mt-8">
-          <h2 className="text-lg font-semibold text-hull-900">{t.vessel.keySpecs}</h2>
+          <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-950">{t.vessel.keySpecs}</h2>
           <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3 lg:grid-cols-4">
             {headline.map((s) => (
-              <div key={s.key} className="border-t border-hull-100 pt-3">
-                <dt className="text-xs uppercase tracking-wide text-hull-400">
+              <div key={s.key} className="border-t border-haze-200 pt-3">
+                <dt className="label text-steel-400">
                   {s.label}
                 </dt>
-                <dd className="tabular mt-1 text-sm font-medium text-hull-900">
+                <dd className="data mt-1 text-sm font-medium text-ink-900">
                   {s.value}
                 </dd>
               </div>
@@ -171,26 +196,26 @@ export default async function VesselPage({
 
       {sections.length > 0 ? (
         <section className="mt-12">
-          <h2 className="text-lg font-semibold text-hull-900">
+          <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-950">
             {t.vessel.specifications}
           </h2>
           <div className="mt-4 grid gap-6 lg:grid-cols-2">
             {sections.map(([section, fields]) => (
               <div
                 key={section}
-                className="overflow-hidden rounded-xl border border-hull-100"
+                className="overflow-hidden rounded-sm border border-haze-200"
               >
-                <h3 className="border-b border-hull-100 bg-hull-50/60 px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-hull-600">
+                <h3 className="label border-b border-haze-200 bg-haze-50 px-4 py-3 font-semibold text-ink-700">
                   {section.replace(/:$/, '')}
                 </h3>
-                <dl className="divide-y divide-hull-50">
+                <dl className="divide-y divide-haze-100">
                   {Object.entries(fields).map(([label, value]) => (
                     <div
                       key={label}
                       className="grid grid-cols-5 gap-3 px-4 py-2.5 text-sm"
                     >
-                      <dt className="col-span-2 text-hull-500">{label}</dt>
-                      <dd className="tabular col-span-3 text-hull-900">{value}</dd>
+                      <dt className="col-span-2 text-steel-500">{label}</dt>
+                      <dd className="data col-span-3 text-ink-900">{value}</dd>
                     </div>
                   ))}
                 </dl>
@@ -199,14 +224,14 @@ export default async function VesselPage({
           </div>
         </section>
       ) : (
-        <p className="mt-10 rounded-xl border border-dashed border-hull-200 p-8 text-center text-hull-500">
+        <p className="mt-10 rounded-xl border border-dashed border-haze-200 p-8 text-center text-steel-500">
           {t.vessel.specUnavailable}
         </p>
       )}
 
       {related.length > 0 ? (
-        <section className="mt-16 border-t border-hull-100 pt-10">
-          <h2 className="text-lg font-semibold text-hull-900">
+        <section className="mt-16 border-t border-haze-200 pt-10">
+          <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-950">
             {t.vessel.relatedHeading}
           </h2>
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

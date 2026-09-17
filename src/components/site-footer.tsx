@@ -9,11 +9,11 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
   const head = offices.find((o) => o.head)!
 
   return (
-    <footer className="mt-20 border-t border-hull-100 bg-hull-950 text-hull-200">
+    <footer className="mt-20 border-t border-haze-200 bg-ink-950 text-haze-200">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="text-base font-semibold text-white">{t.company.name}</p>
-          <address className="mt-3 space-y-1 text-sm not-italic text-hull-300">
+          <address className="mt-3 space-y-1 text-sm not-italic text-steel-300">
             {head.lines.map((line) => (
               <p key={line}>{line}</p>
             ))}
@@ -35,7 +35,7 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
               <li key={c.slug}>
                 <Link
                   href={`/${locale}/fleet?category=${c.slug}`}
-                  className="text-hull-300 hover:text-white"
+                  className="text-steel-300 hover:text-white"
                 >
                   {c.category.toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase())}
                 </Link>
@@ -51,7 +51,7 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
               <li key={s.slug}>
                 <Link
                   href={`/${locale}/services#${s.slug}`}
-                  className="text-hull-300 hover:text-white"
+                  className="text-steel-300 hover:text-white"
                 >
                   {s.title[locale]}
                 </Link>
@@ -62,7 +62,7 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
 
         <div>
           <p className="text-sm font-semibold text-white">{t.contact.offices}</p>
-          <ul className="mt-3 space-y-2 text-sm text-hull-300">
+          <ul className="mt-3 space-y-2 text-sm text-steel-300">
             {offices.map((o) => (
               <li key={o.city}>
                 {o.city}, {o.country}
@@ -72,8 +72,8 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
         </div>
       </div>
 
-      <div className="border-t border-hull-800">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-hull-400 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+      <div className="border-t border-ink-800">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-steel-400 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p>
             © {new Date().getFullYear()} {t.company.name}. {t.footer.rights}
           </p>
