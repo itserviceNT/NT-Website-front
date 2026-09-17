@@ -82,7 +82,8 @@
     "headOffice": "Head office",
     "phone": "Phone",
     "email": "Email",
-    "enquiryHeading": "Charter enquiry"
+    "enquiryHeading": "Charter enquiry",
+    "regionalDesks": "Regional desks"
   },
   "footer": {
     "services": "Services",
@@ -108,5 +109,28 @@
     "openNow": "{count} vessels open or coming free",
     "vesselsWord": "vessels",
     "cranes": "Cranes"
+  },
+  "services": {
+    "enquire": "Enquire about this service",
+    "approvalsEyebrow": "Approvals",
+    "approvalsTitle": "Services approved by four classification societies",
+    "standards": "Standards"
+  },
+  "enquiry": {
+    "vesselType": "Vessel type",
+    "region": "Region",
+    "dates": "Dates required",
+    "scope": "Scope of work",
+    "company": "Company",
+    "name": "Your name",
+    "send": "Send enquiry",
+    "any": "Any",
+    "note": "Opens in your email client so you keep a copy of what you sent."
+  },
+  "about": {
+    "regions": "Regions",
+    "capabilitiesTitle": "What we do",
+    "standardsTitle": "Standards and approvals",
+    "flagNote": "Vessels are classed by Bureau Veritas and registered under the flag of Turkmenistan."
   }
 }

@@ -1,10 +1,19 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
-import { isLocale } from '@/i18n/config'
+import { Reveal } from '@/components/reveal'
+import { isLocale, locales } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionary'
-import { categories, fleet } from '@/lib/fleet'
-import { offices } from '@/lib/site'
+import { categories, charterRegions, fleet } from '@/lib/fleet'
+import { caption, galleryImages } from '@/lib/gallery'
+import { classSocieties, standards } from '@/lib/services-detail'
+import { offices, services, siteUrl } from '@/lib/site'
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
 
 const BODY = {
   en: [
@@ -34,6 +43,12 @@ export async function generateMetadata({
       canonical: `/${locale}/about`,
       languages: { en: '/en/about', ru: '/ru/about', 'x-default': '/en/about' },
     },
+    openGraph: {
+      type: 'website',
+      title: t.nav.about,
+      description: BODY[locale][0],
+      url: `/${locale}/about`,
+    },
   }
 }
 
@@ -46,39 +61,172 @@ export default async function AboutPage({
   if (!isLocale(locale)) notFound()
   const t = getDictionary(locale)
 
-  return (
-    <div className="shell max-w-3xl py-12 sm:py-16 xl:py-24">
-      <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
-        {t.nav.about}
-      </h1>
+  const hero = galleryImages.find((g) => g.slug === 'ahts-platforms')
+  const strip = ['crew-muster', 'diver-jacket-leg', 'lsa-workshop-liferaft', 'jackup-platform']
+    .map((slug) => galleryImages.find((g) => g.slug === slug))
+    .filter((g): g is NonNullable<typeof g> => Boolean(g))
 
-      <div className="mt-6 space-y-5 text-base leading-relaxed text-steel-500">
-        {BODY[locale].map((paragraph) => (
-          <p key={paragraph.slice(0, 40)}>{paragraph}</p>
-        ))}
+  return (
+    <div>
+      <div className="shell py-14 sm:py-20 xl:py-24">
+        <header className="max-w-3xl">
+          <p className="label flex items-center gap-3 text-signal-500">
+            <span className="h-px w-8 bg-signal-500" />
+            {t.company.name}
+          </p>
+          <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
+            {t.nav.about}
+          </h1>
+          <div className="mt-6 space-y-5 text-base leading-relaxed text-steel-500">
+            {BODY[locale].map((paragraph) => (
+              <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+            ))}
+          </div>
+        </header>
+
+        {hero ? (
+          <Reveal className="mt-12">
+            <div className="relative aspect-[21/9] overflow-hidden rounded-sm bg-ink-800">
+              <Image
+                src={hero.src}
+                alt={caption(hero.slug, locale)}
+                fill
+                priority
+                sizes="100vw"
+                className="object-cover"
+              />
+            </div>
+          </Reveal>
+        ) : null}
+
+        <dl className="mt-12 grid grid-cols-2 gap-8 border-t border-haze-200 pt-10 sm:grid-cols-4">
+          {[
+            { value: String(fleet.length), label: t.home.statVessels },
+            { value: String(categories.length), label: t.home.statTypes },
+            { value: String(charterRegions.length), label: t.about.regions },
+            { value: String(offices.length), label: t.contact.offices },
+          ].map((stat, i) => (
+            <Reveal key={stat.label} delay={i * 70}>
+              <dt className="label text-steel-400">{stat.label}</dt>
+              <dd className="data mt-2 text-[clamp(1.8rem,4vw,2.75rem)] font-medium text-ink-950">
+                {stat.value}
+              </dd>
+            </Reveal>
+          ))}
+        </dl>
       </div>
 
-      <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-haze-200 pt-8 sm:grid-cols-3">
-        {[
-          { value: String(fleet.length), label: t.footer.fleet },
-          { value: String(categories.length), label: t.fleet.filterCategory },
-          { value: String(offices.length), label: t.contact.offices },
-        ].map((stat) => (
-          <div key={stat.label}>
-            <dt className="sr-only">{stat.label}</dt>
-            <dd>
-              <span className="data block text-3xl font-semibold text-ink-900">
-                {stat.value}
-              </span>
-              <span className="mt-1 block text-sm text-steel-500">{stat.label}</span>
-            </dd>
-          </div>
-        ))}
-      </dl>
+      <section className="border-y border-haze-200 bg-haze-50">
+        <div className="shell py-16 xl:py-20">
+          <Reveal className="max-w-2xl">
+            <h2 className="font-display text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold leading-tight tracking-tight text-ink-950">
+              {t.about.capabilitiesTitle}
+            </h2>
+          </Reveal>
+          <ul className="mt-8 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4">
+            {services.map((s, i) => (
+              <Reveal as="li" key={s.slug} delay={(i % 4) * 60}>
+                <Link
+                  href={`/${locale}/services#${s.slug}`}
+                  className="group flex gap-2.5 text-sm leading-relaxed text-ink-800 transition-colors hover:text-signal-600"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="mt-2 size-1 shrink-0 rounded-full bg-signal-500"
+                  />
+                  {s.title[locale]}
+                </Link>
+              </Reveal>
+            ))}
+          </ul>
+        </div>
+      </section>
 
-      <p className="mt-10 rounded-sm border border-haze-200 bg-haze-50 px-5 py-4 text-sm text-steel-500">
-        {t.footer.certified}
-      </p>
+      <section className="shell py-16 xl:py-20">
+        <Reveal className="max-w-2xl">
+          <h2 className="font-display text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold leading-tight tracking-tight text-ink-950">
+            {t.about.standardsTitle}
+          </h2>
+        </Reveal>
+
+        <div className="mt-8 grid gap-10 lg:grid-cols-2">
+          <Reveal>
+            <p className="label text-steel-400">{t.services.approvalsEyebrow}</p>
+            <ul className="mt-4 divide-y divide-haze-200 border-y border-haze-200">
+              {classSocieties.map((society) => (
+                <li
+                  key={society.abbr}
+                  className="flex items-baseline gap-4 py-3 text-sm"
+                >
+                  <span className="data w-14 shrink-0 font-medium text-signal-600">
+                    {society.abbr}
+                  </span>
+                  <span className="text-ink-800">{society.name}</span>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+
+          <Reveal delay={90}>
+            <p className="label text-steel-400">{t.services.standards}</p>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {standards.map((standard) => (
+                <li
+                  key={standard}
+                  className="label rounded-sm border border-haze-200 bg-white px-3 py-2 text-steel-500"
+                >
+                  {standard}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-6 text-sm leading-relaxed text-steel-500">
+              {t.about.flagNote}
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="shell pb-20 xl:pb-28">
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          {strip.map((image, i) => (
+            <Reveal key={image.slug} delay={i * 70}>
+              <Link
+                href={`/${locale}/gallery`}
+                className="group relative block aspect-[4/5] overflow-hidden rounded-sm bg-ink-800"
+              >
+                <Image
+                  src={image.src}
+                  alt={caption(image.slug, locale)}
+                  fill
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.07]"
+                />
+                <span className="absolute inset-0 bg-gradient-to-t from-ink-950/85 via-ink-950/10 to-transparent" />
+                <span className="absolute inset-x-0 bottom-0 p-4 text-sm leading-snug text-white">
+                  {caption(image.slug, locale)}
+                </span>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'AboutPage',
+            url: `${siteUrl}/${locale}/about`,
+            mainEntity: {
+              '@type': 'Organization',
+              name: 'Nurly Tolkun',
+              description: BODY[locale][0],
+              hasCredential: standards,
+            },
+          }),
+        }}
+      />
     </div>
   )
 }
