@@ -60,7 +60,7 @@ export function FleetBrowser({
   const hasFilters = query !== '' || category !== 'all' || region !== 'all'
 
   const selectClass =
-    'rounded-sm border border-haze-200 bg-white px-3 py-2.5 text-sm text-ink-800 transition-colors focus:border-steel-400 focus:outline-none'
+    'rounded-sm border border-haze-200 bg-white px-3 py-2.5 text-sm text-ink-800 transition-colors focus:border-steel-400'
 
   return (
     <div>

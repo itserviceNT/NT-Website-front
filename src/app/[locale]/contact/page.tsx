@@ -85,7 +85,7 @@ export default async function ContactPage({
       />
 
       <header className="max-w-2xl">
-        <p className="label flex items-center gap-3 text-signal-500">
+        <p className="label flex items-center gap-3 text-signal-600">
           <span className="h-px w-8 bg-signal-500" />
           {t.company.name}
         </p>
@@ -183,7 +183,7 @@ export default async function ContactPage({
                   </span>
                 ) : null}
               </div>
-              <p className="label mt-1 text-steel-400">{office.country}</p>
+              <p className="label mt-1 text-steel-500">{office.country}</p>
               <address className="mt-3 space-y-1 text-sm not-italic leading-relaxed text-steel-500">
                 {office.lines.map((line) => (
                   <p key={line}>{line}</p>

@@ -103,7 +103,7 @@ export function VesselCard({
           <dl className="grid grid-cols-3 gap-3">
             {stats.map((s) => (
               <div key={s.label} className="min-w-0">
-                <dt className="label text-steel-400">{s.label}</dt>
+                <dt className="label text-steel-500">{s.label}</dt>
                 <dd className="data mt-1 line-clamp-2 text-sm leading-snug text-ink-800">
                   {s.value}
                 </dd>
@@ -115,7 +115,7 @@ export function VesselCard({
         <div className="mt-auto flex items-center justify-between gap-2 pt-4">
           <AvailabilityBadge status={vessel.charter?.status} />
           {vessel.charter?.region ? (
-            <span className="label shrink-0 text-steel-400">
+            <span className="label shrink-0 text-steel-500">
               {vessel.charter.region}
             </span>
           ) : null}

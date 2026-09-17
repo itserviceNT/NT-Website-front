@@ -93,7 +93,7 @@ export default async function HomePage({
               { value: String(offices.length), label: t.contact.offices },
             ].map((stat, i) => (
               <Reveal key={stat.label} delay={i * 70} className="py-8 sm:px-6 sm:first:pl-0">
-                <dt className="label text-steel-400">{stat.label}</dt>
+                <dt className="label text-steel-500">{stat.label}</dt>
                 <dd className="data mt-2 text-4xl font-medium text-ink-900">
                   {stat.value}
                 </dd>
@@ -106,7 +106,7 @@ export default async function HomePage({
       <section className="shell py-20 xl:py-28">
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-2xl">
-            <p className="label flex items-center gap-3 text-signal-500">
+            <p className="label flex items-center gap-3 text-signal-600">
               <span className="h-px w-8 bg-signal-500" />
               {t.home.fleetHeading}
             </p>

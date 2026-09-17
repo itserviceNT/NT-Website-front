@@ -77,7 +77,7 @@ export default async function CharterPage({
   return (
     <div className="shell py-14 sm:py-20 xl:py-28">
       <header className="max-w-2xl">
-        <p className="label flex items-center gap-3 text-signal-500">
+        <p className="label flex items-center gap-3 text-signal-600">
           <span className="h-px w-8 bg-signal-500" />
           {t.company.name}
         </p>
@@ -101,7 +101,7 @@ export default async function CharterPage({
                 <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-950 sm:text-3xl">
                   {group.region.name}
                 </h2>
-                <p className="data mt-1 text-sm text-steel-400">
+                <p className="data mt-1 text-sm text-steel-500">
                   {group.vessels.length} {t.charter.vesselsWord}
                 </p>
               </div>
@@ -144,13 +144,13 @@ export default async function CharterPage({
                     </div>
 
                     <div className="min-w-0">
-                      <p className="label text-steel-400">{vessel.type}</p>
+                      <p className="label text-steel-500">{vessel.type}</p>
                       <p className="font-display text-lg font-medium text-ink-950 transition-colors group-hover:text-signal-600">
                         {vessel.name}
                       </p>
                       {vessel.charter?.location &&
                       vessel.charter.location !== group.region.name ? (
-                        <p className="label mt-0.5 text-steel-400">
+                        <p className="label mt-0.5 text-steel-500">
                           {vessel.charter.location}
                         </p>
                       ) : null}
@@ -159,7 +159,7 @@ export default async function CharterPage({
                     <dl className="col-span-2 flex flex-wrap gap-x-6 gap-y-2 sm:col-span-1">
                       {figures(vessel, t).map((f) => (
                         <div key={f.label}>
-                          <dt className="label text-steel-400">{f.label}</dt>
+                          <dt className="label text-steel-500">{f.label}</dt>
                           <dd className="data mt-0.5 text-sm text-ink-800">
                             {f.value}
                           </dd>
@@ -167,7 +167,7 @@ export default async function CharterPage({
                       ))}
                       {vessel.charter?.cranes ? (
                         <div>
-                          <dt className="label text-steel-400">
+                          <dt className="label text-steel-500">
                             {t.charter.cranes}
                           </dt>
                           <dd className="data mt-0.5 text-sm text-ink-800">
@@ -181,7 +181,7 @@ export default async function CharterPage({
                       <AvailabilityBadge status={vessel.charter?.status} />
                       <span
                         aria-hidden="true"
-                        className="hidden text-steel-300 transition-all group-hover:translate-x-0.5 group-hover:text-signal-500 sm:inline"
+                        className="hidden text-steel-300 transition-all group-hover:translate-x-0.5 group-hover:text-signal-600 sm:inline"
                       >
                         →
                       </span>

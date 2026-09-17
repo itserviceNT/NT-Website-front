@@ -114,7 +114,7 @@ export function FleetHero({
               <p className="label text-steel-400">{current.type}</p>
               <p className="mt-1 font-display text-2xl font-medium text-white group-hover:text-signal-400 sm:text-3xl">
                 {current.name}
-                <span className="ml-2 inline-block text-signal-500 opacity-0 transition-opacity group-hover:opacity-100">
+                <span className="ml-2 inline-block text-signal-400 opacity-0 transition-opacity group-hover:opacity-100">
                   →
                 </span>
               </p>

@@ -174,7 +174,14 @@ body {
   }
 }
 
-:where(a, button, input, select, [tabindex]):focus-visible {
+/* Not :where() — zero specificity loses to Tailwind's preflight, which would
+   fall back to the default outline colour. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
   outline: 2px solid var(--color-signal-500);
   outline-offset: 3px;
   border-radius: 2px;

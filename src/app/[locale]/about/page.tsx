@@ -71,7 +71,7 @@ export default async function AboutPage({
     <div>
       <div className="shell py-14 sm:py-20 xl:py-24">
         <header className="max-w-3xl">
-          <p className="label flex items-center gap-3 text-signal-500">
+          <p className="label flex items-center gap-3 text-signal-600">
             <span className="h-px w-8 bg-signal-500" />
             {t.company.name}
           </p>
@@ -108,7 +108,7 @@ export default async function AboutPage({
             { value: String(offices.length), label: t.contact.offices },
           ].map((stat, i) => (
             <Reveal key={stat.label} delay={i * 70}>
-              <dt className="label text-steel-400">{stat.label}</dt>
+              <dt className="label text-steel-500">{stat.label}</dt>
               <dd className="data mt-2 text-[clamp(1.8rem,4vw,2.75rem)] font-medium text-ink-950">
                 {stat.value}
               </dd>
@@ -152,7 +152,7 @@ export default async function AboutPage({
 
         <div className="mt-8 grid gap-10 lg:grid-cols-2">
           <Reveal>
-            <p className="label text-steel-400">{t.services.approvalsEyebrow}</p>
+            <p className="label text-steel-500">{t.services.approvalsEyebrow}</p>
             <ul className="mt-4 divide-y divide-haze-200 border-y border-haze-200">
               {classSocieties.map((society) => (
                 <li
@@ -169,7 +169,7 @@ export default async function AboutPage({
           </Reveal>
 
           <Reveal delay={90}>
-            <p className="label text-steel-400">{t.services.standards}</p>
+            <p className="label text-steel-500">{t.services.standards}</p>
             <ul className="mt-4 flex flex-wrap gap-2">
               {standards.map((standard) => (
                 <li

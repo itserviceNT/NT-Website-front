@@ -43,7 +43,7 @@ export default async function FleetPage({
   return (
     <div className="shell py-12 sm:py-16 xl:py-24">
       <header className="max-w-2xl">
-        <p className="label flex items-center gap-3 text-signal-500">
+        <p className="label flex items-center gap-3 text-signal-600">
           <span className="h-px w-8 bg-signal-500" />
           {t.company.name}
         </p>

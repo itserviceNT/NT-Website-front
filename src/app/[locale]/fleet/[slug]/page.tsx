@@ -179,7 +179,7 @@ export default async function VesselPage({
               {t.vessel.downloadSpec}
             </a>
           ) : (
-            <span className="rounded-sm border border-dashed border-haze-200 px-5 py-3 text-center text-sm text-steel-400">
+            <span className="rounded-sm border border-dashed border-haze-200 px-5 py-3 text-center text-sm text-steel-500">
               {t.vessel.specUnavailable}
             </span>
           )}
@@ -192,7 +192,7 @@ export default async function VesselPage({
           <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3 lg:grid-cols-4">
             {headline.map((s) => (
               <div key={s.key} className="border-t border-haze-200 pt-3">
-                <dt className="label text-steel-400">
+                <dt className="label text-steel-500">
                   {s.label}
                 </dt>
                 <dd className="data mt-1 text-sm font-medium text-ink-900">

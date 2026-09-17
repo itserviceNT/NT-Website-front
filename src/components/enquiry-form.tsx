@@ -52,7 +52,7 @@ export function EnquiryForm({
   )}&body=${encodeURIComponent(body)}`
 
   const field =
-    'w-full rounded-sm border border-haze-200 bg-white px-3 py-2.5 text-sm text-ink-900 transition-colors focus:border-steel-400 focus:outline-none'
+    'w-full rounded-sm border border-haze-200 bg-white px-3 py-2.5 text-sm text-ink-900 transition-colors focus:border-steel-400'
 
   return (
     <form
@@ -155,7 +155,7 @@ export function EnquiryForm({
         >
           {labels.send}
         </a>
-        <p className="text-xs leading-relaxed text-steel-400">{labels.note}</p>
+        <p className="text-xs leading-relaxed text-steel-500">{labels.note}</p>
       </div>
     </form>
   )

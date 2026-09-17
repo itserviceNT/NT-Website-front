@@ -51,7 +51,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
             <span className="font-display text-base font-semibold tracking-tight text-ink-900">
               {t.company.name}
             </span>
-            <span className="label hidden text-steel-400 sm:block">
+            <span className="label hidden text-steel-500 sm:block">
               Offshore Marine Services
             </span>
           </span>

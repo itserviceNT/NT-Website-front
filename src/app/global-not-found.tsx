@@ -46,7 +46,7 @@ export default function GlobalNotFound() {
               lang={c.locale}
               className={i > 0 ? 'mt-14 border-t border-haze-200 pt-14' : ''}
             >
-              <p className="label flex items-center gap-3 text-signal-500">
+              <p className="label flex items-center gap-3 text-signal-600">
                 <span className="h-px w-8 bg-signal-500" />
                 404 — {c.code}
               </p>
