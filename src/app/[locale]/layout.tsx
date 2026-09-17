@@ -92,6 +92,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={fontVars}>
+      <head>
+        {/* Scroll reveals start transparent; without JS they must not stay that way. */}
+        <noscript>
+          <style>{`.reveal{opacity:1!important;animation:none!important}`}</style>
+        </noscript>
+      </head>
       <body className="flex min-h-screen flex-col bg-paper font-sans text-ink-900">
         <SiteHeader locale={locale} t={t} />
         <main className="flex-1">{children}</main>

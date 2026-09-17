@@ -16,6 +16,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
   const nav = [
     { href: `/${locale}`, label: t.nav.home },
     { href: `/${locale}/fleet`, label: t.nav.fleet },
+    { href: `/${locale}/charter`, label: t.nav.charter },
     { href: `/${locale}/services`, label: t.nav.services },
     { href: `/${locale}/gallery`, label: t.nav.gallery },
     { href: `/${locale}/about`, label: t.nav.about },
@@ -62,7 +63,9 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
         </nav>
 
         <div className="ml-auto flex items-center gap-2 lg:ml-0">
-          <div className="hidden items-center rounded-md border border-haze-200 text-xs sm:flex">
+          {/* overflow-hidden so the selected segment's fill is clipped to the
+              group's corners instead of squaring them off. */}
+          <div className="hidden items-center overflow-hidden rounded-sm border border-haze-200 text-xs sm:flex">
             {locales.map((code) => (
               <Link
                 key={code}

@@ -10,7 +10,8 @@
     "services": "Services",
     "about": "About",
     "contact": "Contact",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "charter": "Charter"
   },
   "home": {
     "heroTitle": "Offshore marine support you can schedule with confidence",
@@ -100,5 +101,12 @@
       "operations": "Operations",
       "inspection": "Inspection"
     }
+  },
+  "charter": {
+    "title": "Charter availability",
+    "subtitle": "Current fleet availability by operating region, with the desk to contact for each. Spot and prompt vessels are listed first.",
+    "openNow": "{count} vessels open or coming free",
+    "vesselsWord": "vessels",
+    "cranes": "Cranes"
   }
 }

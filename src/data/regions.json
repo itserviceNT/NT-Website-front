@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Caspian Sea",
+    "slug": "caspian-sea",
+    "contact": {
+      "email": "info@nurlytolkun.tm",
+      "phone": "+993 61 40 45 54",
+      "phoneHref": "+99361404554",
+      "whatsapp": "+971 56 829 2477",
+      "whatsappHref": "971568292477"
+    }
+  },
+  {
+    "name": "Middle East",
+    "slug": "middle-east",
+    "contact": {
+      "email": "uae@nurlytolkun.com",
+      "phone": "+971 56 829 2477",
+      "phoneHref": "+971568292477",
+      "whatsapp": "+971 56 829 2477",
+      "whatsappHref": "971568292477"
+    }
+  },
+  {
+    "name": "Europe",
+    "slug": "europe",
+    "contact": {
+      "email": "uae@nurlytolkun.com",
+      "phone": "+971 56 829 2477",
+      "phoneHref": "+971568292477",
+      "whatsapp": "+971 56 829 2477",
+      "whatsappHref": "971568292477"
+    }
+  }
+]

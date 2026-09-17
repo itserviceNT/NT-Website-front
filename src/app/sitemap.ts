@@ -4,7 +4,15 @@ import { locales } from '@/i18n/config'
 import { fleet } from '@/lib/fleet'
 import { siteUrl } from '@/lib/site'
 
-const STATIC_PATHS = ['', '/fleet', '/services', '/about', '/contact']
+const STATIC_PATHS = [
+  '',
+  '/fleet',
+  '/charter',
+  '/services',
+  '/gallery',
+  '/about',
+  '/contact',
+]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [...STATIC_PATHS, ...fleet.map((v) => `/fleet/${v.slug}`)]

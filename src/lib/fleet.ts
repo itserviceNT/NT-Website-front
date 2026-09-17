@@ -1,4 +1,5 @@
 import fleetData from '@/data/fleet.json'
+import regionData from '@/data/regions.json'
 
 export type KeySpecs = Record<string, string | number | undefined>
 
@@ -112,6 +113,39 @@ export const HEADLINE_SPECS = [
   'dynamicPositioning',
   'berths',
 ] as const
+
+export type Region = {
+  name: string
+  slug: string
+  contact: {
+    email: string
+    phone: string
+    phoneHref: string
+    whatsapp: string
+    whatsappHref: string
+  }
+}
+
+export const charterRegions = regionData as Region[]
+
+/** Vessels grouped by operating region, free ones first — a charterer scans
+ *  for what is open before reading specifications. */
+export function fleetByRegion() {
+  const rank = { available: 0, soon: 1, unknown: 2, chartered: 3 } as const
+  return charterRegions
+    .map((region) => ({
+      region,
+      vessels: fleet
+        .filter((v) => v.charter?.region === region.name)
+        .sort((a, b) => {
+          const order =
+            rank[availabilityTone(a.charter?.status)] -
+            rank[availabilityTone(b.charter?.status)]
+          return order !== 0 ? order : a.name.localeCompare(b.name)
+        }),
+    }))
+    .filter((group) => group.vessels.length > 0)
+}
 
 /** Availability wording from the charter sheet, bucketed for display. */
 export function availabilityTone(status?: string | null) {
