@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
+@theme {
+  --color-hull-50: #eef4fb;
+  --color-hull-100: #d8e6f5;
+  --color-hull-200: #b0cbe9;
+  --color-hull-300: #7ea9d8;
+  --color-hull-400: #4a80c0;
+  --color-hull-500: #2a5fa3;
+  --color-hull-600: #1d4880;
+  --color-hull-700: #173a67;
+  --color-hull-800: #132e51;
+  --color-hull-900: #0f2440;
+  --color-hull-950: #08182c;
+
+  --color-signal-400: #f2a33c;
+  --color-signal-500: #e2861a;
+  --color-signal-600: #c06b0f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-hull-950);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular figures keep spec tables and numeric columns aligned. */
+.tabular {
+  font-variant-numeric: tabular-nums;
 }

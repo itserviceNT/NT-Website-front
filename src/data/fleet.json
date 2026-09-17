@@ -1,0 +1,2860 @@
+[
+  {
+    "slug": "nt-flagman",
+    "name": "NT Flagman",
+    "category": "LIFTBOATS & JACKUP BARGES",
+    "categorySlug": "liftboats-jackup-barges",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTFLAGMAN.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2015, Conrad Shipyard, LLC in Morgan City, Louisiana, USA (Hull No. C-1071)",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "45.86 m",
+      "beam": "23.77 m",
+      "depth": "4.27 m",
+      "draft": "3.42 m",
+      "deckArea": "467.3 m2 + Side AUX deacr area 136,5",
+      "mainEngines": "2 x CAT C-32",
+      "serviceSpeed": "6 knots",
+      "berths": "14",
+      "grt": "1040 Tons",
+      "nrt": "312 Tons",
+      "deckCargo": "680 Tons",
+      "deckStrength": "5 mt/m2",
+      "lengthOverallValue": 45.86,
+      "beamValue": 23.77,
+      "depthValue": 4.27,
+      "draftValue": 3.42,
+      "grtValue": 1040.0,
+      "nrtValue": 312.0,
+      "deckAreaValue": 467.3,
+      "deckCargoValue": 680.0,
+      "serviceSpeedValue": 6.0,
+      "dynamicPositioning": "DP"
+    },
+    "specSections": {
+      "NT FLAGMAN": {
+        "LIFTBOAT": "CLAS S 230"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2015, Conrad Shipyard, LLC in Morgan City, Louisiana, USA (Hull No. C-1071)",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "45.86 m",
+        "Beam Moulded": "23.77 m",
+        "Depth Moulded": "4.27 m",
+        "Draft (Max)": "3.42 m",
+        "Lightship Draft": "2.59 m",
+        "Open Deck Area": "467.3 m2 + Side AUX deacr area 136,5"
+      },
+      "PADS": {
+        "Footing Length": "9.75 m",
+        "Footing Beam": "4.87 m",
+        "Footing Depth": "0.73 m"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x CAT C-32",
+        "Reduction Gear": "TWIN DISC 6:1",
+        "Generators": "2 x 300 kw. Cat C 9.3 2 x 250 kw. Cat C 9.3",
+        "Emerg. Generator": "1 x 200 kw Cat 7.1"
+      },
+      "SPEED & CONSUMPTION": {
+        "Estimated Service Speed": "6 knots",
+        "Estimated Service Range": "1548 N-Miles"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "111,63 m3",
+        "Potable Water": "87.44 m3",
+        "Fuel Rate at Max RPM (Includes One Gen Set)": "467 L/hr 244,8 kg/d-1641,6 kg/d"
+      },
+      "ACCOMODATION": {
+        "Crew Accommodations": "14",
+        "VIP Accommodations": "2",
+        "PACS Accommodations": "27",
+        "TOTAL": "43"
+      },
+      "LEGS": {
+        "Quantity": "3",
+        "Length": "70,1m",
+        "Size (Outer Diameter)": "1,98m"
+      },
+      "HULL CHARACTERISTICS": {
+        "Gross Tonnage": "1040 Tons",
+        "Net Tonnage": "312 Tons",
+        "Maximum Deck Cargo": "680 Tons",
+        "Maximum fuel, water, Variable deck load, Load crew, Afloat PACS, (Includes stores, all etc.)": "724.63 Tons",
+        "Allowable Loading on Main Deck": "5 mt/m2"
+      },
+      "JACKING": {
+        "Max. Working Water Depth": "54.86 m",
+        "Max. Sea Conditions (Jacking Up or Down)": "1 m",
+        "Total Jacks": "18",
+        "Total Jacking / Holding Rating": "2,286.11 Tons",
+        "Allowable Jacking/ Holding Rating": "1,742.41 Tons"
+      },
+      "CRANES": {
+        "Port side main": "Techcrane L-500: 226 Ton, Lattice Boom",
+        "Starboard side aux": "Techcrane T-120: 54,4 Ton, Telescopic Boom"
+      }
+    },
+    "charter": {
+      "type": "Liftboat 230 Class",
+      "status": "Available from Jul 2028",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": "DP",
+      "deckArea": 600,
+      "cranes": "Main 250T; Aux 60T",
+      "equipment": null
+    },
+    "type": "Liftboat 230 Class"
+  },
+  {
+    "slug": "ntms-princes",
+    "name": "NTMS Princes",
+    "category": "LIFTBOATS & JACKUP BARGES",
+    "categorySlug": "liftboats-jackup-barges",
+    "specSheetUrl": null,
+    "specSheetMissing": true,
+    "keySpecs": {
+      "dynamicPositioning": "DP1",
+      "deckArea": "1100",
+      "deckAreaValue": 1100.0
+    },
+    "specSections": {},
+    "charter": {
+      "type": "Self-Propelled Jack Up Barge (Liftboat)",
+      "status": "Prompt Available",
+      "region": "Middle East",
+      "location": "Middle East",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": "DP1",
+      "deckArea": 1100,
+      "cranes": "Main 700T; Aux 200T",
+      "equipment": null
+    },
+    "type": "Self-Propelled Jack Up Barge (Liftboat)"
+  },
+  {
+    "slug": "aylar",
+    "name": "Aylar",
+    "category": "CREW BOATS",
+    "categorySlug": "crew-boats",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/AYLAR.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "Aluminium Monohull Mul+-Role Support Vessel Designed and Built by Penguin Shipyard, 2013",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "38.00 m",
+      "beam": "7.60 m",
+      "draft": "1.89 m",
+      "deckArea": "120 m2",
+      "deckCargo": "55 mt",
+      "deckStrength": "2.0 MT / sqm",
+      "grt": "246 Tons",
+      "nrt": "74 Tons",
+      "dwt": "125 Tons",
+      "mainEngines": "3 units with resilient moun+ngs Cummins KTA38-M2",
+      "bhp": "3 x 1350 BHP @ 1900 rpm",
+      "maxSpeed": "27 knots @ 100% MCR & 31 DWT",
+      "depth": "Furuno FCV 627",
+      "lengthOverallValue": 38.0,
+      "beamValue": 7.6,
+      "depthValue": 627.0,
+      "draftValue": 1.89,
+      "grtValue": 246.0,
+      "nrtValue": 74.0,
+      "dwtValue": 125.0,
+      "bhpValue": 4050.0,
+      "deckAreaValue": 120.0,
+      "deckCargoValue": 55.0,
+      "maxSpeedValue": 27.0
+    },
+    "specSections": {
+      "AYLAR": {
+        "Fast": "Crew Boat"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "Aluminium Monohull Mul+-Role Support Vessel Designed and Built by Penguin Shipyard, 2013",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "38.00 m",
+        "Beam Moulded": "7.60 m",
+        "Draft Moulded": "3.65 m",
+        "Draft (Max)": "1.89 m",
+        "Deck Space": "120 m2",
+        "Clear Deck Area": "95 sqm",
+        "Deck Cargo Capacity": "55 mt",
+        "Deck Strength": "2.0 MT / sqm"
+      },
+      "TONNAGE": {
+        "GRT": "246 Tons",
+        "NRT": "74 Tons",
+        "DWT": "125 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "3 units with resilient moun+ngs Cummins KTA38-M2",
+        "Break horsepower": "3 x 1350 BHP @ 1900 rpm",
+        "Propelers": "3 x fixed pitch, Ni-Al-Bronze, 5 blades",
+        "Bow Thruster": "1 unit electro-hydraulic @ 100 HP"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "27 knots @ 100% MCR & 31 DWT",
+        "Fuel consumption": "770 L/hr",
+        "Cruising speed": "23 knots @ 85% MCR & 31 DWT C",
+        "Cruising fuel consumption": "650 L/hr"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Capacity": "72,000 L",
+        "Fresh Water": "30,000 L",
+        "Dirty Oil Tank": "0.8 cbm",
+        "Dispersant": "0.2 cbm"
+      },
+      "ACCOMODATION": {
+        "Crew": "4/8",
+        "Seating Arrangemnet": "78"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "GMDSS": "Sea Area A1+A2",
+        "Radars": "2 x Furuno",
+        "VHF / SSB": "Sailor 6222 ICom IC-M710",
+        "Depth Sounder": "Furuno FCV 627",
+        "GPS": "Furuno GP-32",
+        "Compass": "Simrad RGC50",
+        "AIS": "Samyung S1-30",
+        "Navtex": "Smar^ind"
+      },
+      "SAFETY EQUIPMENT": {
+        "Life Rattis": "230 persons",
+        "Life Jackets": "95 person"
+      }
+    },
+    "charter": {
+      "type": "Fast Crew Boat",
+      "status": "Prompt",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 95,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Fast Crew Boat"
+  },
+  {
+    "slug": "nurana",
+    "name": "Nurana",
+    "category": "CREW BOATS",
+    "categorySlug": "crew-boats",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NURANA.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "CHEOY LEE SHIPYARD - HONG KONG, CHINA, 2013",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "36.0 m",
+      "beam": "7.60 m",
+      "depth": "3.65 m",
+      "draft": "2.36 m",
+      "grt": "249 Tons",
+      "nrt": "74 Tons",
+      "dwt": "125 Tons",
+      "deckCargo": "50 tons",
+      "deckStrength": "2.5 t/m2",
+      "deckArea": "94 m2",
+      "mainEngines": "3 x Cummins KTA 38-M2, 1350bhp @ 1900 rpm",
+      "maxSpeed": "24 knots @ 100% MCR",
+      "serviceSpeed": "21 knots @ 85% MCR",
+      "berths": "10 man",
+      "lengthOverallValue": 36.0,
+      "beamValue": 7.6,
+      "depthValue": 3.65,
+      "draftValue": 2.36,
+      "grtValue": 249.0,
+      "nrtValue": 74.0,
+      "dwtValue": 125.0,
+      "deckAreaValue": 94.0,
+      "deckCargoValue": 50.0,
+      "maxSpeedValue": 24.0,
+      "serviceSpeedValue": 21.0
+    },
+    "specSections": {
+      "NURANA": {
+        "FAST": "CREW BOAT"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "CHEOY LEE SHIPYARD - HONG KONG, CHINA, 2013",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "36.0 m",
+        "Breadth": "7.60 m",
+        "Depth": "3.65 m",
+        "Draft (Max)": "2.36 m"
+      },
+      "TONNAGE": {
+        "GRT": "249 Tons",
+        "NRT": "74 Tons",
+        "DWT": "125 Tons",
+        "DECK CARGO": "50 tons",
+        "DECK STRENGTH": "2.5 t/m2",
+        "DECK SPACE": "94 m2"
+      },
+      "MACHINERY": {
+        "Main Engines": "3 x Cummins KTA 38-M2, 1350bhp @ 1900 rpm",
+        "Propulsion": "3 x FPP bronze alloy propellers",
+        "Generators": "2 x Cummins 80 MXDG @ 91 kw / 415 v / 50Hz",
+        "Gear Thruster": "3 x Twin Disc MGX6690SC",
+        "Bow Thruster": "1 x 1 ton Thrustmaster"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "24 knots @ 100% MCR",
+        "Service Speed": "21 knots @ 85% MCR",
+        "At Port / At Anchorage": "336 Ltrs / Day (A/Econsumpaon)",
+        "Free Running at economical speed (engine": "4000 Ltrs / Day",
+        "Standby with engine on / free": "1000 Ltrs / Day",
+        "Distance Travelled with": "288 NM (Free Running)"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Capacity": "57.4 m3",
+        "Fresh Water": "21.25 m3",
+        "Lube Oil": "2.3 m3"
+      },
+      "ACCOMODATION": {
+        "Passenger Seating Area": "70 Personnel (reclining type) Toilet x 2",
+        "1 man cabin x 2": "2 man",
+        "2 man cabin x 4": "8 man",
+        "Total": "10 man",
+        "Toilet / Shower": "1 unit",
+        "Crew Facility": "1 x Gallery / Mess / Store",
+        "Air Conditioning": "Central type for all passenger / Crew / Bridge area"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Radars": "2 x Furuno RDP 150 & MFD 12",
+        "VHF / SSB": "Furuno 2 x FM8900S & SSB Furuno FS2575C, JRC",
+        "Depth Sounder": "1 x Furuno CV-627",
+        "Auto Pilot": "1 x Simrad AP35",
+        "GPS": "1 x GP32",
+        "Gyro Compass": "1 x Simrad RJC50",
+        "Magnetic Compass": "1 x Saura",
+        "Inmarsat C": "1 x Felcom 18",
+        "AIS": "AIS NSI - 1000",
+        "Navtex": "1 x Furuno NX700",
+        "EPIRB": "1 x McMurdo E5",
+        "SART": "1 x McMurdo S5",
+        "Search Lights": "3 x Francis 1000 wads"
+      },
+      "SAFETY EQUIPMENT": {
+        "Life Rattis": "70 + 10 personnel",
+        "Fire/Heat Detection": "Fided",
+        "H2S & CH4 Detection": "Fided",
+        "Enternal FIFI": "600 m3 / hr with 1 monitor",
+        "CO2 System": "Fided in Engine Room"
+      }
+    },
+    "charter": {
+      "type": "Fast Crew Boat",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 94,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Fast Crew Boat"
+  },
+  {
+    "slug": "nt-raushan",
+    "name": "NT Raushan",
+    "category": "CREW BOATS",
+    "categorySlug": "crew-boats",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTRAUSHAN.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "Sharjah, United Arab Emirates 2006",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "33.0 m",
+      "beam": "7.78 m",
+      "depth": "3.38 m",
+      "draft": "2.2 m",
+      "grt": "196 Tons",
+      "nrt": "59 Tons",
+      "dwt": "92,95 Tons",
+      "deckCargo": "35 tons",
+      "deckStrength": "1 t/m2",
+      "deckArea": "75.8 m2",
+      "mainEngines": "4 x Caterpillar 3412E 4 x 820 kW / 1.100HP",
+      "maxSpeed": "25 knots",
+      "lengthOverallValue": 33.0,
+      "beamValue": 7.78,
+      "depthValue": 3.38,
+      "draftValue": 2.2,
+      "grtValue": 196.0,
+      "nrtValue": 59.0,
+      "dwtValue": 92.95,
+      "deckAreaValue": 75.8,
+      "deckCargoValue": 35.0,
+      "maxSpeedValue": 25.0
+    },
+    "specSections": {
+      "NT RAUSHAN": {
+        "FAST": "CREW BOAT"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "Sharjah, United Arab Emirates 2006",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "33.0 m",
+        "Breadth": "7.78 m",
+        "Depth": "3.38 m",
+        "Draft (Max)": "2.2 m"
+      },
+      "TONNAGE": {
+        "GRT": "196 Tons",
+        "NRT": "59 Tons",
+        "DWT": "92,95 Tons",
+        "DECK CARGO": "35 tons",
+        "DECK STRENGTH": "1 t/m2",
+        "DECK SPACE": "75.8 m2"
+      },
+      "MACHINERY": {
+        "Main Engines": "4 x Caterpillar 3412E 4 x 820 kW / 1.100HP",
+        "Auxiliary": "2xCaterpillar 3306TA x 160kw 2x160kw @ 50Hz",
+        "Propulsion": "4 x FFP",
+        "Bow Thruster": "1xHydro Electric 70HP"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "25 knots",
+        "Endurance": "10 days"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Capacity": "47 m3",
+        "Fresh Water": "8.1 m3",
+        "Lube Oil": "2 x 350 litres",
+        "Sewage": "5.4 m3",
+        "Bilge tank": "1 m3"
+      },
+      "ACCOMODATION": {
+        "Passenger Seating Area": "68 Personnel Toilet x 1",
+        "Cabin": "Total for 9 personals",
+        "Toilet / Shower": "1 unit",
+        "Crew Facility": "1 x Gallery / Mess / Store",
+        "Air Conditioning": "Central type for all passenger / Crew / Bridge area"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Radars": "2 x NAVNET GD-1700",
+        "VHF / SSB": "1 x Sailor RT2048 2 x Sailor RT4822 Sailor HC-4500B",
+        "Depth Sounder": "Furuno",
+        "Auto Pilot": "SAS 70",
+        "GPS": "2 x FURUNO",
+        "VHF GMDSS": "2 x Samyung STV 160",
+        "Magnetic Compass": "1 x Saura",
+        "Inmarsat C": "2 x H2095C",
+        "AIS": "Samyung SI 30",
+        "EPIRB": "McMurdo G-5",
+        "SART": "2 x McMurdo S4"
+      },
+      "SAFETY EQUIPMENT": {
+        "Life Rattis": "8 x Viking 25 man",
+        "Life Jackets": "78 pcs /SOLAS approved",
+        "Immersion Suit": "78pcs",
+        "Life buoy": "8pcs"
+      }
+    },
+    "charter": {
+      "type": "Fast Crew Boat",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 75.8,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Fast Crew Boat"
+  },
+  {
+    "slug": "nt-trip",
+    "name": "NT Trip",
+    "category": "CREW BOATS",
+    "categorySlug": "crew-boats",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/GACTRIP.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "Gulf Cra) Inc, U.S.A",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "41.15 m",
+      "beam": "7.92 m",
+      "draft": "1.82 m",
+      "deckArea": "120 m2",
+      "grt": "233 tons",
+      "nrt": "70 Tons",
+      "deckCargo": "100 Tons",
+      "mainEngines": "4 x Cummins KTA -19M3",
+      "bhp": "2,720 BHP @ 2,100 RPM",
+      "maxSpeed": "17.5 knots",
+      "depth": "1 No.",
+      "lengthOverallValue": 41.15,
+      "beamValue": 7.92,
+      "depthValue": 1.0,
+      "draftValue": 1.82,
+      "grtValue": 233.0,
+      "nrtValue": 70.0,
+      "bhpValue": 2720.0,
+      "deckAreaValue": 120.0,
+      "deckCargoValue": 100.0,
+      "maxSpeedValue": 17.5
+    },
+    "specSections": {
+      "General": {
+        "GAC": "TRIP CREW BOAT"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "Gulf Cra) Inc, U.S.A",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "41.15 m",
+        "Beam Moulded": "7.92 m",
+        "Draft Moulded": "2.55 m",
+        "Draft (Max)": "1.82 m",
+        "Deck Space": "120 m2"
+      },
+      "TONNAGE": {
+        "GRT": "233 tons",
+        "NRT": "70 Tons",
+        "DECK CARGO": "100 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "4 x Cummins KTA -19M3",
+        "Break horsepower": "2,720 BHP @ 2,100 RPM",
+        "Propulsion": "4 x Fixed propellers(38”x39”)",
+        "Generators": "2x GM 3-71 - 40 KW each"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "17.5 knots",
+        "Generator only": "2 IG/hr 48 IG per da",
+        "Idlee speed with ME": "12 IG/hr 288 IG per day",
+        "Full speed": "88 IG/hr 2112 IG per day",
+        "Endurance": "4 days 1.5 hrs"
+      },
+      "T ANKS CAPACITIES": {
+        "Fuel Capacity": "39 m3",
+        "Fresh Water": "75 Tons"
+      },
+      "ACCOMODATION": {
+        "Berth": "8",
+        "Seating Arrangemnet": "66"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Radars": "1 x Furuno + 1 Koden 3642",
+        "VHF / SSB": "2 x Samyung ENC STV-160 1 x Furuno GP 150",
+        "Depth Sounder": "1 No.",
+        "DSC Reiever": "2x Furuno 4514",
+        "GPS": "1 No. Koden KGP-912",
+        "Compass": "1 No. Magne]c 9(Danforth)",
+        "Portable VHR": "1x Navico (Gmdss)",
+        "AIS": "1x Samyung Sl-30A",
+        "Navtex": "1 x Furuno NX500",
+        "Fire Pumps": "1x2 Electric Fire pump rated 300 IG per minute",
+        "Fire Extinguisher": "Various"
+      },
+      "SAFETY EQUIPMENT": {
+        "Life Rattis": "4x25 persons- Viking"
+      },
+      "MISCELANIOUS": {
+        "Additional information": "2 3 x X Central search lights air condi]oning systems"
+      }
+    },
+    "charter": {
+      "type": "Crew Boat",
+      "status": "Prompt",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 120,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Crew Boat"
+  },
+  {
+    "slug": "soltan",
+    "name": "Soltan",
+    "category": "DSV-DP2 VESSELS",
+    "categorySlug": "dsv-dp2-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SOLTAN.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "fifi": "2 x Fi Fi 1",
+      "built": "2011, PAX Ocean Eng. Zhuhai Co. Ltd, China",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "71.5m",
+      "beam": "16.6m",
+      "depth": "7.2m",
+      "draft": "5.9m",
+      "deckArea": "(approx. 35m x12.8m) 450 m2",
+      "deckCargo": "900 tons",
+      "grt": "2588 Tons",
+      "nrt": "766 Tons",
+      "dwt": "2457 Tons",
+      "mainEngines": "2 x MAN B&W 8L27/38",
+      "bhp": "7940 BHP",
+      "maxSpeed": "14 knots",
+      "serviceSpeed": "12 knots",
+      "berths": "1 man x 4, 2 men x 4, 4 men x 7 Total 40 crew-13 /Passengers 27",
+      "bollardPull": "110 Tons",
+      "lengthOverallValue": 71.5,
+      "beamValue": 16.6,
+      "depthValue": 7.2,
+      "draftValue": 5.9,
+      "grtValue": 2588.0,
+      "nrtValue": 766.0,
+      "dwtValue": 2457.0,
+      "bhpValue": 7940.0,
+      "bollardPullValue": 110.0,
+      "deckAreaValue": 450.0,
+      "deckCargoValue": 900.0,
+      "maxSpeedValue": 14.0,
+      "serviceSpeedValue": 12.0,
+      "dynamicPositioning": "DP2"
+    },
+    "specSections": {
+      "General": {
+        "SOLTAN": "Anchor Handling Tug Supply DP2",
+        "Anchor Handling": "Tug Supply -DSV DP2",
+        "Fire Monitor": "2 x Fi Fi 1",
+        "Pump Capacity": "2 x 1650m3/hr",
+        "Foam Capacity": "10.65 m3",
+        "Oil Dispersant Capacity": "13 m3 with dispersant Booms port and starboard"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2011, PAX Ocean Eng. Zhuhai Co. Ltd, China",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "71.5m",
+        "Beam Moulded": "16.6m",
+        "Depth Moulded": "7.2m",
+        "Draft (Max)": "5.9m",
+        "Free Deck Space": "(approx. 35m x12.8m) 450 m2",
+        "Cargo Capacity": "900 tons"
+      },
+      "TONNAGE": {
+        "GRT": "2588 Tons",
+        "NRT": "766 Tons",
+        "DWT": "2457 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x MAN B&W 8L27/38",
+        "Aux Engines": "2 x CAT C18- 425 kWt",
+        "Break Horsepower": "7940 BHP",
+        "Generators": "Shaft 2x1200 KW, 2xCAT 3408C, 370 KW",
+        "Emerg. Generator": "1 x Volvo Penta 122 KW",
+        "Bow Thruster": "2 x 450 KW CP, rated 7.1T",
+        "Stern Thruster": "1 x 450 KW CP, rated 7.1T",
+        "Propulsion": "2 x CPP in fixed Nozzle",
+        "Rudders": "2 independent high lift type"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "14 knots",
+        "Service Speed": "12 knots",
+        "Es=mated Consump=on": "Running free 12 T/24 Hr Towing 19 T/24 Hr"
+      },
+      "TANKS CAPACITIES": {
+        "Marine Gas Oil": "763 m3",
+        "Potable Water": "541 m3",
+        "Fresh water Ballast": "1524 m3",
+        "Liquid Mud": "448 m3"
+      },
+      "ACCOMODATION": {
+        "Air-conditioning": "Fully Air Condi^oned",
+        "Walk-in cooler": "12 m3",
+        "Walk-in freezer": "10 m3",
+        "Berths": "1 man x 4, 2 men x 4, 4 men x 7 Total 40 crew-13 /Passengers 27"
+      },
+      "TOWING & A/H EQUIPMENT": {
+        "Bollard Pull": "110 Tons",
+        "Towing/Anchor": "1 x double drum waterfall",
+        "handling Winch": "200MT Pull, Brake 400MT",
+        "Wire Dimensions": "2 x 1500m 64mm (1500m x 56mm & 350m x 64mm fiaed) Storage cap.1500m x 64mm",
+        "Stern Roller": "300 Tons SWL (L) 6m x (D) 2m",
+        "Shark Jaws": "Retractable SWL 200 Tons",
+        "Towing Pins": "Retractable SWL 150 Tons",
+        "Tugger Winch": "2 x 10 Ton up to 16m/min",
+        "Anchor Windlass": "10T @ 9m/min",
+        "Capstan": "2 x 10 Ton up to 15m/min"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "GMDSS": "Furuno FM 8800",
+        "SAT-C": "Furuno Felcom 15",
+        "Radar": "Furuno FAR 21x7/FR1510-3",
+        "Gyro Compass": "Simrad GC 80",
+        "Auto Pilot": "Simrad AP-50",
+        "Echo Sounder with": "Furuno FE 700",
+        "Navtex": "Furuno NX-700",
+        "EPRIB": "McMurdo E5",
+        "SART": "McMurdo S4",
+        "AIS": "Furuno FA150",
+        "ECDIS": "N/A"
+      },
+      "CRANE": {
+        "Deck Crane": "40T telescopic boom length 35 meters APPROVED by BV 5 T knuckle boom 5-18 meters",
+        "Davit": "2.5T Chain locker 2 x 80m3, J Hook & Grapnel SWL 130 T, Crane 5T knuckle boom @ 18m radius"
+      },
+      "MISCEL LANEOUS": {
+        "Additional Info": "Drill Wtr and F.W. pumps - 150 m/Hr @ 75m head Fuel Oil pump - 150 m3/Hr @ 75 m head Liquid mud/Brine pumps - 100 m3/Hr @ 204m head Sewage Treatment System - 40 persons/day"
+      }
+    },
+    "charter": {
+      "type": "DP2 AHTS / DSV",
+      "status": "Avail April 2026",
+      "region": "Middle East",
+      "location": "Middle East",
+      "bhp": 7940,
+      "bollardPull": "110",
+      "dp": "DP2",
+      "deckArea": 467,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "DP2 AHTS / DSV"
+  },
+  {
+    "slug": "ayna",
+    "name": "Ayna",
+    "category": "DSV-DP2 VESSELS",
+    "categorySlug": "dsv-dp2-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/AYNA.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2008, USA,New Orleana",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "56 m",
+      "beam": "14 m",
+      "depth": "4.56 m",
+      "draft": "3,74 m",
+      "deckArea": "510 m2",
+      "deckCargo": "5t/m2",
+      "grt": "878 Tons",
+      "nrt": "263 Tons",
+      "maxSpeed": "13,5 knots",
+      "berths": "20 people (12 crew + 8 pax)",
+      "lengthOverallValue": 56.0,
+      "beamValue": 14.0,
+      "depthValue": 4.56,
+      "draftValue": 3.74,
+      "grtValue": 878.0,
+      "nrtValue": 263.0,
+      "deckAreaValue": 510.0,
+      "deckCargoValue": 5.0,
+      "maxSpeedValue": 13.5,
+      "bhp": "3150",
+      "bhpValue": 3150.0,
+      "dynamicPositioning": "DP2"
+    },
+    "specSections": {
+      "General": {
+        "AYNA": "DP- 2 PSV"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2008, USA,New Orleana",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "56 m",
+        "Beam Moulded": "14 m",
+        "Depth Moulded": "4.56 m",
+        "Draft (Max)": "3,74 m",
+        "Free Deck Space": "510 m2",
+        "Cargo Capacity": "5t/m2",
+        "Deck Wooden Plates": "5-6mm"
+      },
+      "TONNAGE": {
+        "Gross Tonnage": "878 Tons",
+        "Net Tonnage": "263 Tons",
+        "Dead Weight": "768 Tons"
+      },
+      "MACHINERY": {
+        "Main Generator": "3 CAT 3512B",
+        "Main Propulsion": "2-3150BHP",
+        "Main Gen. total capacity": "1650kw"
+      },
+      "DP SYTEM": {
+        "DP System Manufacturer": "Kongsberg Maritime AS",
+        "DP Control System Model": "K-Pos DP-22Integrated Dynamic Positioning System",
+        "System Architecture": "Double-redundant DP control computers with independent operator stations; hot standby functionality with automatic changeover",
+        "DP Operator Stations": "Two (2) independent operator consoles located on the main bridge and one (1) ati control station",
+        "DP Alarm & Monitoring System": "K-Chief 700 integrated with DP-22, providing real- Kme status of power, thrusters, sensors, and reference systems",
+        "Wind Sensors": "Two (2) Kongsberg wind sensors - port and starboard, independent network paths"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13,5 knots",
+        "Cruise speed": "11,0 knots",
+        "Endurance": "14 days"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "370,93 m3",
+        "Potable Water": "37,86m3",
+        "Ballast Water": "264,97 m3",
+        "Drill Water": "140 m3",
+        "Rig water": "280,09m3",
+        "Liquid/Mud/Brine": "370,98m3"
+      },
+      "ACCOMODATION": {
+        "Total": "20 people (12 crew + 8 pax)",
+        "Rescue boat": "1x6 person"
+      },
+      "LIQUID DISCHARGE": {
+        "Marine Gas Oil": "70m3/hr @60m",
+        "Ballast drilling": "70m3/hr @60m",
+        "Portable water": "70m3/hr @60m",
+        "Liquid Mud": "60m3/hr @50m",
+        "Bulk": "30m3/hr @40 psi"
+      },
+      "MISCELLANEOUS": {
+        "Vessel crane": "7 tons/ 13 meters",
+        "Davit": "1,5 T",
+        "GMDSS": "Area A1+A2+A3"
+      }
+    },
+    "charter": {
+      "type": "DP2 PSV",
+      "status": "On charter – Available soon",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 3150,
+      "bollardPull": null,
+      "dp": "DP2",
+      "deckArea": 510,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "DP2 PSV"
+  },
+  {
+    "slug": "leyla",
+    "name": "Leyla",
+    "category": "DSV-DP2 VESSELS",
+    "categorySlug": "dsv-dp2-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/LEYLA.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2008, USA,New Orleana",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "56 m",
+      "beam": "14 m",
+      "depth": "4.56 m",
+      "draft": "3,74 m",
+      "deckArea": "510 m2",
+      "deckCargo": "5t/m2",
+      "grt": "878 Tons",
+      "nrt": "263 Tons",
+      "maxSpeed": "13,5 knots",
+      "berths": "20 people (12 crew + 8 pax)",
+      "lengthOverallValue": 56.0,
+      "beamValue": 14.0,
+      "depthValue": 4.56,
+      "draftValue": 3.74,
+      "grtValue": 878.0,
+      "nrtValue": 263.0,
+      "deckAreaValue": 510.0,
+      "deckCargoValue": 5.0,
+      "maxSpeedValue": 13.5,
+      "bhp": "3150",
+      "bhpValue": 3150.0,
+      "dynamicPositioning": "DP2"
+    },
+    "specSections": {
+      "General": {
+        "LEYLA": "DP- 2 PSV"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2008, USA,New Orleana",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "56 m",
+        "Beam Moulded": "14 m",
+        "Depth Moulded": "4.56 m",
+        "Draft (Max)": "3,74 m",
+        "Free Deck Space": "510 m2",
+        "Cargo Capacity": "5t/m2",
+        "Deck Wooden Plates": "5-6mm"
+      },
+      "TONNAGE": {
+        "Gross Tonnage": "878 Tons",
+        "Net Tonnage": "263 Tons",
+        "Dead Weight": "768 Tons"
+      },
+      "MACHINERY": {
+        "Main Generator": "3 CAT 3512B",
+        "Main Propulsion": "2-3150BHP",
+        "Main Gen. total capacity": "1650kw"
+      },
+      "DP SYTEM": {
+        "DP System Manufacturer": "Kongsberg Maritime AS",
+        "DP Control System Model": "K-Pos DP-22Integrated Dynamic Positioning System",
+        "System Architecture": "Double-redundant DP control computers with independent operator stations; hot standby functionality with automatic changeover",
+        "DP Operator Stations": "Two (2) independent operator consoles located on the main bridge and one (1) ati control station",
+        "DP Alarm & Monitoring System": "K-Chief 700 integrated with DP-22, providing real- Kme status of power, thrusters, sensors, and reference systems",
+        "Wind Sensors": "Two (2) Kongsberg wind sensors - port and starboard, independent network paths"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13,5 knots",
+        "Cruise speed": "11,0 knots",
+        "Endurance": "14 days"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "370,93 m3",
+        "Potable Water": "37,86m3",
+        "Ballast Water": "264,97 m3",
+        "Drill Water": "140 m3",
+        "Rig water": "280,09m3",
+        "Liquid/Mud/Brine": "370,98m3"
+      },
+      "ACCOMODATION": {
+        "Total": "20 people (12 crew + 8 pax)",
+        "Rescue boat": "1x6 person"
+      },
+      "LIQUID DISCHARGE": {
+        "Marine Gas Oil": "70m3/hr @60m",
+        "Ballast drilling": "70m3/hr @60m",
+        "Portable water": "70m3/hr @60m",
+        "Liquid Mud": "60m3/hr @50m",
+        "Bulk": "30m3/hr @40 psi"
+      },
+      "MISCELLANEOUS": {
+        "Vessel crane": "7 tons/ 13 meters",
+        "Davit": "1,5 T",
+        "GMDSS": "Area A1+A2+A3"
+      }
+    },
+    "charter": {
+      "type": "DP2 PSV",
+      "status": "On charter – Available soon",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 3150,
+      "bollardPull": null,
+      "dp": "DP2",
+      "deckArea": 510,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "DP2 PSV"
+  },
+  {
+    "slug": "selbi",
+    "name": "Selbi",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SELBI.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2010, GUANGDONG HONGSHENG Shipyard, China",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "58.7 m",
+      "beam": "14.6 m",
+      "depth": "5.5 m",
+      "draft": "4.80 m",
+      "deckStrength": "7t/m2",
+      "deckArea": "375 m2",
+      "deckCargo": "550 Tons",
+      "grt": "1520 Tons",
+      "nrt": "456 Tons",
+      "dwt": "1390 Tons",
+      "mainEngines": "2 x CAT 3516 B-TA",
+      "bhp": "5150 BHP",
+      "maxSpeed": "13 Knots 21m3/day",
+      "serviceSpeed": "10 Knots",
+      "berths": "1-man cab x 2 : 2-man cab x 4 : 4-man cab x 8 Passengers 30, Crew 12: Total -42",
+      "bollardPull": "66.7 Tons",
+      "fifi": "Fi-Fi Class -1",
+      "dynamicPositioning": "DP-1 Classed",
+      "lengthOverallValue": 58.7,
+      "beamValue": 14.6,
+      "depthValue": 5.5,
+      "draftValue": 4.8,
+      "grtValue": 1520.0,
+      "nrtValue": 456.0,
+      "dwtValue": 1390.0,
+      "bhpValue": 5150.0,
+      "bollardPullValue": 66.7,
+      "deckAreaValue": 375.0,
+      "deckCargoValue": 550.0,
+      "maxSpeedValue": 13.0,
+      "serviceSpeedValue": 10.0
+    },
+    "specSections": {
+      "SELBI": {
+        "Anchor Handling": "Tug Supply"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2010, GUANGDONG HONGSHENG Shipyard, China",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "58.7 m",
+        "Beam Moulded": "14.6 m",
+        "Depth Moulded": "5.5 m",
+        "Draft (Max)": "4.80 m",
+        "Minimum Height": "22.3m",
+        "Freeboard": "0.7m",
+        "Deck Strength": "7t/m2",
+        "Displacement": "2.810mt",
+        "Clear Deck Space": "29.9x12.6m",
+        "Free Deck Space": "375 m2",
+        "Cargo Capacity": "550 Tons"
+      },
+      "TONNAGE": {
+        "GRT": "1520 Tons",
+        "NRT": "456 Tons",
+        "DWT": "1390 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x CAT 3516 B-TA",
+        "Break Horsepower": "5150 BHP",
+        "Generators": "3 x CAT C18, 350 KW ,415v, 2xphases , 50Hz",
+        "Emergency Generator": "1 x CAT C4.4, 84KW ,410v, 50Hz",
+        "Bow Thruster": "1 x 440 KW, Electric Motor , 6.6 t . HRP 4008 TT CP",
+        "Propulsion": "2 x CPP, 4-Blade ,2x Kort Nozzle",
+        "Rudders": "Independent/Synchronized"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13 Knots 21m3/day",
+        "Cruising speed": "11 Knots 19m3/day",
+        "Economical speed": "8-Knots 15m3/day",
+        "Service Speed": "10 Knots",
+        "Standby": "0.8m3/day @ 0 Knots",
+        "Range @ 11 Knots": "6.700nm",
+        "Estimated Consumption": "Running Free 7 T/24 Hr Towing 11 T/24 Hr"
+      },
+      "TANKS CAPACITIES": {
+        "Marine Gas Oil": "482 m3",
+        "Potable Water": "73.1 m",
+        "Fresh Water": "228m3",
+        "Mud Circulation": "Available",
+        "Fresh water Ballast": "465 m3",
+        "Oil Recovery Tank": "6.5 m3"
+      },
+      "ACCOMODATION": {
+        "Air-conditioning": "Fully air conditioned",
+        "Walk-in cooler": "9 m3",
+        "Walk-in freezer": "10.1 m3",
+        "Hospital": "Yes",
+        "Berths": "1-man cab x 2 : 2-man cab x 4 : 4-man cab x 8 Passengers 30, Crew 12: Total -42",
+        "Galley seating": "27"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Bollard Pull": "66.7 Tons",
+        "Towing/Anchor handling Winch": "Model: Double Drum Waterfall El.Hydraulic D.D. Line Pull -150T@6m/min. 200T brake",
+        "Wire Dimensions": "Breaking cap-200t, L-1000m x D 52 mm (6x37 IWRC@165kg/mm2)",
+        "Stern Roller": "SWL- 300mt, 5m x D 1.8 m",
+        "Shark Jaws/ Karm Fork": "1xSWL 200 MT",
+        "Towing Pins": "2xSWL 200 tons",
+        "Tugger Winch": "2 x 10 Tons ,Electro Hydraulic (15 m/min)",
+        "Anchor Windlass": "El.Hydraulic 2x 9.0 T x 12m/min for 40mm dia.chain , Brake 45T",
+        "Capstan": "2 x 5T, 15m/min"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "GMDSS": "JRC JSB-196GM",
+        "SAT-C": "JRC JUE 85",
+        "Radar": "2x JRC JMA 5300/ JMA-9122/ JMA-2343",
+        "Gyro Compass": "2xYOKOGAWA",
+        "Auto Pilot": "ComNav MARINE 2001",
+        "Echo Sounder with repeater at A9 console": "JRC NJA-98",
+        "Navtex": "JRC NCR 333",
+        "EPRIB": "MCMURDO Smardind E/G8",
+        "SART": "2xMCMURDO S4",
+        "AIS": "JRC JHS 182",
+        "ECDIS": "N/A",
+        "Fire Monitor": "Fi-Fi Class -1",
+        "Dynamic positioning": "DP-1 Classed",
+        "Ref.Systems": "1xMRU: 2x DGPS",
+        "Pump Capacity": "2 x 1200m3/ vertical L-45m, horizontal- 70m.Throw L- 120m",
+        "Water maker": "5.5T/day",
+        "Foam Capacity": "13.4 m3",
+        "Oil Dispersant Capacity": "13.4 m3",
+        "Rescue Boat": "6-Man SOLAS Approved"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2026",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5150,
+      "bollardPull": "66.7",
+      "dp": "DP1",
+      "deckArea": 375,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "bayan",
+    "name": "Bayan",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/BAYAN.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2009, Gina 1 China",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "71.5m",
+      "beam": "16.6m",
+      "depth": "7.2m",
+      "draft": "5.9m",
+      "deckArea": "(approx. 35m x12.8m) 450 m2",
+      "deckCargo": "900 tons",
+      "grt": "1299 Tons",
+      "nrt": "389 Tons",
+      "dwt": "1300 Tons",
+      "mainEngines": "2 x Nigata 6L28HX",
+      "bhp": "5000 BHP",
+      "maxSpeed": "12 Knots",
+      "serviceSpeed": "10 Knots",
+      "berths": "Crew mem-12beds Passengers -17beds Total 29,",
+      "bollardPull": "70 Tons",
+      "fifi": "Fi-Fi 1",
+      "lengthOverallValue": 71.5,
+      "beamValue": 16.6,
+      "depthValue": 7.2,
+      "draftValue": 5.9,
+      "grtValue": 1299.0,
+      "nrtValue": 389.0,
+      "dwtValue": 1300.0,
+      "bhpValue": 5000.0,
+      "bollardPullValue": 70.0,
+      "deckAreaValue": 450.0,
+      "deckCargoValue": 900.0,
+      "maxSpeedValue": 12.0,
+      "serviceSpeedValue": 10.0
+    },
+    "specSections": {
+      "BAYAN": {
+        "Anchor Handling": "Tug Supply"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2009, Gina 1 China",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "71.5m",
+        "Beam Moulded": "16.6m",
+        "Depth Moulded": "7.2m",
+        "Draft (Max)": "5.9m",
+        "Free Deck Space": "(approx. 35m x12.8m) 450 m2",
+        "Cargo Capacity": "900 tons"
+      },
+      "TONNAGE": {
+        "GRT": "1299 Tons",
+        "NRT": "389 Tons",
+        "DWT": "1300 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x Nigata 6L28HX",
+        "Break Horsepower": "5000 BHP",
+        "Generators": "3 x CAT 3412, 400KW",
+        "Emergency Generator": "CAT C44 DITA 83 KW",
+        "Bow Thruster": "1 x 7T",
+        "Propulsion": "2 x Azimuth Thrusters"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "12 Knots",
+        "Service Speed": "10 Knots",
+        "Estimated Consumption": "Free Running 12T/24 Hr Towing 16T/24 Hr"
+      },
+      "TANKS CAPACITIES": {
+        "Marine Gas Oil": "480 m3",
+        "Potable Water": "264 m3",
+        "Fresh water Ballast": "430 m3",
+        "Liquid mud": "200 m3",
+        "Bulk Plant": "113 m3",
+        "Oil Recovery Tank": "7.3 m3"
+      },
+      "ACCOMODATION": {
+        "Air-conditioning": "Fully air conditioned",
+        "Walk-in cooler": "9.54 m3",
+        "Walk-in freezer": "9.54 m3",
+        "Berths": "Crew mem-12beds Passengers -17beds Total 29,"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Bollard Pull": "70 Tons",
+        "Towing/Anchor handling Winch": "Hydraulic D.D. Waterfall 150T@ 6m/min, 200T brake",
+        "Wire Dimensions": "1000m x 52 mm",
+        "Stern Roller": "SWL 150 Tons 4.26m x 1.6 m",
+        "Shark Jaws": "SWL 300 Tons",
+        "Towing Pins": "SWL 160 tons",
+        "Tugger Winch": "2 x 10 Tons",
+        "Anchor Windlass": "5.5 x 10 m/min Brake 43 T",
+        "Capstan": "2 x 5 Tons"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "GMDSS": "JRC NCM-1770",
+        "SAT-C": "JRC JUE-85",
+        "Radar": "Furuno FAR-2117/ JRC5310-6",
+        "Gyro Compass": "Anschütz STD -22",
+        "Auto Pilot": "Raytheon - Anschütz NP 60",
+        "Echo Sounder with repeater at A9 console": "JRC JFE-380",
+        "Navtex": "JRC NCR-333",
+        "EPRIB": "McMurdo Smarbinder E5",
+        "SART": "ACR Pathfinder 3",
+        "AIS": "JRC JHS 182",
+        "ECDIS": "N/A"
+      },
+      "General": {
+        "Fire Monitor": "Fi-Fi 1",
+        "Pump Capacity": "2 x 1500 m3/hr, 13 bar",
+        "Horizontal Throw": "(L) 120m x (H) 45m",
+        "Foam Capacity": "9.9 m3",
+        "Oil Dispersant Capacity": "9.9 m3 Fuel oil pump 100m3/hour @ 60m Ballast/drilling 100m3/hour @ 60m"
+      },
+      "MISCELLANEOUS": {
+        "Additional information": "Potable Water 100m3/hour @ 60m Liquid mud 40m3/hour @ 60m Bulk plant 2x 60m3/hour"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5000.0,
+      "bollardPull": "70",
+      "dp": null,
+      "deckArea": 370,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "caspian-pearl",
+    "name": "Caspian Pearl",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/CASPIANPEARL.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2014, Guangzhou, China",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "60.5 m",
+      "beam": "14.6 m",
+      "depth": "5.5 m",
+      "draft": "4.75 m",
+      "deckArea": "370 m2",
+      "deckCargo": "7.5t/m2",
+      "grt": "1556 Tons",
+      "nrt": "871 Tons",
+      "dwt": "1288 Tons",
+      "maxSpeed": "13,5 knots",
+      "berths": "20 people",
+      "bollardPull": "68 T",
+      "lengthOverallValue": 60.5,
+      "beamValue": 14.6,
+      "depthValue": 5.5,
+      "draftValue": 4.75,
+      "grtValue": 1556.0,
+      "nrtValue": 871.0,
+      "dwtValue": 1288.0,
+      "bollardPullValue": 68.0,
+      "deckAreaValue": 370.0,
+      "deckCargoValue": 7.5,
+      "maxSpeedValue": 13.5,
+      "bhp": "5160",
+      "bhpValue": 5160.0,
+      "dynamicPositioning": "DP2"
+    },
+    "specSections": {
+      "General": {
+        "CASPIAN": "PEARL",
+        "Anchor": "Handling Tug Supply DP"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2014, Guangzhou, China",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "60.5 m",
+        "Beam Moulded": "14.6 m",
+        "Depth Moulded": "5.5 m",
+        "Draft (Max)": "4.75 m",
+        "Free Deck Space": "370 m2",
+        "Cargo Capacity": "7.5t/m2"
+      },
+      "TONNAGE": {
+        "GRT": "1556 Tons",
+        "NRT": "871 Tons",
+        "DWT": "1288 Tons"
+      },
+      "MACHINERY": {
+        "Main Generator": "2x 450ekW x1500rpm",
+        "Main Propulsion": "5160 BHP",
+        "Emerg. Generator": "1x 136 kw x1500rpm",
+        "Bow Thruster": "2x 650kW-1650 mm"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13,5 knots",
+        "Endurance": "14"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "2x 150m3/h @ 75m",
+        "Potable Water": "1x 100m3/h @ 75m",
+        "Fresh water Ballast": "1x 100m3/h @ 75m",
+        "Liquid Mud": "2x 75m3/h @ 75m"
+      },
+      "ACCOMODATION & FFE": {
+        "Total": "20 people",
+        "Fire fighting system": "1",
+        "Walk-in freezer": "10 m3",
+        "Berths": "1 man x 4, 2 men x 4, 4 men x 7 Total 40 crew-13 /Passengers 27"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Bollard Pull": "68 T",
+        "Main Winch": "2x 1500 kN",
+        "Anchor": "2x1305kg AC-14",
+        "Anchor Chain": "2x AM2-40x 440m",
+        "Towing pins": "2x 2000 kN"
+      },
+      "DECK MACHINERY": {
+        "Towing Winch": "1500 kN",
+        "Main Tow Line": "58mm x 1000m",
+        "Shark Jaw": "3000 kN",
+        "Capstan": "2x 50 kN",
+        "Windlass": "2x 100 kN",
+        "Crane Capacity": "3t x 12m"
+      }
+    },
+    "charter": {
+      "type": "AHTS DP2",
+      "status": "On charter – 2028",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5160,
+      "bollardPull": "68",
+      "dp": "DP2",
+      "deckArea": 370,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS DP2"
+  },
+  {
+    "slug": "bossan",
+    "name": "Bossan",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/bossan.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "lengthOverall": "71.5 m",
+      "beam": "16.6 m",
+      "depth": "7.2 m",
+      "draft": "5.9 m",
+      "deckArea": "450 m2",
+      "deckCargo": "900 Tons",
+      "grt": "2588 Tons",
+      "nrt": "766 Tons",
+      "dwt": "2457 Tons",
+      "bhp": "B&W 7940 8L27/38 BHP",
+      "maxSpeed": "14 Knots",
+      "serviceSpeed": "12 knots",
+      "berths": "4, 4 men x 7",
+      "bollardPull": "110 Tons",
+      "fifi": "2 x Fi Fi 1",
+      "lengthOverallValue": 71.5,
+      "beamValue": 16.6,
+      "depthValue": 7.2,
+      "draftValue": 5.9,
+      "grtValue": 2588.0,
+      "nrtValue": 766.0,
+      "dwtValue": 2457.0,
+      "bhpValue": 7940.0,
+      "bollardPullValue": 110.0,
+      "deckAreaValue": 450.0,
+      "deckCargoValue": 900.0,
+      "maxSpeedValue": 14.0,
+      "serviceSpeedValue": 12.0
+    },
+    "specSections": {
+      "GENERAL:": {
+        "Built Flag Class 2011, PAX Ocean Co.": "Turkmenistan Eng. Ltd, Zhuhai China BV"
+      },
+      "MAIN DIMENSIONS:": {
+        "Length Overall": "71.5 m",
+        "Beam Moulded": "16.6 m",
+        "Depth Moulded": "7.2 m",
+        "Draft (Max)": "5.9 m",
+        "Free Deck Space (approx. 35m x12.8m)": "450 m2",
+        "Cargo Capacity": "900 Tons"
+      },
+      "TONNAGE:": {
+        "GRT": "2588 Tons",
+        "NRT": "766 Tons",
+        "DWT": "2457 Tons"
+      },
+      "MACHINERY:": {
+        "Main Break Engines Horsepower 2 x MAN": "B&W 7940 8L27/38 BHP",
+        "Generators Shaft 2": "x 1200 KW,",
+        "2 x CAT 3408C,": "370 KW,",
+        "Emerg. Generator 1 x Volvo Penta": "122 KW",
+        "Bow Thruster 2 x 450 KW CP,": "rated 7.1T",
+        "Stern Thruster 1 x 450 KW CP,": "rated 7.1T",
+        "Propulsion 2 x CPP in": "fixed Nozzle",
+        "Rudders 2 independent": "high lift type"
+      },
+      "SPEED & CONSUMPTION:": {
+        "Maximum Speed": "14 Knots",
+        "Service Speed": "12 knots",
+        "Estimated Running free": "12 T/24 Hr",
+        "Consumption Towing": "19 T/24 Hr"
+      },
+      "TANK CAPACITIES:": {
+        "Marine Potable Fresh water Gas Water Ballast Oil": "1524 763 541 m3 m3 m3",
+        "Liquid Mud": "448 m3"
+      },
+      "ACCOMMODATION:": {
+        "Air-conditioning Fully Air": "Conditioned",
+        "Walk-in cooler": "12 m3",
+        "Walk-in freezer": "10 m3",
+        "Berths 1 man x 4, 2 men x": "4, 4 men x 7",
+        "Total 40 /crew-13/Passengers": "27"
+      },
+      "TOWING & A/H EQUIPMENT": {
+        "Bollard Pull": "110 Tons",
+        "Towing/Anchor handling Wire Dimensions Winch Storage 56mm 2 200MT x 1 1500m x & cap.1500m double 350m Pull,": "64mm x drum Brake 64mm x 64mm (1500m waterfall 400MT fitted) , x",
+        "Stern Roller": "300 Tons SWL (L)6m x (D) 2m",
+        "Shark Jaws Retractable": "SWL 200 Tons",
+        "Towing Pins Retractable": "SWL 150 Tons",
+        "Tugger Winch 2 x 10 Ton": "up to 16m/min",
+        "Anchor Windlass": "10T @ 9m/min",
+        "Capstan 2 x 10 Ton": "up to 15m/min"
+      },
+      "RADIO & NAVIGATION EQUIPMENT:": {
+        "GMDSS": "Furuno FM 8800",
+        "SAT-C": "Furuno Felcom 15",
+        "Radar Furuno FAR": "21x7/FR1510-3",
+        "Gyro Compass": "Simrad GC 80",
+        "Auto Pilot": "Simrad AP-50",
+        "Echo repeater Sounder at Aft with console": "Furuno FE 700",
+        "Navtex": "Furuno NX-700",
+        "EPRIB": "McMurdo E5",
+        "SART": "McMurdo S4",
+        "AIS": "Furuno FA150",
+        "ECDIS": "N/A",
+        "Fire Monitor": "2 x Fi Fi 1",
+        "Pump Capacity": "2 x 1650m3/hr",
+        "Horizontal Throw": "Length",
+        "Foam Capacity": "10.65 m3",
+        "Oil Dispersant Capacity 13 m3 with": "dispersant Booms port and starboard"
+      },
+      "MISCELLANEOUS": {
+        "Chain Crane Drill Fuel Oil Wtr 5T locker pump and knuckle 2 F.W. - x 150 80m3, boom pumps m3/Hr J @ Hook - @ 18m 150 75 & m/Hr radius m Grapnel head @": "75m SWL head 130 T,",
+        "Liquid mud/Brine pumps - 100 m3/Hr @": "204m head Apri2019"
+      }
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "jumeirah",
+    "name": "Jumeirah",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/JUMEIRAH.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2008 / Fujian South East Shipyard, China",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "59,25 m",
+      "beam": "14.95m",
+      "depth": "6.10m",
+      "grt": "1678 Tons",
+      "nrt": "503 Tons",
+      "dwt": "1372 Tons",
+      "mainEngines": "5150 BHP - 2 x 2575 BHP @ 1600 rpm Caterpillar 3516B",
+      "maxSpeed": "13 knots",
+      "serviceSpeed": "10 knots",
+      "bollardPull": "65 tons",
+      "deckArea": "350 m3",
+      "deckCargo": "500 tons @ 7.5 tonnes / m2",
+      "berths": "2 x 1 berth cabins = 4 x 2 berth cabins = 9 x 4 berth cabins = 1 x hospital = 2 berths 8 berths 36 berths 1 berth",
+      "fifi": "2 x 1200 m3 / hr @ 12 bar, remote Joysack controlled from bridge",
+      "lengthOverallValue": 59.25,
+      "beamValue": 14.95,
+      "depthValue": 6.1,
+      "grtValue": 1678.0,
+      "nrtValue": 503.0,
+      "dwtValue": 1372.0,
+      "bollardPullValue": 65.0,
+      "deckAreaValue": 350.0,
+      "deckCargoValue": 500.0,
+      "maxSpeedValue": 13.0,
+      "serviceSpeedValue": 10.0,
+      "bhp": "5150",
+      "bhpValue": 5150.0
+    },
+    "specSections": {
+      "JUMEIRAH": {
+        "Anchor": "Handling Tug Supply"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2008 / Fujian South East Shipyard, China",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "59,25 m",
+        "Beam Moulded": "14.95m",
+        "Depth Moulded": "6.10m"
+      },
+      "TONNAGE": {
+        "GRT": "1678 Tons",
+        "NRT": "503 Tons",
+        "DWT": "1372 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "5150 BHP - 2 x 2575 BHP @ 1600 rpm Caterpillar 3516B",
+        "Propellers": "2 x ZF CPP in Kort Nozzles, Dia-2.625 M",
+        "Bow Thruster": "1 x Kawasaki KT-55B1, CPP Tunnel Thruster, 6 tonnes thrust",
+        "Main Generator": "3 x Caterpillar 3408 DITA Engine, 315 kw each, 415 V, 50 Hz, 3 Ph*",
+        "Emerg. Generator": "1 x Caterpillar C4.4, 52 KW, 415 V, 50 Hz, 3 Ph *",
+        "Fresh Water Maker": "1 x 5 tonnes / day, make: Sea Recovery",
+        "Oily Water Separator": "1.0 m3 / hr with 15 ppm alarm, make: Ocean Clean",
+        "Sewafe Treatment Plant": "1 x 30 person capacity, make: Jiangsu Nanji Machinery WCB-30"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13 knots",
+        "Service Speed": "10 knots",
+        "Bollard Pull": "65 tons"
+      },
+      "CAPACITIES": {
+        "Fuel Oil": "536 m3",
+        "Fresh Water": "370 m3",
+        "Drill/ Ballast water": "395 m3",
+        "Liquid Mud": "419 m3",
+        "Bulk": "187 m3",
+        "Chiller / Freezer": "10 m3",
+        "Foam and detergent": "13 m3",
+        "Clear Deck Area": "350 m3",
+        "Deck Cargo capacity": "500 tons @ 7.5 tonnes / m2"
+      },
+      "ACCOMODATION": {
+        "Berths": "2 x 1 berth cabins = 4 x 2 berth cabins = 9 x 4 berth cabins = 1 x hospital = 2 berths 8 berths 36 berths 1 berth"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Inmarsat": "C Furuno Felcom-15",
+        "GMDSS": "1 x Furuno, A3",
+        "Radars": "2 x Furuno - FR-2115, FR 1510",
+        "GPS": "1 x Furuno - GP 150",
+        "ECDIS": "1 x P C Mariame",
+        "AIS": "1 x Furuno-FA-150",
+        "Autopilot": "1 x Nautopilot NP 60",
+        "Navtex Receiver": "1 x Furuno - NX 700B",
+        "Gyro Compass": "1 x Master Gyro Compass c/w two repeaters and azimuth circle",
+        "Magnetic Compass": "1 x Cassens Plath",
+        "SSB radio": "1 x Furuno FS 2570",
+        "Echo Sounder": "1 x Furuno - FE 700",
+        "VHF radio": "2 x Furuno - FM8800D / 8800S",
+        "SART": "2 x Mcmurdo - KLS-S4-1",
+        "Speed log": "1 x Furuno DS 80"
+      },
+      "General": {
+        "Weather facsimile receiver": "1 x Furuno Fax-408",
+        "Anemometer": "1 x Ohn Lilley & Gille - P 247",
+        "EPIRB": "1 x Mcmurdo E5",
+        "VSAT System": "1 x Astra",
+        "FIFI system": "FIFI Class 1 with water curtain all round",
+        "FIFI monitors (Water)": "2 x 1200 m3 / hr @ 12 bar, remote Joysack controlled from bridge",
+        "FIFI pumps": "2 x 1650 m3 / hr @ 12 bar",
+        "Dispersant system": "2 x 6 mtr spray boom on port and starboard side"
+      },
+      "CRANE": {
+        "Port Side (Provisional)": "Hydraulic Telescopic Crane: SWL: 3 t, working radius: 9 m Hoisang height: 25 m, hoisang speed: 0~14 m / min"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Anchor handling towing winch": "Anchor handling towing winch Upper and lower drum Rated pull (1st layer) Brake holding Stern roller Shark jaws Towing pins Tugger winch Rope reel for spare tow wire Anchor windlass Anchor chain Anchor Capstan",
+        "Upper and lower drum": "1000 m (length) x 56 mm (diameter) SWR 10 layers",
+        "Rated pull (1st layer)": "150 tonnes @ 0~06 m / min (1st speed) 75 tonnes @ 0~12 m / min (2nd speed) 25 tonnes @ 0~36 m / min (3rd speed)",
+        "Brake holding": "200 tonnes staac @ 1st laye",
+        "Shark Jaws": "1 x set SWL 200 MT hydraulic, make: Plimsoll",
+        "Towing Pins": "1 x set 200 MT, make: Plimsoll",
+        "Tugger Winch": "2 x 10 tonnes @ 15 m / min electro-hydraulic, Make: Plimsoll, brake holding capacity 15 tonnes staac at 1st layer",
+        "Rope reel for spare tow wire": "1 x electro-hydraulic, make: Plimsoll Drum capacity: 1000 m (length) x 56 mm (diameter) SWR 10 layers",
+        "Anchor windlass": "1 x 6.1 tonnes @ 10 m / min electro-hydraulic, make: Plimsoll",
+        "Anchor chain": "2 x 220 m x 36 mm diameter, grade Iia stud link chain",
+        "Anchor": "2 x 1350 kg Stockless WMAC 14",
+        "Capstan": "2 x 5 tonnes @ 15 m / min electro hydraulic, make: Plimsoll Fuel Oil Fresh Water Drill Water Liquid Mud Dry bulk 1 x 150 m3 / hr @ 75 m head"
+      },
+      "MISCE LLANEOUS": {
+        "Additional Info Transfer Rate": "2 x 125 m3 / hr @ 75 m head 2 x 100 m3 / hr @ 75 m head 2 x 75 m3 / hr @ 75 m head 60 tonnes / hr @ 50 m head"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5150,
+      "bollardPull": "65",
+      "dp": null,
+      "deckArea": 350,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "mylayim",
+    "name": "Mylayim",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/MYLAYIM.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "Qingdao Qianjin Shipyard China 2011",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "57,50 m",
+      "beam": "14.0 m",
+      "depth": "6.0 m",
+      "deckStrength": "5 t/m2",
+      "deckArea": "330 m2",
+      "grt": "1329 Tons",
+      "nrt": "484 Tons",
+      "dwt": "N/A",
+      "maxSpeed": "13 knots",
+      "serviceSpeed": "9 Knots",
+      "berths": "20",
+      "bollardPull": "66 T",
+      "lengthOverallValue": 57.5,
+      "beamValue": 14.0,
+      "depthValue": 6.0,
+      "grtValue": 1329.0,
+      "nrtValue": 484.0,
+      "bollardPullValue": 66.0,
+      "deckAreaValue": 330.0,
+      "maxSpeedValue": 13.0,
+      "serviceSpeedValue": 9.0,
+      "bhp": "5218",
+      "bhpValue": 5218.0,
+      "dynamicPositioning": "DP1"
+    },
+    "specSections": {
+      "MYLAYIM": {
+        "Anchor": "Handling Tug Supply"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "Qingdao Qianjin Shipyard China 2011",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "57,50 m",
+        "Length, BP": "50.50 m",
+        "Beam Moulded": "14.0 m",
+        "Depth Moulded": "6.0 m",
+        "Dra; (Max)": "5.10 m",
+        "Deck Strength": "5 t/m2",
+        "Free Deck Space": "330 m2"
+      },
+      "TONNAGE": {
+        "GRT": "1329 Tons",
+        "NRT": "484 Tons",
+        "DWT": "N/A"
+      },
+      "MACHINERY": {
+        "Main Propulsion": "YANMAR 3840 kW 26EY26 5218 HP 6 cyl 750 rpm",
+        "Main Generators": "2 Diesel 380kW/516 HP",
+        "Emergency Generators": "CAT 3406",
+        "Sha; Generator": "2",
+        "Bow Thruster": "1 forward 500 kW 1 ati 500 kW",
+        "Max Speed": "13 knots",
+        "Endurance": "2CPP"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13 Knots",
+        "Service Speed": "9 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "566.286 m3",
+        "Fresh Water": "400.746 m3",
+        "Drill/Ballast Water": "371.866 m3",
+        "Liquid Mud": "184.432 m3 (4 dedicated tanks) 331.696 m3 (including 2 dual use tanks)"
+      },
+      "ACCOMODATION": {
+        "Total": "20",
+        "Fire-fighting system": "1"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Bollard Pull": "66 T",
+        "Main Winch": "1x McGregor-Plimsoll double drum, low pressure winch",
+        "Towing Pins": "1 set hydraulic Karmoy remote control"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5218,
+      "bollardPull": "66",
+      "dp": "DP1",
+      "deckArea": 370,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "rahil",
+    "name": "Rahil",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/RAHIL.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2008,",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "59.25m",
+      "beam": "14.95m",
+      "depth": "6.1m",
+      "draft": "4.75m",
+      "deckArea": "391 m²",
+      "grt": "1678T",
+      "nrt": "513T",
+      "dwt": "1400T",
+      "mainEngines": "16500 litres MGO per 24 hours@ full power & 9900 litres MGO per 24 hours @economic cruising speed of 11 knots.",
+      "maxSpeed": "13 Knots",
+      "serviceSpeed": "11.5 Knots",
+      "bollardPull": "64T",
+      "fifi": "2 x 1500m3/hr Monitors c/w water spray system",
+      "lengthOverallValue": 59.25,
+      "beamValue": 14.95,
+      "depthValue": 6.1,
+      "draftValue": 4.75,
+      "grtValue": 1678.0,
+      "nrtValue": 513.0,
+      "dwtValue": 1400.0,
+      "bollardPullValue": 64.0,
+      "deckAreaValue": 391.0,
+      "maxSpeedValue": 13.0,
+      "serviceSpeedValue": 11.5,
+      "bhp": "5150",
+      "bhpValue": 5150.0
+    },
+    "specSections": {
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2008,",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "59.25m",
+        "Beam Moulded": "14.95m",
+        "Depth Moulded": "6.1m",
+        "Draft (Max)": "4.75m",
+        "Clear Deck Space": "391 m²",
+        "Deck Loading": "600 ton"
+      },
+      "TONNAGE": {
+        "GRT": "1678T",
+        "NRT": "513T",
+        "DWT": "1400T"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x CAT 3516B, 2,575bhp @ 750rpm Total power 5,150bhp.",
+        "Propulsion": "2 x reduction gearboxes coupled to 4 bladed 2900mm diameter CPP's rotating in Kort Nozzles",
+        "Auxilery Engines": "3 x Caterpillar 3408 350 KW",
+        "Main Engine Consumption": "16500 litres MGO per 24 hours@ full power & 9900 litres MGO per 24 hours @economic cruising speed of 11 knots.",
+        "Bow thruster": "1 x 440kw Tunnel (5 tonnes)",
+        "Compressor": "2 Fitted",
+        "Fresh Water Pump": "1 Fitted 125m3/hr @ 75m head",
+        "Fuel Cargo Pump": "1 Fitted 150m3/hr @ 75m head"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13 Knots",
+        "Service Speed": "11.5 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel oil including": "400m³ @90%",
+        "Drill water": "259m3",
+        "Portable water": "372m³",
+        "Dry Bulk": "4 tanks total 187 m³ @80%",
+        "Liquid Mud/ Base Oil/Brine/Recovered Oil": "419m³ with agitators fiXed@90%",
+        "Sewage": "137m3"
+      },
+      "TOWING & A/H EQUIPMENT": {
+        "Steering Gear": "Hydraulic Ram Type",
+        "Anchor Windlass": "2 Fitted 9 tonne with warping drum",
+        "Anchors": "2 Fitted",
+        "Anchor Chain": "2 x 495m of 32mm Ø Studlink chain",
+        "Capstan": "2 x 5t Hydraulic",
+        "Tugger Winch": "2 x 10 tonne",
+        "Tow/AH Winch": "1 x 200t Double Drum Hydraulic Tow Winch Towing Drum 1000m x 56mm wire AH Drum 56mm wire",
+        "Deck Crane/Davit": "3t swl, with 12 meter reach",
+        "Bollard Pull": "64T"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Band Radar": "2",
+        "Autopilot;": "1",
+        "Echo Sounder": "1",
+        "GPS": "1",
+        "GMDSS INMARSAT-C": "2",
+        "NAVTEX Receiver": "1",
+        "RT Station": "1",
+        "VHF": "3",
+        "MF/HF Transceiver": "2",
+        "AIS": "1",
+        "AirBand VHF": "1",
+        "Fire Monitor": "2 x 1500m3/hr Monitors c/w water spray system"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5150,
+      "bollardPull": "64",
+      "dp": null,
+      "deckArea": 391,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "nt-rose",
+    "name": "NT Rose",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTROSE.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "fifi": "2 x 1500m3/hr monitors c/w water spray system",
+      "built": "2006",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "59.2m",
+      "beam": "13.8m",
+      "depth": "5.5m",
+      "draft": "4.75m",
+      "deckArea": "400 m2",
+      "deckCargo": "600 tons/ 5 tons m2",
+      "grt": "1212 Tons",
+      "nrt": "383 Tons",
+      "dwt": "1257 Tons",
+      "mainEngines": "2 x CAT 3696",
+      "bhp": "5,444bhp.",
+      "maxSpeed": "15 Knots",
+      "serviceSpeed": "10 Knots",
+      "bollardPull": "74T",
+      "lengthOverallValue": 59.2,
+      "beamValue": 13.8,
+      "depthValue": 5.5,
+      "draftValue": 4.75,
+      "grtValue": 1212.0,
+      "nrtValue": 383.0,
+      "dwtValue": 1257.0,
+      "bhpValue": 5444.0,
+      "bollardPullValue": 74.0,
+      "deckAreaValue": 400.0,
+      "deckCargoValue": 600.0,
+      "maxSpeedValue": 15.0,
+      "serviceSpeedValue": 10.0
+    },
+    "specSections": {
+      "General": {
+        "NT": "ROSE",
+        "ANCHOR HANDLING": "TUG SUPPLY",
+        "Fire Monitor": "2 x 1500m3/hr monitors c/w water spray system"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2006",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "59.2m",
+        "Beam Moulded": "13.8m",
+        "Depth Moulded": "5.5m",
+        "Draft (Max)": "4.75m",
+        "Clear Deck Space": "400 m2",
+        "Cargo Capacity": "600 tons/ 5 tons m2"
+      },
+      "TONNAGE": {
+        "GRT": "1212 Tons",
+        "NRT": "383 Tons",
+        "DWT": "1257 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x CAT 3696",
+        "Break Horsepower": "5,444bhp.",
+        "Auxilery Engines": "3 x Caterpillar 2803406C 245 KW each 2 x 1000W Shaft Alternators",
+        "Bow Thruster": "Pump jet thruster 5t thrust",
+        "Propulsion": "2 x reduction gearboxes coupled to 4 bladed 2900mm diameter Berg CPP's rotating in Kort Nozzles",
+        "Fuel Pump": "2 Fitted 100m3/hr @ 50m head",
+        "Fresh Water Pump": "2 Fitted 100m3/hr @ 50m head",
+        "Mud Pump": "2 Fitted 95m3/hr @ 46m head and 125m distance"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "15 Knots",
+        "Service Speed": "10 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel oil": "401.4m3",
+        "Fresh Water": "396.9m3",
+        "Dry Bulk": "4 tanks total 136 m³",
+        "Liquid Mud": "160m3 with tank circulation",
+        "Base Oil/Brine/Recovered Oil": "160m³",
+        "Sewage treated": "110m³"
+      },
+      "ACCOMODATION": {
+        "Fully heated and air conditioned": "28 men",
+        "Crew": "15",
+        "Passangers": "2",
+        "Open bulwarks at rescue zones": "8m",
+        "FRC complete Davit Launched": "2"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Anchor Windlass": "2 Fitted 10tonns",
+        "Anchors": "2 Fitted",
+        "Anchor Chain": "2 x 455m of 32mm Ø Studlink chain.",
+        "Capstans": "2 x 5t Hydraulic",
+        "Tugger Winch": "2 x 10 tonne",
+        "AHT Winch": "Hydraulic Double drum Waterfall Type 150T line pull and 200T break load.",
+        "Deck Crane/Davit": "3t SWL @ 9 metres Knuckle Boom type",
+        "Bollard Pull": "74T"
+      },
+      "RADIO & NAVIGATION": {
+        "EQUIPMENT Radar": "2",
+        "Autopilot;": "1",
+        "Echo Sounder": "1",
+        "GPS": "1",
+        "GMDSS INMARSAT-C": "2",
+        "NAVTEX Receiver": "1",
+        "RT Station": "2",
+        "VHF": "3",
+        "MF/HF Transceiver": "2",
+        "AIS": "1"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 5444,
+      "bollardPull": "74",
+      "dp": null,
+      "deckArea": 400,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "ruby-i",
+    "name": "Ruby I",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/RUBYI.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2004,",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "59.20m",
+      "beam": "13.80m",
+      "depth": "5.50m",
+      "draft": "4.75m",
+      "deckArea": "400 m²",
+      "grt": "1210T",
+      "nrt": "513T",
+      "dwt": "1400T",
+      "mainEngines": "19000 litres MGO per 24 hours@ full power & 9000 litres MGO per 24 hours @economic cruising speed of 10 knots.",
+      "maxSpeed": "14.2 Knots",
+      "serviceSpeed": "10 Knots",
+      "bollardPull": "56.20T",
+      "fifi": "2 x 1500m3/hr Monitors Pumps 2 x 1500m3/hr engine driven c/w water spray system",
+      "lengthOverallValue": 59.2,
+      "beamValue": 13.8,
+      "depthValue": 5.5,
+      "draftValue": 4.75,
+      "grtValue": 1210.0,
+      "nrtValue": 513.0,
+      "dwtValue": 1400.0,
+      "bollardPullValue": 56.2,
+      "deckAreaValue": 400.0,
+      "maxSpeedValue": 14.2,
+      "serviceSpeedValue": 10.0,
+      "bhp": "4600",
+      "bhpValue": 4600.0
+    },
+    "specSections": {
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2004,",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "59.20m",
+        "Beam Moulded": "13.80m",
+        "Depth Moulded": "5.50m",
+        "Draft (Max)": "4.75m",
+        "Clear Deck Space": "400 m²",
+        "Deck Loading": "600 ton"
+      },
+      "TONNAGE": {
+        "GRT": "1210T",
+        "NRT": "513T",
+        "DWT": "1400T"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x Deutz SBV8M628, 2,300bhp Total power 4,600bhp..",
+        "Propulsion": "2 x reduction gearboxes coupled to 4 bladed 2900mm diameter BERG CPP's rotating in Kort Nozzles",
+        "Auxilery Engines": "2 x Caterpillar 3406 245 KW each",
+        "Main Engine Consumption": "19000 litres MGO per 24 hours@ full power & 9000 litres MGO per 24 hours @economic cruising speed of 10 knots.",
+        "Bow thruster": "Pump jet thruster 5t thrust",
+        "Compressor": "2 Fitted",
+        "Fresh Water Pump": "2 Fitted 100m3/hr @ 50m head",
+        "Fuel Cargo Pump": "2 Fitted 100m3/hr @ 50m head"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "14.2 Knots",
+        "Service Speed": "10 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel oil including": "396.9m3 @ 90%",
+        "Fresh water": "394m3",
+        "Drill water": "88m3",
+        "Dry Bulk": "4 tanks total 136 m³@ 80%",
+        "Liquid Mud": "149.6m3 with tank circulation @ 90%",
+        "Base Oil/Brine/Recovered Oil": "160m³",
+        "Sewage": "110m3"
+      },
+      "TOWING & A/H EQUIPMENT": {
+        "Steering Gear": "Hydraulic Ram Type",
+        "Anchor Windlass": "1 Fitted, double gipsy",
+        "Anchors": "2 Fitted",
+        "Anchor Chain": "2 x 495m of 32mm Ø Studlink chain.",
+        "Capstan": "2 x 5t Hydraulic",
+        "Tugger Winch": "2 x 10 tonne",
+        "Tow Winch": "Hydraulic Single drum 80T line pull and 75T break load.",
+        "Deck Crane/Davit": "5 T swl, knuckle boom type, with 9 meter reach.",
+        "Bollard Pull": "56.20T"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Band Radar": "2",
+        "Autopilot;": "1",
+        "Echo Sounder": "1",
+        "GPS": "1",
+        "GMDSS INMARSAT-C": "2",
+        "NAVTEX Receiver": "1",
+        "RT Station": "1",
+        "VHF": "3",
+        "MF/HF Transceiver": "2",
+        "AIS": "1",
+        "AirBand VHF": "1",
+        "Fire Monitor": "2 x 1500m3/hr Monitors Pumps 2 x 1500m3/hr engine driven c/w water spray system"
+      }
+    },
+    "charter": {
+      "type": "AHTS",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 4600,
+      "bollardPull": "56.2",
+      "dp": null,
+      "deckArea": 400,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "pacific-ii",
+    "name": "Pacific II",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": null,
+    "specSheetMissing": true,
+    "keySpecs": {
+      "bhp": "2480",
+      "bhpValue": 2480.0,
+      "bollardPull": "61.73",
+      "bollardPullValue": 61.73,
+      "deckArea": "376",
+      "deckAreaValue": 376.0
+    },
+    "specSections": {},
+    "charter": {
+      "type": "AHTS",
+      "status": "Spot-ready",
+      "region": "Europe",
+      "location": "Constanta",
+      "bhp": 2480,
+      "bollardPull": "61.73",
+      "dp": null,
+      "deckArea": 376,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "sanjar",
+    "name": "Sanjar",
+    "category": "AHTS VESSELS",
+    "categorySlug": "ahts-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/SANJAR.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "BAKU. AZERBAIJAN",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "grt": "1398 Tons",
+      "nrt": "419 Tons",
+      "dwt": "1940 Tons",
+      "lengthOverall": "64.6m",
+      "beam": "13.8m",
+      "depth": "6.9m",
+      "mainEngines": "2 x Nigata 6L28HX Nohab Diesel F-216V, 3020 HP / 2253 KW (2 pcs) Total: 7040 HP / 5252 KW",
+      "maxSpeed": "13 Knots",
+      "serviceSpeed": "11 Knots",
+      "lengthOverallValue": 64.6,
+      "beamValue": 13.8,
+      "depthValue": 6.9,
+      "grtValue": 1398.0,
+      "nrtValue": 419.0,
+      "dwtValue": 1940.0,
+      "maxSpeedValue": 13.0,
+      "serviceSpeedValue": 11.0
+    },
+    "specSections": {
+      "SANJAR": {
+        "Anchor": "Handling Tug Supply"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "BAKU. AZERBAIJAN",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "GRT": "1398 Tons",
+        "NRT": "419 Tons",
+        "DWT": "1940 Tons"
+      },
+      "TONNAGE": {
+        "Length Overall": "64.6m",
+        "Breadth": "13.8m",
+        "Depth Moulded": "6.9m",
+        "Summer Dra;": "6.01m"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x Nigata 6L28HX Nohab Diesel F-216V, 3020 HP / 2253 KW (2 pcs) Total: 7040 HP / 5252 KW",
+        "Generators": "Cat 215 KW / 288 HP (1 pcs) Cummins 230 KW / 308 HP (1 pcs)",
+        "Propulsion": "CPP in NozzlesProps (2 pcs)"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "13 Knots",
+        "Service Speed": "11 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel Oil": "880 m3",
+        "Ballast/Fresh Water": "779m3/161m3",
+        "Fresh water Ballast": "430 m3",
+        "Liquid mud": "420 m3",
+        "Dry Bulk": "167 m3",
+        "Sewage water/Bilge water": "780 m3/10 m3"
+      },
+      "ACCOMODATION": {
+        "Total beds number": "23"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Anchor": "2x1417 kg",
+        "Anchor chain": "2 x Length (27,5x10) 247,5 m x Ø 64",
+        "Towing Pins": "2x 100 tons",
+        "Tugger Winch": "2 x 10 Tons",
+        "Capstan": "2 x 8 Tons"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Radar": "Furuno / FR8062 / Furuno / MDC-1810p",
+        "GPS": "Fruno / GP150",
+        "NAVTEX": "Furuno / NX300",
+        "Gyro Compass": "Anschuz/STD-20",
+        "Auto Pilot": "Navtron / navipilot",
+        "Magnetic Compass": "Lilley and gillie",
+        "Navtex": "JRC NCR-333",
+        "Echo Sounder": "Furuno/FE-700",
+        "GMDSS": "Icom/IC-M710",
+        "AIS": "Furuno FA-100",
+        "INMC": "Sailor 4-3020c/furuno felcom 16",
+        "VHF": "Furuno FM 8500 BALLAST PUMP-120m3/h at 70-meter head FRESH PUMP HEAD-100m3/h at 70-meter head"
+      },
+      "MISCELLANEOUS": {
+        "Additional Info": "FRESH WATER PUMP-120m3/h at 70-meter head FIRE PUMP-90m3/h at 70-meter head"
+      }
+    },
+    "type": "AHTS"
+  },
+  {
+    "slug": "dunya",
+    "name": "Dunya",
+    "category": "AHT & TUG VESSELS",
+    "categorySlug": "aht-tug-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/DUNYA.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2011, Pacific Ocean Eng & Trading Pte, Ltd Singapore",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "41.8 m",
+      "beam": "10.0 m",
+      "depth": "4.6 m",
+      "draft": "3.6 m",
+      "deckArea": "75 m2",
+      "deckCargo": "100 MT",
+      "grt": "573 Tons",
+      "nrt": "172 Tons",
+      "dwt": "316 Tons",
+      "mainEngines": "2 x Mitsubishi S8U-MPTK",
+      "bhp": "4000 BHP",
+      "maxSpeed": "12 knots",
+      "serviceSpeed": "10 Knots",
+      "berths": "2 x 1man, 4 x 2 man, 2 x 4 man Total -18, 7-Passengers, 11- crew",
+      "bollardPull": "50 Tons",
+      "fifi": "Fi Fi 1",
+      "lengthOverallValue": 41.8,
+      "beamValue": 10.0,
+      "depthValue": 4.6,
+      "draftValue": 3.6,
+      "grtValue": 573.0,
+      "nrtValue": 172.0,
+      "dwtValue": 316.0,
+      "bhpValue": 4000.0,
+      "bollardPullValue": 50.0,
+      "deckAreaValue": 75.0,
+      "deckCargoValue": 100.0,
+      "maxSpeedValue": 12.0,
+      "serviceSpeedValue": 10.0
+    },
+    "specSections": {
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2011, Pacific Ocean Eng & Trading Pte, Ltd Singapore",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "41.8 m",
+        "Beam Moulded": "10.0 m",
+        "Depth Moulded": "4.6 m",
+        "Draft (Max)": "3.6 m",
+        "Free Deck Space": "75 m2",
+        "Cargo Capacity": "100 MT"
+      },
+      "TONNAGE": {
+        "GRT": "573 Tons",
+        "NRT": "172 Tons",
+        "DWT": "316 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x Mitsubishi S8U-MPTK",
+        "Break Horsepower": "4000 BHP",
+        "Generators": "3 x 225KW",
+        "Emergency Generator": "N/A",
+        "Bow Thruster": "1 x 3.6 Tons",
+        "Propulsion": "2 x FP in Kort Nozzle",
+        "Rudders": "2 x Independent"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "12 knots",
+        "Service Speed": "10 Knots",
+        "Estimated Consumption": "Free Running 7 Tons Towing 13 Tons"
+      },
+      "TANKS CAPACITIES": {
+        "Marine Gas Oil": "277 m3",
+        "Potable Water": "77 m3",
+        "Fresh water Ballast": "38 m3",
+        "Oil Recovery Tank": "7.3 m3"
+      },
+      "ACCOMODATION & FFE": {
+        "Air-conditioning": "Fully Air conditioned",
+        "Walk-in cooler": "6.8 m3",
+        "Walk-in freezer": "6.8 m3",
+        "Berths": "2 x 1man, 4 x 2 man, 2 x 4 man Total -18, 7-Passengers, 11- crew"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Bollard Pull": "50 Tons",
+        "Towing/Anchor handling Winch": "Double drum waterfall 100MT @ 6m/min, Brake Holding 2 x 150T, Model YBTL-1000, Gearing 2 x Stage Spur Type, Clutch 2 x Craw Type hydraulic operated, Hydr Motor 2 x Staffa C200, Power Reqd 2 x 75 kW",
+        "Wire Dimensions": "2 x 750 m, 48 mm",
+        "Stern Roller": "SWL 180 T, L 3.2m x D 1.2m",
+        "Shark Jaws": "160 Tons",
+        "Towing Pins": "160 Tons",
+        "Tugger Winch": "1 x 5 Tons @ 15 m/min",
+        "Anchor Windlass": "2.8T @ 12m/min 24 mm chain",
+        "Capstan": "3T @ 15 m/min"
+      },
+      "RADIO & NAVIGATION EQUIPMENT:": {
+        "GMDSS": "Furuno FS - 2571C",
+        "SAT-C": "Furuno Felcom 15",
+        "Radar": "Furuno FR-8065 ,Koden MRD",
+        "Gyro Compass": "Navigat XMK 2",
+        "Auto Pilot": "Simrad AP50",
+        "Echo Sounder with repeater at A9 console": "Furuno FE 700",
+        "Navtex": "Mcmurdo ICS Nav 700",
+        "EPRIB": "Mcmurdo Smareind E5",
+        "SART": "Mcmurdo S4",
+        "AIS": "Furuno FA-1502",
+        "ECDIS": "N/A"
+      },
+      "General": {
+        "Fire Monitor": "Fi Fi 1",
+        "Pump Capacity": "2 x 1200 m3/hr",
+        "Horizontal Throw": "L 120m x H 60m",
+        "Foam Capacity": "4.7 m3",
+        "Oil Dispersant Capacity": "4.7 m3 Sewage plant for 18 men Sewage tank 1.5 m3"
+      },
+      "MISCE LANEOUS:": {
+        "Additional Information": "Fuel oil pump 50 m3/hr Potable water 50 m3/hr Rescue boat 6 man"
+      }
+    },
+    "charter": {
+      "type": "AHT",
+      "status": "On charter – 2027",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 4000.0,
+      "bollardPull": "50",
+      "dp": null,
+      "deckArea": 75,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "AHT"
+  },
+  {
+    "slug": "tug-boat-ntms-12",
+    "name": "Tug Boat NTMS 12",
+    "category": "AHT & TUG VESSELS",
+    "categorySlug": "aht-tug-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTMS12.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "Samarinda, Indonesia 2012",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "27.63 m",
+      "beam": "7.50 m",
+      "depth": "3.40 m",
+      "draft": "2.62 m",
+      "deckArea": "41 m2",
+      "grt": "178 Tons",
+      "nrt": "54 Tons",
+      "dwt": "356 Tons",
+      "mainEngines": "YANMAR TYPE 6AYM-WET, 2x829HP,2x 610KW. S/N SBD 2019, SN Port Side 2018",
+      "berths": "3 cabin x 1 man, 1 cabin x 8 man Total: 11 person",
+      "maxSpeed": "11 knots",
+      "serviceSpeed": "10 knots",
+      "bollardPull": "Under calcula\\on and installa\\on process, results soon to be revealed",
+      "lengthOverallValue": 27.63,
+      "beamValue": 7.5,
+      "depthValue": 3.4,
+      "draftValue": 2.62,
+      "grtValue": 178.0,
+      "nrtValue": 54.0,
+      "dwtValue": 356.0,
+      "deckAreaValue": 41.0,
+      "maxSpeedValue": 11.0,
+      "serviceSpeedValue": 10.0,
+      "bhp": "829",
+      "bhpValue": 829.0
+    },
+    "specSections": {
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "Samarinda, Indonesia 2012",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "27.63 m",
+        "Length LBP": "26.22 m",
+        "Breadth": "7.50 m",
+        "Depth Moulded": "3.40 m",
+        "Draft (MAX)": "2.62 m",
+        "Clear Deck Area": "41 m2"
+      },
+      "TONNAGE": {
+        "GRT": "178 Tons",
+        "NRT": "54 Tons",
+        "DWT": "356 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "YANMAR TYPE 6AYM-WET, 2x829HP,2x 610KW. S/N SBD 2019, SN Port Side 2018",
+        "Generator": "YANMAR TYPE 4TNV 98GGE,2 X 55HP, S/N SBD E2193, S/N PORTSIDE E2443",
+        "Gearbox": "Twin Disc Type MG 5222 DC, S/N SBD 2037559, S/N Port Side 2037558"
+      },
+      "TANKS CAPACITIES": {
+        "Marine Gas oil": "100,826 T/115,893 m3",
+        "Fresh Water": "31,24T/35.908m3",
+        "Dirty Oil Tank": "0.8 cbm",
+        "Dispersant": "0.2 cbm"
+      },
+      "ACCOMODATION": {
+        "Berths": "3 cabin x 1 man, 1 cabin x 8 man Total: 11 person"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "VHF": "SAMYUNG STR-6000A № 18G3146 ICOM IC-M304 № 2101177",
+        "VHF2W": "SAMYUNG STW-160 № 17113197",
+        "EPIRB": "HYPRO HY-EP500, № EB134298",
+        "AIS": "NSR NSI-1000 № S1180664",
+        "MF/HF": "SAMYUNG SRG-3150 DN № 18F5083",
+        "NAVTEX": "SAMYUNG SNX 300 № 4908854",
+        "SART": "JOTRON TRON SART-20 № 46179"
+      },
+      "SPEED CONSUMPTIONS": {
+        "Maximum Speed": "11 knots",
+        "Service Speed": "10 knots",
+        "Economical Speed": "8 knots",
+        "Estimated Consumption": "2.0 Tons per day"
+      },
+      "TOWING & A/H EQUIPMENT": {
+        "Bollard Pull": "Under calcula\\on and installa\\on process, results soon to be revealed"
+      }
+    },
+    "charter": {
+      "type": "Tugboat",
+      "status": "Prompt",
+      "region": "Middle East",
+      "location": "Middle East",
+      "bhp": 829,
+      "bollardPull": "25",
+      "dp": null,
+      "deckArea": 41,
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Tugboat"
+  },
+  {
+    "slug": "300ft-barge-ntms-01",
+    "name": "300FT Barge NTMS 01",
+    "category": "BARGES",
+    "categorySlug": "barges",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTMS01.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "31/03/2012, Batam, Indonesia",
+      "flag": "BELIZE",
+      "classSociety": "Rina",
+      "lengthOverall": "91.44 m",
+      "beam": "24.38 m",
+      "depth": "5.49 m",
+      "draft": "4.27 m",
+      "grt": "3107 tons",
+      "nrt": "933 Tons",
+      "dwt": "7800 Tons",
+      "deckStrength": "8.0 t/m2",
+      "lengthOverallValue": 91.44,
+      "beamValue": 24.38,
+      "depthValue": 5.49,
+      "draftValue": 4.27,
+      "grtValue": 3107.0,
+      "nrtValue": 933.0,
+      "dwtValue": 7800.0,
+      "deckArea": "91 x 24m",
+      "deckAreaValue": 91.0
+    },
+    "specSections": {
+      "NTMS-01": {
+        "BARGE SPECIFICATION": "SHEET"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Particulars of Owner": "Nurly Tolkun Management by GAC Marine",
+        "Keel Laying": "18/11/2011, Batam, Indonesia",
+        "Built": "31/03/2012, Batam, Indonesia",
+        "Flag": "BELIZE",
+        "Class": "Rina"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "91.44 m",
+        "Length LBP": "87.78 m",
+        "Breadth": "24.38 m",
+        "Depth Moulded": "5.49 m",
+        "Draft": "4.27 m",
+        "Side wall height": "3.6m",
+        "Metal thickness": "1 2mm"
+      },
+      "TONNAGE": {
+        "GRT": "3107 tons",
+        "NRT": "933 Tons",
+        "DWT": "7800 Tons",
+        "Deck Strength": "8.0 t/m2"
+      }
+    },
+    "charter": {
+      "type": "Flat Top Barge 300FT",
+      "status": "Prompt",
+      "region": "Middle East",
+      "location": "Middle East",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": "91 x 24m",
+      "cranes": null,
+      "equipment": null
+    },
+    "type": "Flat Top Barge 300FT"
+  },
+  {
+    "slug": "alfredo",
+    "name": "Alfredo",
+    "category": "CRANE VESSELS",
+    "categorySlug": "crane-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/ALFREDO.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "built": "2012 Italy",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "63.80m",
+      "beam": "16.00m",
+      "depth": "5m",
+      "draft": "4m",
+      "deckArea": "400 m2",
+      "grt": "1583 Tons",
+      "nrt": "475 Tons",
+      "mainEngines": "Cummins KTA50 M2 2 x 1193kw (each)",
+      "maxSpeed": "11 Knots",
+      "serviceSpeed": "6 Knots",
+      "lengthOverallValue": 63.8,
+      "beamValue": 16.0,
+      "depthValue": 5.0,
+      "draftValue": 4.0,
+      "grtValue": 1583.0,
+      "nrtValue": 475.0,
+      "deckAreaValue": 400.0,
+      "maxSpeedValue": 11.0,
+      "serviceSpeedValue": 6.0
+    },
+    "specSections": {
+      "ALFREDO": {
+        "Self Propelled": "200T C rane Vessel"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2012 Italy",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "63.80m",
+        "Beam Moulded": "16.00m",
+        "Depth Moulded": "5m",
+        "Draft (Max)": "4m",
+        "Deck Capacity": "1000 m/ton",
+        "Free Deck Space": "400 m2"
+      },
+      "TONNAGE": {
+        "GRT": "1583 Tons",
+        "NRT": "475 Tons"
+      },
+      "MACHINERY": {
+        "Main Engine": "Cummins KTA50 M2 2 x 1193kw (each)",
+        "Generator": "2 x Cummins QSM11; 250kw 2 x Cummins 6CTA8.3; 150kw",
+        "Emergency Generator": "Cummins 6BT 5.9DM",
+        "Bow Thruster": "2 x 200 kw",
+        "Fuel Purifier": "Self-cleaning fuel oil purifier 400kg/h",
+        "Water marker": "2 x 260 liters/hr"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "11 Knots",
+        "Service Speed": "6 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel": "315,00 m3",
+        "Potable Water": "54,00 m3",
+        "Fresh water Ballast": "892,00 m3",
+        "Lube Oil": "5.50 m3",
+        "Hyd. Oil": "3.50 m3",
+        "Oil Recovery Tank": "7.3 m3"
+      },
+      "ACCOMODATION": {
+        "Air-conditioning": "35 person including the crew"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "GMDSS": "JRC JHS-2150 MF/HF (1 pcs)",
+        "SAT-C": "Sailor TT 6018 A (2 pcs)",
+        "Radar": "JRC JMA-5322 (1pcs), JRC JMA-610 (1 pcs).",
+        "Gyro Compass": "ALPHATRON (1 pcs).",
+        "Auto Pilot": "ALPHATRON (1 pcs).",
+        "Echo Sounder with repeater at A9 console": "ALPHATRON (1 pcs).",
+        "Navtex": "JRC NCR-333 (1 pcs).",
+        "EPRIB": "SAILOR SE 406-II (1 pcs).",
+        "SART": "Jotron Tron Sart 20 (2pcs).",
+        "AIS": "JRC JHS 182 (1 pcs).",
+        "ECDIS": "JRC JHS-2150 MF/HF (1 pcs)"
+      },
+      "CRANE INFORMATION": {
+        "Brand": "Liebherr HS 895 HD",
+        "Lifting Capacity": "Max 200 ton/ Offshore 177 ton",
+        "Boom Length/ Max arm outreach": "49,50 m",
+        "Hook": "Main 120 ton/ Ball hook 16 tons",
+        "Hybrid Duty Capability": "Dredging with grab up to 15 meters",
+        "4 Point Mooring System - Hydraulic Winches": "Drum Capacity: 700m Drum Pull: 5 tons Wire: 28mm",
+        "Anchors": "4 x 750kg Delta"
+      }
+    },
+    "charter": {
+      "type": "Self-Propelled 200T Crane Vessel",
+      "status": "On charter – 2026",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": null,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 400,
+      "cranes": "200T",
+      "equipment": null
+    },
+    "type": "Self-Propelled 200T Crane Vessel"
+  },
+  {
+    "slug": "nt-rescue",
+    "name": "NT Rescue",
+    "category": "ERR VESSELS",
+    "categorySlug": "err-vessels",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/NTRESCUE.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "fifi": "2 x 1200m3/hr",
+      "built": "2008,",
+      "classSociety": "BV",
+      "flag": "Turkmenistan",
+      "lengthOverall": "53.8m",
+      "beam": "13.8m",
+      "depth": "4.5m",
+      "draft": "3.8m",
+      "deckArea": "250 m2",
+      "deckCargo": "5500 tons",
+      "grt": "1084 Tons",
+      "nrt": "325 Tons",
+      "mainEngines": "2 x Cummins KTA50-M2,",
+      "bhp": "3,200bhp.",
+      "maxSpeed": "11.5 Knots",
+      "serviceSpeed": "10 Knots",
+      "lengthOverallValue": 53.8,
+      "beamValue": 13.8,
+      "depthValue": 4.5,
+      "draftValue": 3.8,
+      "grtValue": 1084.0,
+      "nrtValue": 325.0,
+      "bhpValue": 3200.0,
+      "deckAreaValue": 250.0,
+      "deckCargoValue": 5500.0,
+      "maxSpeedValue": 11.5,
+      "serviceSpeedValue": 10.0
+    },
+    "specSections": {
+      "General": {
+        "NT": "RESCUE",
+        "EMERGENCY RESPONSE": "RESCUE VESSEL",
+        "Fire Monitor": "2 x 1200m3/hr"
+      },
+      "CLASSIFICATION/CLASS/REGISTRATION": {
+        "Built": "2008,",
+        "Class": "BV",
+        "Flag": "Turkmenistan"
+      },
+      "GENERAL DIMENSIONS": {
+        "Length Overall": "53.8m",
+        "Beam Moulded": "13.8m",
+        "Depth Moulded": "4.5m",
+        "Draft (Max)": "3.8m",
+        "Clear Deck Space": "250 m2",
+        "Cargo Capacity": "5500 tons"
+      },
+      "TONNAGE": {
+        "GRT": "1084 Tons",
+        "NRT": "325 Tons"
+      },
+      "MACHINERY": {
+        "Main Engines": "2 x Cummins KTA50-M2,",
+        "Break Horsepower": "3,200bhp.",
+        "Auxilery Engines": "2 x Cummins 260 KW",
+        "Bow Thruster": "Tunnel thruster 4 Tonne Thrust",
+        "Propulsion": "2 x reduction gearboxes coupled to 4 bladed 2900mm diameter rotating in Kort Nozzles",
+        "Fuel Pump": "Fitted 150m3/hr @ 60m head",
+        "Fresh Water Pump": "Fitted 100m3/hr @ 60m head",
+        "Main Fire Pump": "1 x 1200m3/hr monitor with 1 x 1550m3/hr pump"
+      },
+      "SPEED & CONSUMPTION": {
+        "Maximum Speed": "11.5 Knots",
+        "Service Speed": "10 Knots"
+      },
+      "TANKS CAPACITIES": {
+        "Fuel oil including Recovered oil tanks": "634.6m3",
+        "Fuel oil minus Recovered oil tanks": "394m3",
+        "Recovered oil": "240m3",
+        "Potable water": "448.13m3",
+        "Drill/ ballast water": "69.10m3",
+        "Sewage treated": "238m3"
+      },
+      "ERRV": {
+        "Survivor Reception area and Seating": "65 pax",
+        "Showers/ Toilets and Wash Basins for": "8 of each",
+        "Jason Cradles Stbd": "2",
+        "Open bulwarks at rescue zones": "8m",
+        "FRC complete Davit Launched": "2"
+      },
+      "TOWIN G & A/H EQUIPMENT": {
+        "Steering Gear": "Hydraulic Ram Type",
+        "Anchor Windlass": "2 Fitted Electro Hydraulic",
+        "Anchors": "2 Fitted 1500kg",
+        "Anchor Chain": "2 x 357m of 32mm Ø Studlink chain.",
+        "Capstan": "2 x 5t Hydraulic",
+        "Towing Hook": "Quick Release Type 50T line pull .",
+        "Deck Crane": "6.2t SWL at 4 metres, 2.2t SWL at 10 metres"
+      },
+      "RADIO & NAVIGATION EQUIPMENT": {
+        "Radar": "2",
+        "Autopilot;": "1",
+        "Echo Sounder": "1",
+        "GPS": "1",
+        "GMDSS INMARSAT-C": "2",
+        "NAVTEX Receiver": "1",
+        "RT Station": "1",
+        "VHF": "3",
+        "MF/HF Transceiver": "2",
+        "AIS": "1",
+        "AirBand VHF": "1"
+      }
+    },
+    "charter": {
+      "type": "ERRV",
+      "status": "On charter – 2029",
+      "region": "Caspian Sea",
+      "location": "Caspian Sea",
+      "bhp": 3200,
+      "bollardPull": null,
+      "dp": null,
+      "deckArea": 200,
+      "cranes": null,
+      "equipment": "Tier 2 Oil Spill Response and MediVac"
+    },
+    "type": "ERRV"
+  },
+  {
+    "slug": "rov-mohican",
+    "name": "ROV Mohican",
+    "category": "ROV FLEET",
+    "categorySlug": "rov-fleet",
+    "specSheetUrl": null,
+    "specSheetMissing": true,
+    "keySpecs": {},
+    "specSections": {},
+    "type": "ROV"
+  },
+  {
+    "slug": "rov-deep-trekker",
+    "name": "ROV Deep Trekker",
+    "category": "ROV FLEET",
+    "categorySlug": "rov-fleet",
+    "specSheetUrl": "https://nurlytolkun.com/wp-content/uploads/nt/fleet/DEEPTREKKERROV.pdf",
+    "specSheetMissing": false,
+    "keySpecs": {
+      "depth": "305m (1000L)",
+      "depthValue": 305.0
+    },
+    "specSections": {
+      "General": {
+        "DEEP": "TREKKER",
+        "Revolution": "ROV"
+      },
+      "GENERAL": {
+        "Width": "440 mm (17.3”)",
+        "Height": "235 mm (9.3”)",
+        "Length": "717 mm (28.2”)",
+        "Weight (in air)": "26 kg (57 lb)",
+        "Body Material": "Anodized Machined Aluminum, Carbon Fibre, Stanless Steel, & Buoyancy Foam",
+        "Window Material": "Sapphire & Acrylic",
+        "Depth Ra:ng": "305m (1000L)",
+        "Opera:ng Temp": "10°C to 50°C (14°F -122°F)",
+        "Case (op:onal)": "Custom Pelican Air 1650, Handle and Wheels"
+      },
+      "ELECTRICAL SYSTEM": {
+        "System Voltage": "22.2 VDC",
+        "Battery Run Time": "Up to 8 Hours (30-sec Battery Change)",
+        "Battery Recharge": "3 Hours",
+        "Thruster Control": "6x Independent Control, Infinitely Variable, 100% Reversible"
+      },
+      "CONTROLLER": {
+        "Screen": "178 mm (7”) Wide-Angle LCD",
+        "Controller": "16:9 Up to 4K Recording, Waterproof, Connecbvity USB, SD, HDMI and Ethernet"
+      },
+      "LIGHTS & CAMERA": {
+        "Video": "UHD 4K - 3840X2160, 720p -1280x720, 30FPS 0.001 Lux, 260° Total Range of View",
+        "Picture": "PG 8mp",
+        "Lights": "High Efficiency LED, Fully Dimmable, 8,400 - 11,800 Lumens"
+      },
+      "TETHER": {
+        "Tether Diameter": "4.5 mm (0.18”)",
+        "Tether Weight": "Neutrally Buoyant in Water",
+        "Maximum Length": "800 m",
+        "Min Breaking Strength": "90 kg (200 lb)"
+      }
+    },
+    "type": "ROV"
+  },
+  {
+    "slug": "rov-seaeye",
+    "name": "ROV Seaeye",
+    "category": "ROV FLEET",
+    "categorySlug": "rov-fleet",
+    "specSheetUrl": null,
+    "specSheetMissing": true,
+    "keySpecs": {},
+    "specSections": {},
+    "type": "ROV"
+  }
+]

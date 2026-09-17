@@ -1,0 +1,64 @@
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+
+import { isLocale } from '@/i18n/config'
+import { getDictionary } from '@/i18n/dictionary'
+import { services } from '@/lib/site'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  if (!isLocale(locale)) return {}
+  const t = getDictionary(locale)
+  return {
+    title: t.nav.services,
+    description: t.company.intro,
+    alternates: {
+      canonical: `/${locale}/services`,
+      languages: {
+        en: '/en/services',
+        ru: '/ru/services',
+        'x-default': '/en/services',
+      },
+    },
+  }
+}
+
+export default async function ServicesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  if (!isLocale(locale)) notFound()
+  const t = getDictionary(locale)
+
+  return (
+    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+      <header className="max-w-2xl">
+        <h1 className="text-3xl font-semibold tracking-tight text-hull-950 sm:text-4xl">
+          {t.nav.services}
+        </h1>
+        <p className="mt-3 text-base text-hull-600">{t.company.intro}</p>
+      </header>
+
+      <div className="mt-10 space-y-8">
+        {services.map((s) => (
+          <section
+            key={s.slug}
+            id={s.slug}
+            className="scroll-mt-24 border-t border-hull-100 pt-8"
+          >
+            <h2 className="text-xl font-semibold text-hull-900">{s.title[locale]}</h2>
+            <p className="mt-2 max-w-2xl leading-relaxed text-hull-600">
+              {s.summary[locale]}
+            </p>
+          </section>
+        ))}
+      </div>
+    </div>
+  )
+}

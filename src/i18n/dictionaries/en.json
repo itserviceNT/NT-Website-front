@@ -1,0 +1,92 @@
+{
+  "company": {
+    "name": "Nurly Tolkun",
+    "tagline": "Offshore marine support in the Caspian and beyond",
+    "intro": "Vessel chartering, marine agency, subsea and safety services for offshore construction and oil & gas operations."
+  },
+  "nav": {
+    "home": "Home",
+    "fleet": "Fleet",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle": "Offshore marine support you can schedule with confidence",
+    "heroSubtitle": "A 28-unit fleet of AHTS, DSV, crew boats, liftboats and ROVs operating across the Caspian Sea, Middle East and Europe.",
+    "heroCtaFleet": "Browse the fleet",
+    "heroCtaContact": "Request a vessel",
+    "fleetHeading": "Fleet",
+    "fleetSubheading": "Full specifications for every vessel, with availability.",
+    "servicesHeading": "What we do",
+    "viewAll": "View all",
+    "statVessels": "Vessels",
+    "statTypes": "Vessel types"
+  },
+  "fleet": {
+    "title": "Fleet",
+    "subtitle": "AHTS, DSV, PSV, crew boats, liftboats, barges and ROV systems available for charter.",
+    "searchLabel": "Search vessels",
+    "searchPlaceholder": "Vessel name or type",
+    "filterCategory": "Category",
+    "filterRegion": "Region",
+    "filterAll": "All",
+    "resultCount": "{count} of {total} vessels",
+    "noResults": "No vessels match these filters.",
+    "clearFilters": "Clear filters",
+    "sortBy": "Sort by",
+    "sortName": "Name",
+    "sortBollardPull": "Bollard pull",
+    "sortBhp": "Power (BHP)",
+    "sortDeckArea": "Deck area"
+  },
+  "vessel": {
+    "specifications": "Specifications",
+    "keySpecs": "Key specifications",
+    "downloadSpec": "Download spec sheet (PDF)",
+    "specUnavailable": "Spec sheet available on request",
+    "enquire": "Enquire about this vessel",
+    "backToFleet": "Back to fleet",
+    "availability": "Availability",
+    "relatedHeading": "Similar vessels"
+  },
+  "specs": {
+    "built": "Built",
+    "classSociety": "Class",
+    "flag": "Flag",
+    "lengthOverall": "Length overall",
+    "beam": "Beam",
+    "depth": "Depth",
+    "draft": "Draft (max)",
+    "grt": "GRT",
+    "nrt": "NRT",
+    "dwt": "DWT",
+    "mainEngines": "Main engines",
+    "bhp": "Power",
+    "bollardPull": "Bollard pull",
+    "deckArea": "Deck area",
+    "deckCargo": "Deck cargo",
+    "deckStrength": "Deck strength",
+    "maxSpeed": "Max speed",
+    "serviceSpeed": "Service speed",
+    "dynamicPositioning": "Dynamic positioning",
+    "fifi": "FiFi",
+    "berths": "Accommodation"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Tell us what you need and when, and we will come back with availability and rates.",
+    "offices": "Offices",
+    "headOffice": "Head office",
+    "phone": "Phone",
+    "email": "Email",
+    "enquiryHeading": "Charter enquiry"
+  },
+  "footer": {
+    "services": "Services",
+    "fleet": "Fleet",
+    "company": "Company",
+    "rights": "All rights reserved.",
+    "certified": "ISO 9001 · ISO 14001 · ISO 45001 certified"
+  }
+}
