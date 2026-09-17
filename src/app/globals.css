@@ -28,6 +28,49 @@
   --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/* One page container for every section: grows with the display instead of
+   sitting in a fixed column, but still caps so line length stays readable on
+   a TV. Side padding never drops below 16px on a phone. */
+.shell {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .shell {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .shell {
+    max-width: 78rem;
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .shell {
+    max-width: 88rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .shell {
+    max-width: 104rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .shell {
+    max-width: 120rem;
+    padding-inline: 4rem;
+  }
+}
+
 :root {
   color-scheme: light;
 }

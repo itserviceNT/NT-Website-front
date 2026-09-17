@@ -32,7 +32,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-haze-200 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
+      <div className="shell flex items-center gap-4 py-3">
         <Link
           href={`/${locale}`}
           className="flex shrink-0 flex-col leading-tight"
@@ -109,7 +109,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
       </div>
 
       <div className="border-t border-haze-200 lg:hidden" hidden={!open}>
-        <nav className="mx-auto flex max-w-6xl flex-col px-4 py-2 sm:px-6">
+        <nav className="shell flex flex-col py-2">
           {nav.map((item) => (
             <Link
               key={item.href}

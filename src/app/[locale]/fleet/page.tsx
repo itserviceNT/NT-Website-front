@@ -41,7 +41,7 @@ export default async function FleetPage({
   const vessels = sortedFleet()
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
+    <div className="shell py-12 sm:py-16 xl:py-24">
       <header className="max-w-2xl">
         <p className="label flex items-center gap-3 text-signal-500">
           <span className="h-px w-8 bg-signal-500" />

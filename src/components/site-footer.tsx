@@ -10,7 +10,7 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
 
   return (
     <footer className="mt-20 border-t border-haze-200 bg-ink-950 text-haze-200">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="shell grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="text-base font-semibold text-white">{t.company.name}</p>
           <address className="mt-3 space-y-1 text-sm not-italic text-steel-300">
@@ -73,7 +73,7 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
       </div>
 
       <div className="border-t border-ink-800">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-steel-400 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <div className="shell flex flex-col gap-2 py-6 text-xs text-steel-400 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {t.company.name}. {t.footer.rights}
           </p>

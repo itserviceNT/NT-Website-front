@@ -78,7 +78,7 @@ export function GalleryGrid({
         })}
       </div>
 
-      <div className="mt-8 columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4">
+      <div className="mt-8 columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-4 [&>*]:mb-4">
         {shown.map((image, i) => (
           <button
             key={image.slug}

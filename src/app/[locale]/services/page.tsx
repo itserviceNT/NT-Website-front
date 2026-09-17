@@ -37,7 +37,7 @@ export default async function ServicesPage({
   const t = getDictionary(locale)
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+    <div className="shell max-w-4xl py-12 sm:py-16 xl:py-24">
       <header className="max-w-2xl">
         <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
           {t.nav.services}

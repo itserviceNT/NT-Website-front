@@ -74,7 +74,7 @@ export default async function CharterPage({
     .filter((v) => availabilityTone(v.charter?.status) !== 'chartered').length
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+    <div className="shell py-14 sm:py-20 xl:py-28">
       <header className="max-w-2xl">
         <p className="label flex items-center gap-3 text-signal-500">
           <span className="h-px w-8 bg-signal-500" />

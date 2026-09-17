@@ -74,7 +74,7 @@ export function FleetHero({
         <div className="absolute inset-0 bg-gradient-to-r from-ink-950/70 via-ink-950/15 to-transparent" />
       </div>
 
-      <div className="relative mx-auto flex min-h-[min(88svh,780px)] max-w-6xl flex-col justify-end px-4 pb-10 pt-28 sm:px-6 sm:pb-14">
+      <div className="shell relative flex min-h-[min(88svh,780px)] flex-col justify-end pb-10 pt-28 sm:pb-14 xl:min-h-[min(90svh,1000px)]">
         <div className="max-w-3xl">
           <p className="label flex items-center gap-3 text-signal-400">
             <span className="h-px w-8 bg-signal-500" />

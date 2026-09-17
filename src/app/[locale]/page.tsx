@@ -84,7 +84,7 @@ export default async function HomePage({
       <FleetHero vessels={heroVessels} locale={locale} t={t} />
 
       <section className="border-b border-haze-200 bg-white">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="shell">
           <dl className="grid grid-cols-2 divide-haze-200 sm:grid-cols-4 sm:divide-x">
             {[
               { value: String(fleet.length), label: t.home.statVessels },
@@ -103,7 +103,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <section className="shell py-20 xl:py-28">
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-2xl">
             <p className="label flex items-center gap-3 text-signal-500">
@@ -122,7 +122,7 @@ export default async function HomePage({
           </Link>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           {featured.map((v, i) => (
             <Reveal key={v.slug} delay={(i % 3) * 90}>
               <VesselCard vessel={v} locale={locale} t={t} priority={i < 3} />
@@ -132,7 +132,7 @@ export default async function HomePage({
       </section>
 
       <section className="bg-ink-950">
-        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <div className="shell py-20 xl:py-28">
           <Reveal className="max-w-2xl">
             <p className="label flex items-center gap-3 text-signal-400">
               <span className="h-px w-8 bg-signal-500" />
@@ -163,7 +163,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <section className="shell py-20 xl:py-28">
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <h2 className="font-display text-[clamp(1.8rem,4vw,2.75rem)] font-semibold leading-tight tracking-tight text-ink-950">
             {t.nav.gallery}

@@ -47,7 +47,7 @@ export default async function AboutPage({
   const t = getDictionary(locale)
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
+    <div className="shell max-w-3xl py-12 sm:py-16 xl:py-24">
       <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
         {t.nav.about}
       </h1>
