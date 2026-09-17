@@ -91,8 +91,8 @@ export default async function HomePage({
               { value: String(categories.length), label: t.home.statTypes },
               { value: String(services.length), label: t.footer.services },
               { value: String(offices.length), label: t.contact.offices },
-            ].map((stat, i) => (
-              <Reveal key={stat.label} delay={i * 70} className="py-8 sm:px-6 sm:first:pl-0">
+            ].map((stat) => (
+              <Reveal key={stat.label} className="py-8 sm:px-6 sm:first:pl-0">
                 <dt className="label text-steel-500">{stat.label}</dt>
                 <dd className="data mt-2 text-4xl font-medium text-ink-900">
                   {stat.value}
@@ -124,7 +124,7 @@ export default async function HomePage({
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           {featured.map((v, i) => (
-            <Reveal key={v.slug} delay={(i % 3) * 90}>
+            <Reveal key={v.slug}>
               <VesselCard vessel={v} locale={locale} t={t} priority={i < 3} />
             </Reveal>
           ))}
@@ -144,8 +144,8 @@ export default async function HomePage({
           </Reveal>
 
           <ul className="mt-12 grid gap-px overflow-hidden rounded-sm bg-white/10 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((s, i) => (
-              <Reveal as="li" key={s.slug} delay={(i % 4) * 70} className="bg-ink-950">
+            {services.map((s) => (
+              <Reveal as="li" key={s.slug} className="bg-ink-950">
                 <Link
                   href={`/${locale}/services#${s.slug}`}
                   className="group flex h-full flex-col p-6 transition-colors hover:bg-ink-900"
@@ -177,8 +177,8 @@ export default async function HomePage({
         </Reveal>
 
         <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {glimpse.map((image, i) => (
-            <Reveal key={image.slug} delay={i * 80}>
+          {glimpse.map((image) => (
+            <Reveal key={image.slug}>
               <Link
                 href={`/${locale}/gallery`}
                 className="group relative block aspect-[4/5] overflow-hidden rounded-sm bg-ink-800"

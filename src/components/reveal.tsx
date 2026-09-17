@@ -1,46 +1,19 @@
-'use client'
+import type { ReactNode } from 'react'
 
-import { useEffect, useRef, useState, type ReactNode } from 'react'
-
-/** Fades content up as it enters the viewport, once. */
+/** Fades content up as it scrolls into view.
+ *
+ * Purely CSS — see the `.reveal` rule in globals.css. There is no client
+ * component and no IntersectionObserver, so content cannot be left invisible
+ * by a JS failure; browsers without scroll-driven animation simply show it.
+ */
 export function Reveal({
   children,
-  delay = 0,
   className = '',
   as: Tag = 'div',
 }: {
   children: ReactNode
-  delay?: number
   className?: string
   as?: 'div' | 'li' | 'section' | 'article'
 }) {
-  const ref = useRef<HTMLElement>(null)
-  const [shown, setShown] = useState(false)
-
-  useEffect(() => {
-    const node = ref.current
-    if (!node) return
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setShown(true)
-          observer.disconnect()
-        }
-      },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.05 },
-    )
-    observer.observe(node)
-    return () => observer.disconnect()
-  }, [])
-
-  return (
-    <Tag
-      ref={ref as never}
-      data-shown={shown}
-      style={{ animationDelay: `${delay}ms` }}
-      className={`reveal ${className}`}
-    >
-      {children}
-    </Tag>
-  )
+  return <Tag className={`reveal ${className}`}>{children}</Tag>
 }

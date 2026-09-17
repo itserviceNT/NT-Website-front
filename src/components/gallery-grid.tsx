@@ -84,9 +84,7 @@ export function GalleryGrid({
             key={image.slug}
             type="button"
             onClick={() => setOpen(i)}
-            style={{ animationDelay: `${Math.min(i, 9) * 55}ms` }}
             className="reveal group relative block w-full break-inside-avoid overflow-hidden rounded-sm bg-ink-800 text-left"
-            data-shown="true"
           >
             <Image
               src={image.src}

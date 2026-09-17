@@ -125,8 +125,8 @@ export default async function CharterPage({
             </div>
 
             <ul className="mt-6 divide-y divide-haze-200 border-b border-haze-200">
-              {group.vessels.map((vessel, i) => (
-                <Reveal as="li" key={vessel.slug} delay={Math.min(i, 6) * 45}>
+              {group.vessels.map((vessel) => (
+                <Reveal as="li" key={vessel.slug}>
                   <Link
                     href={`/${locale}/fleet/${vessel.slug}`}
                     className="group grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-3 py-4 sm:grid-cols-[88px_minmax(0,1.5fr)_minmax(0,2fr)_auto]"

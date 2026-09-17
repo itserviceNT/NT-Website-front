@@ -144,12 +144,21 @@ body {
   }
 }
 
+/* Reveals are visible by default and animate only where the browser can drive
+   it from scroll position. Hiding them up front made every section below the
+   hero depend on hydration, so one JS failure blanked the page. */
 .reveal {
-  opacity: 0;
+  opacity: 1;
 }
 
-.reveal[data-shown="true"] {
-  animation: rise 0.7s var(--ease-out-quint) forwards;
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
 }
 
 .drift {

@@ -129,7 +129,7 @@ export default async function ServicesPage({
                     </div>
                   </Reveal>
 
-                  <Reveal delay={90} className={flip ? 'lg:order-1' : ''}>
+                  <Reveal className={flip ? 'lg:order-1' : ''}>
                     <h2 className="font-display text-[clamp(1.5rem,3vw,2.25rem)] font-semibold leading-tight tracking-tight text-ink-950">
                       {s.title[locale]}
                     </h2>
@@ -181,8 +181,8 @@ export default async function ServicesPage({
           </Reveal>
 
           <ul className="mt-10 grid gap-px overflow-hidden rounded-sm bg-white/10 sm:grid-cols-2 lg:grid-cols-4">
-            {classSocieties.map((society, i) => (
-              <Reveal as="li" key={society.abbr} delay={i * 70} className="bg-ink-950 p-6">
+            {classSocieties.map((society) => (
+              <Reveal as="li" key={society.abbr} className="bg-ink-950 p-6">
                 <p className="data text-2xl font-medium text-signal-400">
                   {society.abbr}
                 </p>

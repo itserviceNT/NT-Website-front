@@ -127,7 +127,7 @@ export default async function ContactPage({
           </div>
         </Reveal>
 
-        <Reveal delay={90}>
+        <Reveal>
           <h2 className="font-display text-2xl font-semibold tracking-tight text-ink-950">
             {t.contact.regionalDesks}
           </h2>
@@ -167,10 +167,9 @@ export default async function ContactPage({
           {t.contact.offices}
         </h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
-          {offices.map((office, i) => (
+          {offices.map((office) => (
             <Reveal
               key={office.city}
-              delay={(i % 3) * 70}
               className="h-full rounded-sm border border-haze-200 bg-white p-5"
             >
               <div className="flex items-baseline justify-between gap-2">

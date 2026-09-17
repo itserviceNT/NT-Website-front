@@ -106,8 +106,8 @@ export default async function AboutPage({
             { value: String(categories.length), label: t.home.statTypes },
             { value: String(charterRegions.length), label: t.about.regions },
             { value: String(offices.length), label: t.contact.offices },
-          ].map((stat, i) => (
-            <Reveal key={stat.label} delay={i * 70}>
+          ].map((stat) => (
+            <Reveal key={stat.label}>
               <dt className="label text-steel-500">{stat.label}</dt>
               <dd className="data mt-2 text-[clamp(1.8rem,4vw,2.75rem)] font-medium text-ink-950">
                 {stat.value}
@@ -125,8 +125,8 @@ export default async function AboutPage({
             </h2>
           </Reveal>
           <ul className="mt-8 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((s, i) => (
-              <Reveal as="li" key={s.slug} delay={(i % 4) * 60}>
+            {services.map((s) => (
+              <Reveal as="li" key={s.slug}>
                 <Link
                   href={`/${locale}/services#${s.slug}`}
                   className="group flex gap-2.5 text-sm leading-relaxed text-ink-800 transition-colors hover:text-signal-600"
@@ -168,7 +168,7 @@ export default async function AboutPage({
             </ul>
           </Reveal>
 
-          <Reveal delay={90}>
+          <Reveal>
             <p className="label text-steel-500">{t.services.standards}</p>
             <ul className="mt-4 flex flex-wrap gap-2">
               {standards.map((standard) => (
@@ -189,8 +189,8 @@ export default async function AboutPage({
 
       <section className="shell pb-20 xl:pb-28">
         <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {strip.map((image, i) => (
-            <Reveal key={image.slug} delay={i * 70}>
+          {strip.map((image) => (
+            <Reveal key={image.slug}>
               <Link
                 href={`/${locale}/gallery`}
                 className="group relative block aspect-[4/5] overflow-hidden rounded-sm bg-ink-800"
