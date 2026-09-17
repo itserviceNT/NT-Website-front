@@ -1,6 +1,12 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nurlytolkun.com'
 
+/** A page that sets its own `openGraph` replaces the layout's entirely, so
+ *  each one has to restate the card image. */
+export const ogImage = [
+  { url: '/images/og-default.jpg', width: 1200, height: 630 },
+]
+
 export const contact = {
   phone: '+993 12 46-90-06',
   phoneHref: '+99312469006',

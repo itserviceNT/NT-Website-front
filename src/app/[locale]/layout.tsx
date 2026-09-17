@@ -73,8 +73,19 @@ export async function generateMetadata({
       title: `${t.company.name} — ${t.company.tagline}`,
       description: t.company.intro,
       url: `/${locale}`,
+      images: [
+        {
+          url: '/images/og-default.jpg',
+          width: 1200,
+          height: 630,
+          alt: `${t.company.name} — ${t.company.tagline}`,
+        },
+      ],
     },
-    twitter: { card: 'summary_large_image' },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['/images/og-default.jpg'],
+    },
     robots: { index: true, follow: true },
   }
 }

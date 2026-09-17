@@ -7,7 +7,7 @@ import { Reveal } from '@/components/reveal'
 import { isLocale, locales } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionary'
 import { classSocieties, serviceDetail, standards } from '@/lib/services-detail'
-import { contact, services, siteUrl } from '@/lib/site'
+import { contact, ogImage, services, siteUrl } from '@/lib/site'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -37,6 +37,7 @@ export async function generateMetadata({
       title: t.nav.services,
       description: t.company.intro,
       url: `/${locale}/services`,
+      images: ogImage,
     },
   }
 }

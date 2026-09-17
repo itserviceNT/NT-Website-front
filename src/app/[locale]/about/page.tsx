@@ -9,7 +9,7 @@ import { getDictionary } from '@/i18n/dictionary'
 import { categories, charterRegions, fleet } from '@/lib/fleet'
 import { caption, galleryImages } from '@/lib/gallery'
 import { classSocieties, standards } from '@/lib/services-detail'
-import { offices, services, siteUrl } from '@/lib/site'
+import { offices, ogImage, services, siteUrl } from '@/lib/site'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -48,6 +48,7 @@ export async function generateMetadata({
       title: t.nav.about,
       description: BODY[locale][0],
       url: `/${locale}/about`,
+      images: ogImage,
     },
   }
 }

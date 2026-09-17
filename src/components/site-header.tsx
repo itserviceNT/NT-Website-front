@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
@@ -35,14 +36,24 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
       <div className="shell flex items-center gap-4 py-3">
         <Link
           href={`/${locale}`}
-          className="flex shrink-0 flex-col leading-tight"
+          className="flex shrink-0 items-center gap-3"
           onClick={() => setOpen(false)}
         >
-          <span className="text-base font-semibold tracking-tight text-ink-800">
-            {t.company.name}
-          </span>
-          <span className="hidden text-[11px] text-steel-400 sm:block">
-            Offshore Marine Services
+          <Image
+            src="/images/logo.png"
+            alt=""
+            width={202}
+            height={203}
+            priority
+            className="h-9 w-auto"
+          />
+          <span className="flex flex-col leading-tight">
+            <span className="font-display text-base font-semibold tracking-tight text-ink-900">
+              {t.company.name}
+            </span>
+            <span className="label hidden text-steel-400 sm:block">
+              Offshore Marine Services
+            </span>
           </span>
         </Link>
 

@@ -13,7 +13,7 @@ import {
   specText,
   type Vessel,
 } from '@/lib/fleet'
-import { siteUrl } from '@/lib/site'
+import { ogImage, siteUrl } from '@/lib/site'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -43,6 +43,7 @@ export async function generateMetadata({
       title: t.charter.title,
       description: t.charter.subtitle,
       url: `/${locale}/charter`,
+      images: ogImage,
     },
   }
 }

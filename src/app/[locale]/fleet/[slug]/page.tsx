@@ -57,6 +57,12 @@ export async function generateMetadata({
       title: `${vessel.name} — ${vessel.type}`,
       description: facts,
       url: `/${locale}/fleet/${slug}`,
+      images: [
+        {
+          url: vessel.photo ?? '/images/og-default.jpg',
+          alt: `${vessel.name} — ${vessel.type}`,
+        },
+      ],
     },
   }
 }
