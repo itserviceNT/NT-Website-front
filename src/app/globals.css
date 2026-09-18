@@ -144,21 +144,20 @@ body {
   }
 }
 
-/* Reveals are visible by default and animate only where the browser can drive
-   it from scroll position. Hiding them up front made every section below the
-   hero depend on hydration, so one JS failure blanked the page. */
+/* Reveals are visible by default. Only the script in the layout head hides
+   them, and only the ones already below the fold, so content is never left
+   invisible by a JS failure and above-the-fold copy never flashes. */
 .reveal {
   opacity: 1;
 }
 
-@supports (animation-timeline: view()) {
-  @media (prefers-reduced-motion: no-preference) {
-    .reveal {
-      animation: rise linear both;
-      animation-timeline: view();
-      animation-range: entry 0% entry 60%;
-    }
-  }
+.reveal-pending {
+  opacity: 0;
+}
+
+.reveal-pending[data-shown="true"] {
+  animation: rise 0.7s var(--ease-out-quint) forwards;
+  animation-delay: var(--reveal-delay, 0ms);
 }
 
 .drift {

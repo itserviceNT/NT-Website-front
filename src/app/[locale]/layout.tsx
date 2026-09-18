@@ -5,12 +5,14 @@ import {
   IBM_Plex_Sans_Condensed,
 } from 'next/font/google'
 import { notFound } from 'next/navigation'
+import Script from 'next/script'
 import type { ReactNode } from 'react'
 
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
 import { isLocale, locales, type Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionary'
+import { revealScript } from '@/lib/reveal-script'
 import { siteUrl } from '@/lib/site'
 import '../globals.css'
 
@@ -103,16 +105,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={fontVars}>
-      <head>
-        {/* Scroll reveals start transparent; without JS they must not stay that way. */}
-        <noscript>
-          <style>{`.reveal{opacity:1!important;animation:none!important}`}</style>
-        </noscript>
-      </head>
       <body className="flex min-h-screen flex-col bg-paper font-sans text-ink-900">
         <SiteHeader locale={locale} t={t} />
         <main className="flex-1">{children}</main>
         <SiteFooter locale={locale} t={t} />
+        {/* afterInteractive: runs once React has hydrated, so the markup it
+            mutates matches what the server sent. */}
+        <Script
+          id="reveal"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{ __html: revealScript }}
+        />
       </body>
     </html>
   )
