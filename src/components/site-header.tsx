@@ -3,16 +3,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 
 import type { Locale } from '@/i18n/config'
 import { locales } from '@/i18n/config'
 import type { Dictionary } from '@/i18n/dictionary'
+import { MobileDrawer } from '@/components/mobile-drawer'
 import { contact } from '@/lib/site'
 
 export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
   const [open, setOpen] = useState(false)
   const pathname = usePathname()
+  const close = useCallback(() => setOpen(false), [])
 
   const nav = [
     { href: `/${locale}`, label: t.nav.home },
@@ -32,6 +34,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
     `/${next}${pathname.replace(/^\/[^/]+/, '') || ''}`
 
   return (
+    <>
     <header className="sticky top-0 z-50 border-b border-haze-200 bg-white/90 backdrop-blur">
       <div className="shell flex items-center gap-4 py-3">
         <Link
@@ -101,14 +104,15 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
 
           <button
             type="button"
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => setOpen(true)}
             aria-expanded={open}
-            aria-label="Menu"
+            aria-controls="mobile-drawer"
+            aria-label={t.nav.menu}
             className="rounded-sm border border-haze-200 p-2.5 text-ink-700 transition-colors hover:bg-haze-100 hover:text-ink-900 active:bg-haze-200 lg:hidden"
           >
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path
-                d={open ? 'M4 4l10 10M14 4L4 14' : 'M2 5h14M2 9h14M2 13h14'}
+                d="M2 5h14M2 9h14M2 13h14"
                 stroke="currentColor"
                 strokeWidth="1.6"
                 strokeLinecap="round"
@@ -119,40 +123,16 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
         </div>
       </div>
 
-      <div className="border-t border-haze-200 lg:hidden" hidden={!open}>
-        <nav className="shell flex flex-col py-2">
-          {nav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={() => setOpen(false)}
-              className={`rounded-sm px-3 py-3 text-sm transition-colors active:bg-haze-200 ${
-                isActive(item.href)
-                  ? 'bg-haze-100 font-medium text-ink-800'
-                  : 'text-steel-500 hover:bg-haze-100 hover:text-ink-900'
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
-          <div className="mt-2 flex gap-2 border-t border-haze-200 px-3 pt-3">
-            {locales.map((code) => (
-              <Link
-                key={code}
-                href={swapLocale(code)}
-                onClick={() => setOpen(false)}
-                className={`rounded-sm border px-3 py-2 text-xs uppercase transition-colors active:bg-haze-200 ${
-                  code === locale
-                    ? 'border-ink-800 bg-ink-900 font-semibold text-white'
-                    : 'border-haze-200 text-steel-500 hover:border-steel-300 hover:bg-haze-100 hover:text-ink-900'
-                }`}
-              >
-                {code}
-              </Link>
-            ))}
-          </div>
-        </nav>
-      </div>
     </header>
+      <MobileDrawer
+        open={open}
+        onClose={close}
+        nav={nav}
+        isActive={isActive}
+        swapLocale={swapLocale}
+        locale={locale}
+        t={t}
+      />
+    </>
   )
 }
