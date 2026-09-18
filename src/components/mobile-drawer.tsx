@@ -81,7 +81,7 @@ export function MobileDrawer({
         tabIndex={-1}
         aria-label={t.nav.close}
         onClick={onClose}
-        className={`absolute inset-0 h-full w-full cursor-default bg-ink-950/60 backdrop-blur-[2px] transition-opacity duration-300 ${
+        className={`absolute inset-0 h-full w-full cursor-default bg-ink-950/60 backdrop-blur-[2px] transition-opacity duration-[450ms] ${
           open ? 'opacity-100' : 'opacity-0'
         }`}
       />
@@ -91,9 +91,8 @@ export function MobileDrawer({
         role="dialog"
         aria-modal="true"
         aria-label={t.nav.menu}
-        className={`absolute inset-y-0 right-0 flex w-[min(21rem,86vw)] flex-col bg-paper shadow-2xl transition-transform duration-[420ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
-          open ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        data-open={open}
+        className="drawer-panel absolute inset-y-0 right-0 flex w-[min(21rem,86vw)] flex-col bg-paper shadow-2xl"
       >
         <div className="flex items-center justify-between gap-3 border-b border-haze-200 px-5 py-4">
           <Link
