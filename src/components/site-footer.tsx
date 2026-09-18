@@ -73,11 +73,25 @@ export function SiteFooter({ locale, t }: { locale: Locale; t: Dictionary }) {
       </div>
 
       <div className="border-t border-ink-800">
-        <div className="shell flex flex-col gap-2 py-6 text-xs text-steel-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="shell flex flex-col gap-4 py-6 text-xs text-steel-400 lg:flex-row lg:items-center lg:justify-between">
           <p>
             © {new Date().getFullYear()} {t.company.name}. {t.footer.rights}
           </p>
-          <p>{t.footer.certified}</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <Link
+              href={`/${locale}/privacy`}
+              className="transition-colors hover:text-white"
+            >
+              {t.nav.privacy}
+            </Link>
+            <Link
+              href={`/${locale}/terms`}
+              className="transition-colors hover:text-white"
+            >
+              {t.nav.terms}
+            </Link>
+            <p>{t.footer.certified}</p>
+          </div>
         </div>
       </div>
     </footer>

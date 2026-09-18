@@ -14,7 +14,9 @@
     "gallery": "Gallery",
     "charter": "Charter",
     "menu": "Menu",
-    "close": "Close menu"
+    "close": "Close menu",
+    "privacy": "Privacy",
+    "terms": "Terms of use"
   },
   "home": {
     "heroTitle": "Offshore marine support you can schedule with confidence",
@@ -135,5 +137,9 @@
     "capabilitiesTitle": "What we do",
     "standardsTitle": "Standards and approvals",
     "flagNote": "Vessels are classed by Bureau Veritas and registered under the flag of Turkmenistan."
+  },
+  "legal": {
+    "contactNote": "If anything on this page is unclear, or you want to know what correspondence we hold about you, write to us.",
+    "heading": "Legal"
   }
 }
