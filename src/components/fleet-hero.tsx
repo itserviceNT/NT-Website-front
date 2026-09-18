@@ -80,7 +80,7 @@ export function FleetHero({
             <span className="h-px w-8 bg-signal-500" />
             {t.company.name}
           </p>
-          <h1 className="mt-5 font-display text-[clamp(2.4rem,6.2vw,4.75rem)] font-semibold leading-[0.98] tracking-tight text-white">
+          <h1 className="mt-5 font-display text-[clamp(2.4rem,6.2vw,5.6rem)] font-semibold leading-[0.98] tracking-tight text-white">
             {t.home.heroTitle}
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-haze-200 sm:text-lg">

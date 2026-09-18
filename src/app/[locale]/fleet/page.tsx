@@ -47,7 +47,7 @@ export default async function FleetPage({
           <span className="h-px w-8 bg-signal-500" />
           {t.company.name}
         </p>
-        <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
+        <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.9rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
           {t.fleet.title}
         </h1>
         <p className="mt-4 text-base leading-relaxed text-steel-500">

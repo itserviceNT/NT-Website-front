@@ -147,7 +147,7 @@ export default async function VesselPage({
           {vessel.photo ? null : (
             <>
               <p className="label text-signal-600">{vessel.type}</p>
-              <h1 className="mt-1.5 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-none tracking-tight text-ink-950">
+              <h1 className="mt-1.5 font-display text-[clamp(2rem,5vw,3.9rem)] font-semibold leading-none tracking-tight text-ink-950">
                 {vessel.name}
               </h1>
             </>

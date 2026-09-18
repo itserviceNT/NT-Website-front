@@ -50,7 +50,7 @@ export default function GlobalNotFound() {
                 <span className="h-px w-8 bg-signal-500" />
                 404 — {c.code}
               </p>
-              <h1 className="mt-5 max-w-2xl font-display text-[clamp(1.7rem,4.5vw,2.75rem)] font-semibold leading-[1.05] tracking-tight text-ink-950">
+              <h1 className="mt-5 max-w-2xl font-display text-[clamp(1.7rem,4.5vw,3.3rem)] font-semibold leading-[1.05] tracking-tight text-ink-950">
                 {c.title}
               </h1>
               <p className="mt-4 max-w-xl leading-relaxed text-steel-500">{c.body}</p>

@@ -110,7 +110,7 @@ export default async function HomePage({
               <span className="h-px w-8 bg-signal-500" />
               {t.home.fleetHeading}
             </p>
-            <h2 className="mt-4 font-display text-[clamp(1.8rem,4vw,2.75rem)] font-semibold leading-tight tracking-tight text-ink-950">
+            <h2 className="mt-4 font-display text-[clamp(1.8rem,4vw,3.3rem)] font-semibold leading-tight tracking-tight text-ink-950">
               {t.home.fleetSubheading}
             </h2>
           </div>
@@ -138,7 +138,7 @@ export default async function HomePage({
               <span className="h-px w-8 bg-signal-500" />
               {t.home.servicesHeading}
             </p>
-            <h2 className="mt-4 font-display text-[clamp(1.8rem,4vw,2.75rem)] font-semibold leading-tight tracking-tight text-white">
+            <h2 className="mt-4 font-display text-[clamp(1.8rem,4vw,3.3rem)] font-semibold leading-tight tracking-tight text-white">
               {t.company.tagline}
             </h2>
           </Reveal>
@@ -165,7 +165,7 @@ export default async function HomePage({
 
       <section className="shell py-20 xl:py-28">
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
-          <h2 className="font-display text-[clamp(1.8rem,4vw,2.75rem)] font-semibold leading-tight tracking-tight text-ink-950">
+          <h2 className="font-display text-[clamp(1.8rem,4vw,3.3rem)] font-semibold leading-tight tracking-tight text-ink-950">
             {t.nav.gallery}
           </h2>
           <Link

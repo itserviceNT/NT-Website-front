@@ -82,7 +82,7 @@ export default async function ServicesPage({
             <span className="h-px w-8 bg-signal-500" />
             {t.company.name}
           </p>
-          <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
+          <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.9rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
             {t.nav.services}
           </h1>
           <p className="mt-4 text-base leading-relaxed text-steel-500">
@@ -130,7 +130,7 @@ export default async function ServicesPage({
                   </Reveal>
 
                   <Reveal className={flip ? 'lg:order-1' : ''}>
-                    <h2 className="font-display text-[clamp(1.5rem,3vw,2.25rem)] font-semibold leading-tight tracking-tight text-ink-950">
+                    <h2 className="font-display text-[clamp(1.5rem,3vw,2.7rem)] font-semibold leading-tight tracking-tight text-ink-950">
                       {s.title[locale]}
                     </h2>
                     <p className="mt-4 max-w-xl leading-relaxed text-steel-500">
@@ -175,7 +175,7 @@ export default async function ServicesPage({
               <span className="h-px w-8 bg-signal-500" />
               {t.services.approvalsEyebrow}
             </p>
-            <h2 className="mt-4 font-display text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold leading-tight tracking-tight text-white">
+            <h2 className="mt-4 font-display text-[clamp(1.6rem,3.5vw,3rem)] font-semibold leading-tight tracking-tight text-white">
               {t.services.approvalsTitle}
             </h2>
           </Reveal>

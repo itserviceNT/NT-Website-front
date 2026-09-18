@@ -75,7 +75,7 @@ export default async function AboutPage({
             <span className="h-px w-8 bg-signal-500" />
             {t.company.name}
           </p>
-          <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.25rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
+          <h1 className="mt-4 font-display text-[clamp(2rem,5vw,3.9rem)] font-semibold leading-[1.02] tracking-tight text-ink-950">
             {t.nav.about}
           </h1>
           <div className="mt-6 space-y-5 text-base leading-relaxed text-steel-500">
@@ -109,7 +109,7 @@ export default async function AboutPage({
           ].map((stat) => (
             <Reveal key={stat.label}>
               <dt className="label text-steel-500">{stat.label}</dt>
-              <dd className="data mt-2 text-[clamp(1.8rem,4vw,2.75rem)] font-medium text-ink-950">
+              <dd className="data mt-2 text-[clamp(1.8rem,4vw,3.3rem)] font-medium text-ink-950">
                 {stat.value}
               </dd>
             </Reveal>
@@ -120,7 +120,7 @@ export default async function AboutPage({
       <section className="border-y border-haze-200 bg-haze-50">
         <div className="shell py-16 xl:py-20">
           <Reveal className="max-w-2xl">
-            <h2 className="font-display text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold leading-tight tracking-tight text-ink-950">
+            <h2 className="font-display text-[clamp(1.6rem,3.5vw,3rem)] font-semibold leading-tight tracking-tight text-ink-950">
               {t.about.capabilitiesTitle}
             </h2>
           </Reveal>
@@ -145,7 +145,7 @@ export default async function AboutPage({
 
       <section className="shell py-16 xl:py-20">
         <Reveal className="max-w-2xl">
-          <h2 className="font-display text-[clamp(1.6rem,3.5vw,2.5rem)] font-semibold leading-tight tracking-tight text-ink-950">
+          <h2 className="font-display text-[clamp(1.6rem,3.5vw,3rem)] font-semibold leading-tight tracking-tight text-ink-950">
             {t.about.standardsTitle}
           </h2>
         </Reveal>
