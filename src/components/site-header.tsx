@@ -104,7 +104,7 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-label="Menu"
-            className="rounded-md border border-haze-200 p-2 text-ink-700 lg:hidden"
+            className="rounded-sm border border-haze-200 p-2.5 text-ink-700 transition-colors hover:bg-haze-100 hover:text-ink-900 active:bg-haze-200 lg:hidden"
           >
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path
@@ -126,10 +126,10 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className={`rounded-md px-3 py-2.5 text-sm ${
+              className={`rounded-sm px-3 py-3 text-sm transition-colors active:bg-haze-200 ${
                 isActive(item.href)
-                  ? 'bg-haze-100 font-medium text-ink-700'
-                  : 'text-steel-500'
+                  ? 'bg-haze-100 font-medium text-ink-800'
+                  : 'text-steel-500 hover:bg-haze-100 hover:text-ink-900'
               }`}
             >
               {item.label}
@@ -141,10 +141,10 @@ export function SiteHeader({ locale, t }: { locale: Locale; t: Dictionary }) {
                 key={code}
                 href={swapLocale(code)}
                 onClick={() => setOpen(false)}
-                className={`rounded-md border px-3 py-1.5 text-xs uppercase ${
+                className={`rounded-sm border px-3 py-2 text-xs uppercase transition-colors active:bg-haze-200 ${
                   code === locale
                     ? 'border-ink-800 bg-ink-900 font-semibold text-white'
-                    : 'border-haze-200 text-steel-500'
+                    : 'border-haze-200 text-steel-500 hover:border-steel-300 hover:bg-haze-100 hover:text-ink-900'
                 }`}
               >
                 {code}

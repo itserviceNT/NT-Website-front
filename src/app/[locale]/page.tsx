@@ -122,7 +122,7 @@ export default async function HomePage({
           </Link>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((v, i) => (
             <Reveal key={v.slug}>
               <VesselCard vessel={v} locale={locale} t={t} priority={i < 3} />

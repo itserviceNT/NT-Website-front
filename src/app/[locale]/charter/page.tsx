@@ -48,16 +48,18 @@ export async function generateMetadata({
   }
 }
 
+/** Always the same three slots, blank where a vessel has no figure, so the
+ *  columns line up down the page and can be compared at a glance. Crane
+ *  vessels and liftboats quote a crane rating instead of a bollard pull. */
 function figures(vessel: Vessel, t: ReturnType<typeof getDictionary>) {
-  return (
-    [
-      ['bhp', t.specs.bhp],
-      ['bollardPull', t.specs.bollardPull],
-      ['deckArea', t.specs.deckArea],
-    ] as const
-  )
-    .map(([key, label]) => ({ label, value: specText(vessel, key) }))
-    .filter((f): f is { label: string; value: string } => Boolean(f.value))
+  const pull = specText(vessel, 'bollardPull')
+  return [
+    { label: t.specs.bhp, value: specText(vessel, 'bhp') },
+    pull
+      ? { label: t.specs.bollardPull, value: pull }
+      : { label: t.charter.cranes, value: vessel.charter?.cranes ?? undefined },
+    { label: t.specs.deckArea, value: specText(vessel, 'deckArea') },
+  ]
 }
 
 export default async function CharterPage({
@@ -127,17 +129,22 @@ export default async function CharterPage({
             <ul className="mt-6 divide-y divide-haze-200 border-b border-haze-200">
               {group.vessels.map((vessel) => (
                 <Reveal as="li" key={vessel.slug}>
+                  {/* Every column is a fixed width or a fraction of a fixed
+                      remainder — an `auto` status column varied per row and
+                      knocked the figure columns out of line down the page. */}
                   <Link
                     href={`/${locale}/fleet/${vessel.slug}`}
-                    className="group grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-3 py-4 sm:grid-cols-[88px_minmax(0,1.5fr)_minmax(0,2fr)_auto]"
+                    className="group grid grid-cols-[auto_1fr] items-center gap-x-5 gap-y-3 py-5 sm:grid-cols-[9rem_minmax(0,1.4fr)_minmax(0,2fr)_13rem]"
                   >
-                    <div className="relative size-14 shrink-0 overflow-hidden rounded-sm bg-ink-800 sm:size-[88px] sm:w-[88px]">
+                    {/* rem, not px, so the thumbnail grows with the rest of
+                        the page on a large display. */}
+                    <div className="relative aspect-[4/3] w-20 shrink-0 overflow-hidden rounded-sm bg-ink-800 sm:w-36">
                       {vessel.photo ? (
                         <Image
                           src={vessel.photo}
                           alt=""
                           fill
-                          sizes="88px"
+                          sizes="(max-width: 640px) 5rem, 9rem"
                           className="object-cover transition-transform duration-700 group-hover:scale-110"
                         />
                       ) : null}
@@ -156,25 +163,15 @@ export default async function CharterPage({
                       ) : null}
                     </div>
 
-                    <dl className="col-span-2 flex flex-wrap gap-x-6 gap-y-2 sm:col-span-1">
-                      {figures(vessel, t).map((f) => (
-                        <div key={f.label}>
+                    <dl className="col-span-2 grid grid-cols-3 gap-x-5 gap-y-2 sm:col-span-1">
+                      {figures(vessel, t).map((f, slot) => (
+                        <div key={slot} className="min-w-0">
                           <dt className="label text-steel-500">{f.label}</dt>
                           <dd className="data mt-0.5 text-sm text-ink-800">
-                            {f.value}
+                            {f.value ?? <span className="text-steel-300">—</span>}
                           </dd>
                         </div>
                       ))}
-                      {vessel.charter?.cranes ? (
-                        <div>
-                          <dt className="label text-steel-500">
-                            {t.charter.cranes}
-                          </dt>
-                          <dd className="data mt-0.5 text-sm text-ink-800">
-                            {vessel.charter.cranes}
-                          </dd>
-                        </div>
-                      ) : null}
                     </dl>
 
                     <div className="col-span-2 flex items-center gap-3 sm:col-span-1 sm:justify-end">
